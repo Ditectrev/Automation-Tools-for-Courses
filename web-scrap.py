@@ -106,7 +106,8 @@ finaldf = pd.concat(MASTER_LIST)
 finaldf.shape # (339, 6)
 
 finaldf.head(2)
-print(MASTER_LIST)
+finaldf.to_csv('products.csv', index=False, encoding='utf-8')
+print(finaldf)
 # header    rating  rating_out_of   review_text time_of_review  verified
 #"if approved I will get my money back" 1   10  ✅ Trip Verified | Kuala Lumpur to Melbourne. ...    2018-08-07  Trip Verified
 #   "a few minutes error"   3   10  ✅ Trip Verified | I've flied with AirAsia man...    2018-08-06  Trip Verified
