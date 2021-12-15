@@ -25,6 +25,7 @@ def parse_review(review):
 
     # get review header
     header = review.find('h2').text
+    print('header')
     print(header)
 
     # get the numerical rating
@@ -77,10 +78,21 @@ def return_next_page(soup):
     #print(soup.prettify())
     # check if next page exists
     search_next = cur_page.findNext('a').get('class')#class="page-numbers"
+    #print(search_next)
+    reviews = soup.findAll('article', {'class': 'post'})
+    print(reviews)
+    review_list = [parse_review(review) for review in reviews]
+    MASTER_LIST.extend(review_list)
+    print(MASTER_LIST)
+    finaldf = pd.concat(MASTER_LIST)
+    finaldf.shape # (339, 6)
+
+    finaldf.head(2)
+    finaldf.to_csv('products.csv', index=False, encoding='utf-8')
     if not search_next:
         next_page_href = cur_page.findNext('a')['href']#findNext('li').find('a')['href']
         next_url = BASE_URL + next_page_href
-        print(next_url)
+        #print('next_url', next_url)
     return next_url
 
 def create_soup_reviews(url):
