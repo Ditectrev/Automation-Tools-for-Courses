@@ -25,9 +25,7 @@ def parse_review(review):
 
     # get review header
     header = review.find('h2').text
-    print('header')
-    print(header)
-
+    
     # get actual text of review
     review_text = review.find('div', {'class': 'entry-content'}).text
 
