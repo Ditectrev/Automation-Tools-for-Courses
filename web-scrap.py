@@ -5,7 +5,6 @@ import re
 
 # define global parameters
 URL = 'https://www.exam4training.com/amazon/exam-clf-c01-aws-certified-cloud-practitioner-clf-c01'
-BASE_URL = 'https://www.exam4training.com'
 MASTER_LIST = []
 
 def parse_review(review):
@@ -25,7 +24,7 @@ def parse_review(review):
 
     # get review header
     header = review.find('h2').text
-    
+
     # get actual text of review
     review_text = review.find('div', {'class': 'entry-content'}).text
 
@@ -47,28 +46,13 @@ def return_next_page(soup):
     next_url - str or None if no next page
     """
     next_url = None
-    url = "https://www.exam4training.com/amazon/exam-clf-c01-aws-certified-cloud-practitioner-clf-c01/"
-    req = requests.get(url, headers={"User-Agent": "Chrome"})
-    soup = BeautifulSoup(req.content, 'html.parser')
     cur_page = soup.find('span', {'class': 'current'})
-    #print(soup.prettify())
     # check if next page exists
     search_next = cur_page.findNext('a').get('class')#class="page-numbers"
-    #print(search_next)
-    reviews = soup.findAll('article', {'class': 'post'})
-    print(reviews)
-    review_list = [parse_review(review) for review in reviews]
-    MASTER_LIST.extend(review_list)
-    print(MASTER_LIST)
-    finaldf = pd.concat(MASTER_LIST)
-    finaldf.shape # (339, 6)
 
-    finaldf.head(2)
-    finaldf.to_csv('products.csv', index=False, encoding='utf-8')
-    if not search_next:
-        next_page_href = cur_page.findNext('a')['href']#findNext('li').find('a')['href']
-        next_url = BASE_URL + next_page_href
-        #print('next_url', next_url)
+    if search_next:
+      next_url = cur_page.findNext('a')['href']
+      print(next_url)
     return next_url
 
 def create_soup_reviews(url):
@@ -83,8 +67,9 @@ def create_soup_reviews(url):
     """
     # use global MASTER_LIST to extend list of all reviews 
     global MASTER_LIST
-    soup = BeautifulSoup(requests.get(url).content, 'html.parser')
-    reviews = soup.findAll('article', {'itemprop': 'review'})
+    req = requests.get(url, headers={"User-Agent": "Chrome"})
+    soup = BeautifulSoup(req.content, 'html.parser')
+    reviews = soup.findAll('article', {'class': 'post'})
     review_list = [parse_review(review) for review in reviews]
     MASTER_LIST.extend(review_list)
     next_url = return_next_page(soup)
