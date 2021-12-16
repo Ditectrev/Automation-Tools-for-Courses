@@ -28,32 +28,10 @@ def parse_review(review):
     print('header')
     print(header)
 
-    # get the numerical rating
-    # base_review = review.find('div', {'itemprop': 'reviewRating'})
-    # if base_review is None:
-        # rating = None
-        # rating_out_of = None
-    # else:
-        # rating = base_review.find('span', {'itemprop': 'ratingValue'}).text
-        # rating_out_of = base_review.find('span', {'itemprop': 'bestRating'}).text
-
-    # get time of review
-    # time_of_review = review.find('h3').find('time')['datetime']
-
-    # get whether review is verified
-    # if review.find('em'):
-    #     verified = review.find('em').text
-    # else:
-    #     verified = None
-
     # get actual text of review
     review_text = review.find('div', {'class': 'entry-content'}).text
 
     outdf = pd.DataFrame({'header': header,
-                        #  'rating': rating,
-                        #  'rating_out_of': rating_out_of,
-                        #  'time_of_review': time_of_review,
-                        #  'verified': verified,
                          'review_text': review_text}, index=[0])
 
     return outdf
