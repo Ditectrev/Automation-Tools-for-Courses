@@ -1,2286 +1,4108 @@
-### When can Product Backlog Refinement occur?
-
-- [ ] Only during Sprint Planning.
-- [x] Anytime during the Sprint.
-- [ ] Only during Refinement meetings planned by the Product Owner.
-- [ ] Before Sprint Planning.
-
-### What would NOT be considered refactoring?
-
-- [ ] Reordering method parameters to improve readability.
-- [ ] Extracting interfaces.
-- [ ] Renaming things to be more logical.
-- [x] Changing external interfaces or APIS.
-- [ ] Extracting methods.
-
-3.  ### Question3
-    Your Scrum Team is one of seven teams working on a Software Product. All teams use the same Version Control System. Which is the best approach to deliver a high-quality Increment?
-
-- [ ] Developers should perform a combination of local and private builds.
-- [ ] Each team's automated build is integrated toward the end of the Sprint.
-- [x] There is one automated and integrated build for all seven teams.
-- [ ] Each team should have its own automated build.
-
-4.  ### Question4
-    Who creates documentation included with an Increment?
-
-- [x] The Developers.
-- [ ] Increments do not need documentation.
-- [ ] The Product Owner.
-- [ ] Technical Writers.
-- [ ] The Scrum Master.
-
-5.  ### Question5
-    What is a merge in a Version Control System?
-
-- [ ] Copying a portion of a code base to isolate it from the original codebase.
-- [ ] Identifying a particular codebase as ready for distribution.
-- [ ] Triggering a Deployment into Production.
-- [x] Combining two or more versions of code into a single codebase.
-
-6.  ### Question6
-    Which three of the following are feedback loops in Scrum?
-
-- [x] Daily Scrum.
-- [ ] Release Planning.
-- [x] Sprint Review.
-- [ ] Refinement Meeting.
-- [x] Sprint Retrospective.
-
-7.  ### Question7
-    Which four types of tests can be included in an automated test harness?
-
-- [x] Performance.
-- [ ] Exploratory.
-- [x] Unit.
-- [x] Functional.
-- [ ] Manual regression.
-- [x] Integration.
-
-8.  ### Question8
-    Which concept is described by the Last Responsible Moment?
-
-- [ ] Making decisions as soon as possible to close feedback loops as soon as possible.
-- [x] Discover decisions to be made as soon as possible but postpone deciding to the latest reasonable moment.
-- [x] The last moment in a Sprint when code changes are allowed, after this only stabilization work should be conducted.
-- [ ] Opening a learning window to validate hypotheses and create learning.
-- [ ] The last moment a Developer is responsible for quality, after this the Tester is responsible.
-
-9.  ### Question9
-    Choose four desirable characteristics of a Unit Test.
-
-- [ ] Includes exercising the persistence layer.
-- [x] Makes assertions about only one logical concept.
-- [x] Independent of others.
-- [x] Test code is as small as possible.
-- [x] Execution is fast.
-
-10. ### Question10
-    Why does a test written using TDD (Test Driven Development) initially fail?
-
-- [ ] Because the test has not been refactored.
-- [ ] Because it has to be put into an automated test harness to be run.
-- [ ] Because the tests are checked in before the Product code exists.
-- [x] Because the Product code to satisfy the test does not yet exist.
-
-11. ### Question11
-    When do the Developers show their work to the Product Owner?
-
-- [ ] Whenever the Product Owner asks.
-- [ ] During the Sprint Review.
-- [ ] Anytime the Developers need feedback from the Product Owner.
-- [x] All of the above.
-
-12. ### Question12
-    What are possible benefits from practicing Test Driven Development (TDD)?
-
-- [ ] It is a great way for Testers to contribute early in the Sprint as they can start creating all the tests from the beginning on.
-- [ ] It makes Integration Tests obsolete and by doing so saves a lot of time.
-- [x] It helps break down complex problems into smaller ones that are much easier to be tackled.
-- [ ] It increases collaboration between Developers as it requires Pair Programming.
-- [x] It might lead to better code as refactoring is part of the TDD cycle.
-- [x] It helps to identify gaps in understanding the desired behavior.
-
-13. ### Question13
-    Who decides the system architecture of a Product developed using Scrum?
-
-- [ ] The Architect chosen by the Scrum Team.
-- [ ] The Software Architect assigned to the Scrum Team.
-- [x] The Developers with input from the Scrum Team and others.
-- [ ] The Chief Architect.
-
-14. ### Question14
-    When using Continuous Integration, how often should the build be executed?
-
-- [ ] Once per hour.
-- [x] Whenever new or changed code is checked into version control.
-- [ ] Once per day.
-- [ ] Before the end of the Sprint.
-- [ ] Whenever new tests are created or uncertainty arises about whether old tests will pass.
+### If you plan to web application in the Azure platform as a service solution of Azure Web Apps, then the platform will have the ability to scale automatically?
 
-15. ### Question15
-    Which of the following are advantages of Continuous Integration?
-
-- [ ] Readability of code is improved.
-- [x] Know immediately how a change affected the Product.
-- [ ] The feature-branch is generally kept in a buildable.
-- [x] Reduce effort and risk when integrating changes.
+- [x] Yes.
+- [ ] No.
 
-16. ### Question16
-    Who determines how work is performed during the Sprint?
-
-- [ ] The Scrum Master.
-- [ ] The Scrum Team.
-- [ ] Team Manager.
-- [ ] Subject matter experts.
-- [x] The Developers.
+### You decide to create 2 Virtual machines. Each virtual machine is of the size "D2s v3". Would these machines always generate the same monthly cost?
 
-17. ### Question17
-    Who creates tests on a Scrum Team?
-
-- [ ] The Product Owner.
-- [x] The Developers.
-- [ ] Quality Assurance Specialists.
-- [ ] The Scrum Master.
-
-18. ### Question18
-    What is Test First Development (TFD)?
-
-- [x] Creating tests before satisfying them.
-- [ ] Testing existing code before adding more code to it.
-- [ ] Having the Tester in the Scrum Team write the test plans before coding.
-- [ ] The continuous restructuring of Software to retain flexibility.
-
-19. ### Question19
-    Which is the most reliable form of technical documentation?
-
-- [ ] A spreadsheet of passing manual tests.
-- [ ] The Developer's whiteboard.
-- [ ] UML model.
-- [ ] Release notes.
-- [ ] A help file.
-- [x] A passing test harness with clear naming and vocabulary.
-
-20. ### Question20
-    While developing new functionality, you find a bug that has already been delivered to the customer. What do you do?
-
-- [ ] Revise the tests so that the bug no longer appears on the bug report.
-- [ ] Fix the bug.
-- [x] Talk to the Product Owner.
-- [ ] Stub out the code that caused the bug so it no longer occurs.
-
-21. ### Question21
-    Who has the final decision about the order of items in the Product Backlog?
-
-- [ ] The Scrum Master.
-- [ ] The Stakeholders.
-- [ ] The Scrum Team.
-- [ ] The Developers.
-- [x] The Product Owner.
-
-22. ### Question22
-    What are two differences between Unit Tests and Integration Tests?
-
-- [x] A Unit Test isolates a specific system behavior.
-- [x] An Integration Test usually focuses on the integration of two or more units.
-- [ ] A Unit Test is automated.
-- [ ] An Integration Test runs overnight.
-- [ ] A Unit Test only runs on a Developer's workstation.
-
-23. ### Question23
-
-How much time must a Product Owner spend with the Developers?
-
-- [ ] 100%.
-- [ ] Enough so that the Product Owner is not surprised by the value delivered by the Increment.
-- [ ] 40%, or more if the Stakeholders agree.
-- [x] Any amount of time the Developers ask the Product Owner to be present.
-
-24. ### Question24
-    What are the typical roles when practicing Pair Programming?
-
-- [ ] Product Owner and Developer.
-- [ ] Business Analyst and Developer.
-- [ ] Tester and Developer.
-- [x] Driver and Navigator.
-- [ ] Frontend and Backend.
-
-25. ### Question25
-    True or False: When multiple teams work together on the same Product, each team should maintain a separate Product Backlog.
-
-- [ ] True.
-- [x] False.
-
-26. ### Question26
-
-What are three of the best ways to address non-functional requirements?
-
-- [ ] Scrum is for functional, front-end development only.
-- [x] Important, recurring non-functional requirements can be added to the Definition of Done.
-- [ ] Discuss them during a risk mitigation phase before development.
-- [x] Include them in the Product Backlog.
-- [x] Specific expectations can be used as Acceptance Criteria to specific Product Backlog items.
-- [ ] Before the release, they should be tested and validated in a hardening Sprint.
-
-27. ### Question27
-    What is the primary purpose of refactoring?
-
-- [ ] Ensuring that all factors are constantly aligned.
-- [ ] Removing all bugs that were found during Regression Tests.
-- [x] Making sure that the code is readable and maintainable.
-- [ ] Creating better technical documentation.
-
-28. ### Question28
-    Which are four attributes of a good bug report?
-
-- [x] Expected results and observed results.
-- [x] Includes build or version number where bug was found.
-- [ ] Includes code for a proposed fix.
-- [x] Provides simple and repeatable reproduction steps.
-- [x] Screenshots or other pictures of the bug in action.
-- [ ] Explains some new system functionality desired.
-
-29. ### Question29
-    The practice of decomposing a requirement into failing tests is called:
-
-- [ ] Regression Testing.
-- [ ] Object oriented requirements definition.
-- [x] Acceptance Test Driven Development.
-- [ ] Behavior Driven Development.
-
-30. ### Question30
-    What is a mock object?
-
-- [x] A test object that mimics the behavior of a dependency in the system under test.
-- [ ] A mock helps you create a build script.
-- [ ] Mocks, stubs, dummies, fakes, and shims are all the same.
-- [ ] A mock is a way to initialize the database for testing.
-
-31. ### Question31
-    Which four are benefits of Test Driven Development?
-
-- [x] It improves quality and reduces bugs.
-- [x] It reduces the cost of maintenance over time.
-- [x] It promotes good design and separation of concerns.
-- [ ] It ensures no defects are present in the code.
-- [x] It causes you to construct a test harness that can be automated.
-
-32. ### Question32
-    Which are three attributes of a bad bug report?
-
-- [x] Vague statements or untested assumptions.
-- [x] Generic titles.
-- [ ] Simple and repeatable reproduction steps.
-- [x] Assigning blame.
-- [ ] One bug per report.
-
-33. ### Question33
-    When using Scrum, can a Scrum Team use Continuous Delivery?
-
-- [x] Yes, there is nothing in Scrum that conflicts with Continuous Delivery.
-- [ ] No, because the Product Owner may not be available each time a PBI is done and the Product Owner has to decide if it should be released.
-- [ ] No, because the increment has to be approved at the Sprint Review before it can be released, and a 2-week Sprint would not be considered continuous.
-- [ ] No, because Stakeholders may have already seen the new features and the Sprint Review will be meaningless.
-- [ ] No, because before releasing an Increment it first has to fulfill the Definition of Done.
-
-34. ### Question34
-    You are asked to refactor part of the codebase for Application X. When you are done, all Unit Tests pass with 50% Code Coverage. What can you infer from this?
-
-- [ ] At least 50% of Application X functions correctly.
-- [ ] At least 50% of Application X functions correctly.
-- [ ] There are no bugs present in Application X.
-- [x] You did not break any existing Unit Tests.
-
-35. ### Question35
-    What are two ways that regulatory compliance issues are dealt with in Scrum?
-
-- [ ] They are addressed by a separate team who is responsible for compliance issues.
-- [x] They are addressed along with functional development of the Product.
-- [x] They are discussed, determined, and documented before the actual feature development Sprints.
-- [ ] They are added to the Product Backlog and addressed in early Sprints, while always requiring at least some business functionality. no matter how small.
-
-36. ### Question36
-    True or False: User Stories are required in the Product Backlog.
-
-- [ ] True.
-- [x] False.
-
-37. ### Question37
-    In Software Development, DRY refers to:
-
-- [ ] Code with low Cyclomatic Complexity.
-- [x] Code with minimal duplication.
-- [ ] Code that has not been peer reviewed.
-- [ ] Code that has been peer reviewed.
-
-38. ### Question38
-    Which statements are true when multiple Scrum Teams work on a Software Product at the same time?
-
-- [ ] All Scrum Teams work in their own version control branch.
-- [ ] Code is merged at the Scrum of Scrums.
-- [x] The Scrum Teams must integrate their work before the end of the Sprint.
-- [x] The Scrum Teams coordinate their work to deliver a single Increment.
-- [ ] Each Scrum Team should have a different Product Owner.
-
-39. ### Question39
-    Which answer best describes Behavior Driven Development (BDD)?
-
-- [x] A style of Test Driven Development focusing on user and system interactions.
-- [ ] A development style that accounts for leadership style among team members.
-- [ ] A way to organize Unit Tests based on class and method structures.
-- [ ] A technique for maintaining Regression Test harnesses.
-
-40. ### Question40
-
-In what ways do Developers contribute to refining the Product Backlog?
-
-- [x] They ask questions in order to clarify the intent of Product Backlog items.
-- [ ] They do not. The Developers are only responsible for prioritizing technical work.
-- [ ] They do not. The Scrum Master and the Product Owner are responsible for Product Backlog Refinement.
-- [x] They give input on technical dependencies.
-- [x] They may update estimates for Product Backlog items.
-
-41. ### Question41
-    When should the Developers create their first automated build?
-
-- [ ] Just before the Product is released.
-- [ ] Before writing the first line of code.
-- [ ] When the Product Owner asks for a build.
-- [ ] Just before the end of the Sprint.
-- [x] As soon as there is code in the Version Control System.
-
-42. ### Question42
-    Which of the following are quality goals in Application Architecture?
-
-- [ ] Design Pattern selection.
-- [x] Scalability.
-- [ ] Build.
-- [x] Aunoes. (TODO: missing the word, but that's the correct answer, too)
-
-43. ### Question43
-    How much work is required of the Developers to complete a Product Backlog item selected during the Sprint Planning?
-
-- [ ] A proportional amount of time on analysis, design, development, and testing.
-- [ ] All development work and at least some testing.
-- [ ] As much as they can fit into the Sprint, with remaining work deferred to the next Sprint.
-- [x] As much as s required to meet the Scrum Team's Definition of Done.
-
-44. ### Question44
-    Why might Developers choose to do Pair Programming?
-
-- [ ] Information sharing and learning.
-- [ ] Improving Code Quality.
-- [ ] Efficiency.
-- [ ] It can be a fun way to work.
-- [x] All of the above.
-
-45. ### Question45
-    What is the role of Modeling in Scrum Teams?
-
-- [x] Models are not used by agile teams.
-- [ ] Models are maintained along with the Software as it emerges.
-- [ ] Models are assembly instructions for the Developers.
-- [ ] Modeling may be useful to increase shared understanding.
-
-46. ### Question46
-    Which of the following are DevOps Practices?
-
-- [x] Continuous Integration / Continuous Deployment / Continuous Delivery.
-- [ ] Blue-Green Deployment.
-- [ ] Hypothesis Driven Development.
-- [ ] Vertical Teams.
-- [ ] Blameless Postmortem.
-- [ ] All of the above.
-
-47. ### Question47
-    While practicing Test Driven Development, what is done after the test fails?
-
-- [x] Write the minimum amount of Product code to satisfy the test.
-- [ ] Refactor the test so the code passes.
-- [ ] Run it again to make sure it really fails.
-- [ ] Implement the required functionality.
-- [ ] Meet with the Business Analyst to ensure that the test is correct.
-
-48. ### Question48
-    What tactic should a Scrum Mlaster use to divide a group of 100 people into multiple Scrum Teams?
-
-- [ ] Create teams based on their skills across multiple layers (such as database, Ul, etc.).
-- [x] Ask the people to divide themselves info teams.
-- [ ] Ask the Product Owner to assign the people to teams.
-
-49. ### Question49
-    Developers are blocked by an impediment in the middle of the Sprint. The impediment is outside the Developer's control. What should they do?
-
-- [ ] Stop using Scrum until the impediment is resolved.
-- [ ] Complete the work that can be done and complete the remainder during the hardening Sprint.
-- [x] Immediately raise the issue to the Scrum Master.
-- [ ] Cancel the Sprint.
-- [ ] Drop the Product Backlog items affected by the impediment from the Sprint Plan.
-
-50. ### Question50
-    What is an Integration Test?
-
-- [ ] A test of the user interface.
-- [ ] A test runs during a Continuous Integration build.
-- [ ] A test of a single unit of functionality.
-- [x] A test of multiple units of functionality.
-
-51. ### Question51
-    Which of the following describes the focus of the first way of DevOps?
-
-- [ ] The first set of practices a team should apply before moving to the second way.
-- [x] Using automated build and release pipelines.
-- [ ] To deliver value earlier and more frequently.
-- [ ] A tool-focused way of introducing DevOps, compared to a mindset way (second way) and organizational structure (third way).
-- [ ] A culture of continuous experimentation and learning.
-
-52. ### Question52
-    Which of the following is true about the Definition of Done?
-
-- [x] It might be a subject of discussion during Sprint Retrospective.
-- [ ] It is the sole responsibility of the Developers to define it.
-- [ ] It is synonymous with Acceptance Criteria.
-- [ ] It can only be extended; nothing can be removed.
-- [x] It defines a state when the entire Increment is releasable.
-
-53. ### Question53
-    At Sprint Planning, the Scrum Team has NO clear standard to meet for releasable Software. What should the Scrum Team do?
-
-- [ ] Ask the Product Owner to specify a Definition of Done.
-- [ ] Create a unique completion checklist for each item in the Sprint.
-- [x] Specify a shared Definition of Done.
-- [ ] Ask the Scrum Master what they should do.
-
-54. ### Question54
-    Based on "Sprint 7 Burndown Chart" would you do anything different in Sprint 8?
-    [missing picture, but there's only one such a question]
-
-- [ ] The Scrum Master adds additional Developers for Sprint 8.
-- [ ] The Developers carry over incomplete Sprint Backlog items from Sprint 7 to Sprint 8 and monitor the Sprint 8 burn-down chart. As soon as deviation from trends is detected, the Developers work with the Product Owner to negotiate remaining work.
-- [ ] There is nothing wrong The Developers will present all Product Backlog items selected for Sprint 7 at the end of the Sprint.
-- [x] The Developers may forecast less overall work in Sprint 8.
-- [ ] Stakeholders will encourage the Scrum Team to estimate better during the Sprint 8.
-- [x] Planning Meeting The Developers put incomplete Product Backlog items back into the Product Backlog for re-ordering. The Product Owner may ask the Developers to complete the unfinished Product Backlog items from Sprint 7 in Sprint 8.
-
-55. ### Question55
-    True or False: Database design must be complete before coding starts to ensure a solid foundation?
-
-- [ ] True.
-- [x] False.
-
-56. ### Question56
-    Which is most reliable form of technical documentation?
-
-- [x] UML Model.
-- [ ] A help file.
-- [ ] Release note.
-- [ ] A passing test harness it clear naming and vocabulary.
-- [ ] Spreadsheet of passing manual tests.
-- [ ] The development team’s whiteboard.
-
-57. ### Question57
-    The Daily Scrum event happens every day. What would be three concerns if the frequency were to be lowered to every two to three days?
-
-- [x] Opportunities to inspect and adapt in the Sprint Backlog are lost.
-- [ ] The Scrum Master loses the ability to update the Gantt Chart properly.
-- [ ] Too much work is spent updating the Scrum Board before meeting.
-- [x] Sprint Plan may become inaccurate.
-- [x] Impediments are raised and resolved more slowly.
-- [ ] The Product Owner cannot accurately report to the Stakeholders.
-
-58. ### Question58
-    Which of the following are required by Scrum? (choose all of those who apply)
-
-- [ ] Release Burnup Chart.
-- [ ] Burndown Chart.
-- [ ] Unit Tests.
-- [ ] Critical Path Analysis.
-- [ ] Refactoring.
-- [ ] Build automation.
-- [x] None of the above.
-
-59. ### Question59
-    Who is responsible for creation of the Definition of Done?
-
-- [ ] The Scrum Master.
-- [x] The Scrum Team.
-- [ ] The Development Team.
-- [ ] The Product Owner.
-
-60. ### Question60
-    Pair Programming is implemented by?
-
-- [ ] Frontend and Backend Developers.
-- [ ] Tester and Developer.
-- [ ] Developer and Scrum Master.
-- [x] Two persons working on the same PBI.
-
-61. ### Question61
-    Which of the following best describes Emergent Architecture?
-
-- [x] Starting development of a Software Product requires a clear understanding of the underlying Software Architecture and Emergent Architecture describes the process of creating this initial architecture.
-- [ ] The Software Architecture emerges solely decisions the Developers make from a technical perspective.
-- [ ] In Scrum there is no Architecture-Role therefore architecture emerges naturally.
-- [ ] The desire to make decisions easier to change in the future and find the best possible point in time to make decisions.
-- [ ] Enterprise Architects must be involved to create the foundation of each Software Product.
-
-62. ### Question62
-    Which are two benefits of establishing naming conventions for code? (choose best two answers)
-
-- [ ] To make it easy to distinguish between different Software Products.
-- [x] To make the code more readable.
-- [ ] To communicate the identity of the Developer who worked on the code.
-- [ ] To reduce friction in a shared codebase.
-- [x] To ensure that abandoned functions are not created.
-
-63. ### Question63
-    Does delivering changes frequently and directly into Production help to reduce risk? (choose two)
-
-- [x] Yes, because the changes you make are much smaller and it is easier to fix problems.
-- [ ] No, because each release means a risk to break something so releasing more frequently would increase the risk.
-- [ ] Yes, because frequent release encourage the Developers to automate the release process.
-- [x] Yes, because you get earlier feedback and can learn faster.
-- [ ] No, the only way to tackle these risks is by extensive risk management.
-- [ ] No, because releasing needs extensive testing which cannot be conducted frequently.
-
-64. ### Question64
-    True or False: Best Practices are recommended to solve complex problems.
-
-- [ ] True.
-- [x] False.
-
-65. ### Question65
-    When is Performance Testing most effectively performed?
-
-- [x] Often, throughout development of the Software.
-- [ ] Just before deploying to Production.
-- [ ] After coding is complete.
-- [ ] In Production.
-
-66. ### Question66
-    Which three of the following criteria are most helpful as part of a Scrum Team’s Definition of Done? (choose best three answers)
-
-- [ ] The Product is released at the end of every Sprint.
-- [x] Acceptance Tests pass.
-- [x] Code Review is done.
-- [ ] Regression Tests pass.
-- [x] No impediments exist.
-
-67. ### Question67
-    A team has expressed requirements as a set of failing Acceptance Tests. What are three benefits? (choose best three answers)
-
-- [x] Improves quality in the requirement itself.
-- [x] Clear Acceptance Criteria for each feature.
-- [ ] Using a code generation tool, the solution can be generated from the requirements model.
-- [ ] Promotes the use of DRY principle.
-- [x] Tracking of competencies.
-
-68. ### Question68
-    Which is LEAST useful when measuring Code Maintainability?
-
-- [ ] Function Points.
-- [x] Cyclomatic Complexity.
-- [ ] Depth of Inheritance.
-
-69. ### Question69
-    Which two criteria are useful in deciding if something should be documented every Sprint? (choose best two answers)
-
-- [ ] The Scrum Master requires it.
-- [x] It is required by the Definition of Done.
-- [x] The documentation is used to enhance and maintain the Software.
-- [ ] The Software tool being used requires it.
-- [ ] It has always been documented in the past.
-
-70. ### Question70
-    What factor should be considered when establishing the Sprint length?
-
-- [x] The need of the team to learn on doing work and measuring results.
-- [ ] The frequency at which team formation can be changed.
-- [ ] The organization release schedule.
-- [ ] The organization has mandated similar length Sprints.
-
-71. ### Question71
-    What are some disadvantages of Code Coverages as a measurement for how well a system or Product is tested? (choose best three answers)
-
-- [ ] It only provide insights for programmers.
-- [x] It does not ensure that the most important or highest risk areas of the code are being exercised by the tests.
-- [x] It could create incentives to write tests that simply increase Code Coverage, rather than tests that find bugs without increasing coverage.
-- [ ] It is too complicated to explain to Management.
-- [x] Developers could stop adding more valuable tests once the target coverage is achieved.
-
-72. ### Question72
-    Which of the following are quality goals in Application Architecture? (choose best two answers)
-
-- [ ] Build.
-- [x] Security.
-- [ ] Design Pattern selection.
-- [x] Scalability.
-
-73. ### Question73
-    True or False: Stakeholders can be included in Product Backlog Refinement?
-
-- [x] True.
-- [ ] False.
-
-74. ### Question74
-    What are two good ways for the Development Team to make a non-functional requirements visible?
-
-- [ ] Put them on a separate list on the Scrum board, available for all to see.
-- [x] Add them to the Product Backlog and keep the Product Owner posted on the expected effort.
-- [ ] Run the Integration and Regression Tests before the end of the Sprint, and capture the open work for the Sprint Backlog of the next Sprint.
-- [x] Add them to the Definition of Done so the work is taken care of every Sprint.
-
-75. ### Question75
-    What activities would a Product Owner typically undertake in the phase between the end of the current Sprint and the start of the next Sprint? (choose the best answer)
-
-- [x] There are no such activities. The next Sprint starts immediately after the current Sprint.
-- [ ] Work with the Quality Assurance departments on the Increment of the current Sprint.
-- [ ] Refine the Product Backlog.
-- [ ] Update the project plan with Stakeholders.
-
-76. ### Question76
-    You are the Scrum Master on a newly formed Scrum Team. Which two of the following activities would probably help the team in starting up? (choose the best two answers)
-
-- [ ] Ensure the Scrum Team members have compatible personalities.
-- [ ] Introduce a bonus system for the top performers in the team.
-- [x] Ensure the team understands they need a Definition of Done.
-- [ ] Have the development managers for each Development Team member introduce their direct reports and go over their responsibilities on the Scrum Team.
-- [x] Ask the Product Owner to discuss the Product, its vision, history, goals, and context, as well as answer questions.
-
-77. ### Question77
-    Which best describes the Product Backlog? (choose the best answer)
-
-- [x] It contains all foreseeable tasks and requirements from which the Scrum team can develop and maintain a complete project plan.
-- [ ] It is allowed to grow and change as more is learned about the Product and its customers.
-- [ ] It is baselined to follow change management processes.
-- [ ] It provides just enough information to enable a Scrum team to start the design phase of a Product.
-
-78. ### Question78
-    What are two responsibilities of Testers in a Development Team? (choose the best two answers)
-
-- [ ] Verifying the work of programmers.
-- [x] Scrum has no "Tester" role.
-- [ ] Finding bugs.
-- [x] Everyone in the Development Team is responsible for quality.
-- [ ] Tracking quality metrics.
-
-79. ### Question79
-    How do you know that a Development Team is cross-functional? (choose the best answer)
-
-- [ ] A few of the Development Team members pair program and do Test Driven Development.
-- [x] Development Team has all the skills to create a potentially releasable increment by the end of every Sprint.
-- [ ] Every member of the Development Team is able to perform every task.
-- [ ] There are no conflicts within the Development Team.
-
-80. ### Question80
-    For the purpose of transparency, when does Scrum say a new Increment of working Software must be available? (choose the best answer)
-
-- [x] When the Product Owner asks to create one.
-- [ ] At the end of every Sprint.
-- [ ] Before the release Sprint.
-- [ ] Every 3 Sprints.
-- [ ] After the Acceptance Testing phase.
-
-81. ### Question81
-    Which three behaviors demonstrate that a team is self-organizing? (choose the best three answers)
-
-- [ ] The Development Team inviting external people to the Sprint Planning to ask them how to turn a Product Backlog item into an Increment via a complete and detailed Sprint Backlog.
-- [ ] The Development Team members are working within the boundaries of their functional description and nicely handing off work from analyst to Developer to Tester to integration.
-- [ ] The Product Owner doesn't need to be at Sprint Retrospectives.
-- [ ] Stakeholders walking in at the Daily Scrum to check progress and work with the Scrum Master to optimize the functional scope for the Sprint.
-- [x] Development Team members collaboratively selecting their own work during the Sprint.
-- [ ] The Scrum Master is no longer needed.
-- [x] The Development Team has all the skills needed to create a releasable Increment.
-- [x] The Development Team creating their own Sprint Backlog, reflecting all work that is part of the Definition of Done.
-
-82. ### Question82
-    What is the purpose of a Sprint Review? (choose the best answer)
-
-- [ ] To take time to judge the validity of the project.
-- [x] To inspect the Product Increment with the Stakeholders and collect feedback on next steps.
-- [ ] To review the Scrum Team's activities and processes during the Sprint.
-- [ ] To build team spirit.
-
-83. ### Question83
-    True or False: The Product Owner makes sure the team selects enough from the Product Backlog for a Sprint to satisfy the Stakeholders.
-
-- [ ] True.
-- [x] False.
-
-84. ### Question84
-    Which statement best describes the Sprint Backlog as outcome of the Sprint Planning? (choose the best answer)
-
-- [ ] It is the Development Team's plan for the Sprint.
-- [ ] Every item has a designated owner.
-- [x] It is a complete list of all work to be done in a Sprint.
-- [ ] Each task is estimated in hours.
-- [ ] It is ordered by the Product Owner.
-
-85. ### Question85
-    A Development Team selects a set of Product Backlog items for a Sprint Backlog with the intent to get the selected items "Done" by the end of the Sprint. Which three phrases best describe the purpose of a Definition of Done? (choose the best three answers)
-
-- [ ] It provides a template for elements that need to be included in the technical documentation.
-- [ ] It guides the Development Team in creating a forecast at the Sprint Planning.
-- [x] It controls whether the Developers have performed their tasks.
-- [x] It creates transparency over the work inspected at the Sprint Review.
-- [ ] It defines what it takes for an Increment to be ready for release.
-- [ ] It tracks the percentage complete of a Product Backlog item.
-
-86. ### Question86
-    Which output from Sprint Planning provides the Development Team with a target and overarching direction for the Sprint? (choose the best answer)
-
-- [x] The Sprint Goal.
-- [ ] Sprint Review minutes.
-- [ ] The Release Plan.
-- [ ] The Sprint Backlog.
-
-87. ### Question87
-    The Product Owner determines how many Product Backlog items the Development Team selects for a Sprint. (choose the best answer)
-
-- [ ] True, but only after confirmation by the resource manager that the Team has enough capacity.
-- [ ] False, capacity and commitment are the Project Manager's responsibility.
-- [ ] False, the Scrum Master does that.
-- [ ] True.
-- [ ] True, accordingly to what was committed to the Stakeholders.
-- [x] False.
-
-88. ### Question88
-    Who owns the Sprint Backlog? (choose the best answer)
-
-- [ ] The Scrum Team.
-- [ ] The Scrum Master.
-- [x] The Development Team.
-- [ ] The Product Owner.
-
-89. ### Question89
-    When is implementation of a Product Backlog item considered complete? (choose the best answer)
-
-- [x] When the item has no work remaining in order to be potentially released.
-- [ ] When Quality Assurance reports that the item passes all Acceptance Criteria.
-- [ ] At the end of the Sprint.
-- [ ] When all work in the Sprint Backlog related to the item is finished.
-
-90. ### Question90
-    Which two of the following are true about the Scrum Master role? (choose the best two answers)
-
-- [x] The Scrum Master teaches the Development Team to keep the Scrum meetings to their time-box.
-- [ ] The Scrum Master is responsible for updating the Sprint Burndown.
-- [ ] The Scrum Master assigns tasks to Development Team members when they need work.
-- [x] The Scrum Master helps those outside the team interact with the Scrum Team.
-- [ ] At the Sprint Review, the Scrum Master identifies what has been "Done" and what has not been "Done".
-
-91. ### Question91
-    Which two of the following are appropriate topics for discussion during a Sprint Retrospective? (choose the best two answers)
-
-- [ ] Documenting Acceptance Criteria for items in the next Sprint.
-- [ ] The order of items in the Product Backlog.
-- [x] Identifying high priority process improvements for the next Sprint.
-- [x] How the team collaborates.
-
-92. ### Question92
-    True or False: Multiple Scrum Teams working on the same project must have the same Sprint start date.
-
-- [ ] True.
-- [x] False.
-
-93. ### Question93
-    When is it most appropriate for a Development Team to change the Definition of Done? (choose the best answer)
-
-- [ ] During Sprint Planning.
-- [ ] Prior to starting a new project.
-- [ ] Prior to starting a new Sprint.
-- [x] During the Sprint Retrospective.
-
-94. ### Question94
-    The Product Owner is not collaborating with the Development Team during the Sprint. What are two valuable actions for a Scrum Master to take? (choose the best two answers)
-
-- [ ] Nominate a proxy Product Owner.
-- [x] Coach the Product Owner in the values of Scrum and incremental delivery.
-- [ ] Stop the Sprint, send the Product Owner to a course and restart.
-- [ ] Inform the Product Owner's functional manager.
-- [x] Bring up the problem in the Sprint Retrospective.
-
-95. ### Question95
-    A Scrum Master is working with a Development Team that has members in different physical locations. The Development Team meets in a variety of meeting rooms and has much to do logistically (for example, set up conference calls) before the Daily Scrum. What action should the Scrum Master take? (choose the best answer)
-
-- [ ] Ask the Development Team members to alternate who is responsible for meeting setup.
-- [ ] Set up the meeting and tell the Development Team that is how it will be done.
-- [ ] Inform Management and ask them to solve it.
-- [x] Allow the Development Team to self-manage and determine for itself what to do.
-
-96. ### Question96
-    Five new Scrum Teams have been created to build one Product. A few of the Developers on one of the Development Teams ask the Scrum Master how to coordinate their work with the other teams. What should the Scrum Master do?
-
-- [ ] Teach the Product Owner to work with the lead Developers on ordering Product Backlog in a way to avoid too much technical and development overlap during a Sprint.
-- [x] Collect the Sprint tasks from the teams at the end of their Sprint Planning and merge that into a consolidated plan for the entire Sprint.
-- [ ] Teach them that it is their responsibility to work with the other teams to create an integrated Increment.
-- [ ] Visit the five teams each day to inspect that their Sprint Backlogs are aligned.
-
-97. ### Question97
-    True or False: Scrum is a methodology that tells in detail how to build Software incrementally.
-
-- [ ] True.
-- [x] False.
-
-98. ### Question98
-    In the Sprint Planning meeting, the Product Owner and the Development Team were unable to reach a clear understanding about the highest order Product Backlog items. Because of this, the Development Team couldn't figure out how many Product Backlog items it could forecast for the Development Team couldn't figure out how many Product Backlog items it could forecast for the upcoming Sprint. They were able to agree on a Sprint Goal, however. Which of the following two actions should the Scrum Master support? (choose the best two answers)
-
-- [ ] Ask everyone to take as much time as needed to analyze the Product Backlog first, and then reconvene another Sprint Planning meeting.
-- [ ] Cancel the Sprint. Send the entire team to an advanced Scrum training and then start a new Sprint.
-- [x] Forecast the most likely Product Backlog items to meet the goal and create a Sprint Backlog based on a likely initial design and plan. Once the time-box for the Sprint Planning meeting is over, start the Sprint and continue to analyze, decompose, and create additional functionality during the Sprint.
-- [ ] Continue the Sprint Planning meeting past its time-box until an adequate number of Product Backlog items are well enough understood for the Development Team to make a complete forecast. Then start the Sprint.
-- [x] Discuss in the upcoming Sprint Retrospective why this happened and what changes will make it less likely to recur.
-
-99. ### Question99
-    A member of the Development Team takes the Scrum Master aside to express his concerns about data security issues. What should the Scrum Master do? (choose the best answer)
-
-- [ ] Create a Product Backlog item for security.
-- [x] Ask the person to share the issue with the team as soon as possible.
-- [ ] Add security to the Definition of Done.
-- [ ] Tell the Product Owner to stop further development of features until the issues are fixed.
-- [ ] Go check with the Testers.
-
-100.  ### Question100
-      What are two ways that architecture and infrastructure are handled in Scrum? (choose the best two answers)
-
-- [x] They are implemented along with functional development of the Product.
-- [ ] They are built by a separate team through the creation of an architectural runway.
-- [x] They are added to the Product Backlog and addressed in early Sprints, while always requiring at least some business functionality, no matter how small.
-- [ ] They are discussed, determined, and documented before the actual feature development Sprints.
-
-101.  ### Question101
-      What are three ways Scrum promotes self-organization? (choose three)
-
-- [ ] By preventing Stakeholders from entering the development room.
-- [x] By removing titles for Development Team members.
-- [ ] By not allowing documentation.
-- [x] By being a lightweight framework.
-- [ ] By the Development Team deciding what work to do in a Sprint.
-
-102.  ### Question102
-      Cross-functional teams are optimized to work on one technical layer of a system only (e.g. GUI, database, middle tier, interfaces).
-
-- [x] False.
-- [ ] True.
-
-103.  ### Question103
-      What are three benefits of self-organization? (choose three)
-
-- [ ] Increased accuracy of estimates.
-- [ ] Increased rule compliance.
-- [x] Increased self-accountability.
-- [x] Increased creativity.
-- [x] Increased commitment.
-
-104.  ### Question104
-      Why does a Development Team need a Sprint Goal?
-
-- [ ] A Sprint Goal ensures that all of the Product Backlog items selected for the Sprint are implemented.
-- [x] The Development Team is more focused with a common yet specific goal.
-- [ ] Sprint Goals are not valuable. Everything is known from the Product Backlog.
-- [ ] A Sprint Goal only gives purpose to Sprint 0.
-
-105.  ### Question105
-      How should Product Backlog items be chosen when multiple Scrum Teams work from the same Product Backlog?
-
-- [ ] The Product Owner should provide each team with its own Product Backlog.
-- [x] The Development Teams pull in work in agreement with the Product Owner.
-- [ ] Each Scrum Team takes an equal numbers of items.
-- [ ] The Scrum Team with the highest velocity pulls Product Backlog items first.
-- [ ] The Product Owner decides.
-
-106.  ### Question106
-      Which of the following describe Test Driven Development? (choose two answers)
-
-- [x] A Software Development technique based on automated tests.
-- [ ] A predictable way to develop working, well-organized code.
-- [ ] Having Testers in the development process.
-- [ ] An Increment and emergent approach to Software Design.
-- [ ] Creating a manual test script before writing code.
-
-107.  ### Question107
-      When a Continuous Integration build fails, who ideally ensures the build is repaired? (choose the best answer)
-
-- [ ] The person who broke the build.
-- [ ] The next person who needs the build to complete successfully.
-- [ ] The person assigned to the configuration management role within the team.
-- [ ] The Tester responsible for validating builds.
-- [x] Whoever the Developers agree should fix it.
-
-108.  ### Question108
-      What happens during Sprint 0? (choose the best answer)
-
-- [ ] Establish base system architecture and design, install version control and continuous integration setup.
-- [x] There is no such thing as Sprint 0.
-- [ ] Base system architecture and design.
-- [ ] Overall planning, base system architecture, base design, version control and continuous integration setup.
-- [ ] Requirements gathering, version control setup, and continuous integration setup.
-
-109.  ### Question109
-      Product Backlog items are refined by: (choose the best answer)
-
-- [ ] The Developers.
-- [ ] The Product Owner.
-- [x] The Scrum Team.
-- [ ] The Business Analyst and the Product Owner.
-
-110.  ### Question110
-      Who is responsible for the system architecture of a Product being developed using Scrum? (choose the best answer)
-
-- [ ] The Architect chosen by the Scrum Team.
-- [x] The Developers.
-- [ ] The Software Architect.
-- [ ] The Corporate Architect.
-
-111.  ### Question111
-      Which of the following are attributes of a bad bug report? (choose the best three answers)
-
-- [ ] Simple and repeatable reproduction steps.
-- [x] Vague statements or untested assumptions.
-- [x] Generic titles.
-- [ ] One bug per report.
-- [x] Assigning blame.
-
-112.  ### Question112
-      Who writes tests in a Scrum Team? (choose the best answer)
-
-- [x] The Developers.
-- [ ] Coders.
-- [ ] The Scrum Master.
-- [ ] Quality Assurance Specialists.
-
-113.  ### Question113
-      When do the Developers participate in Product Backlog Refinement? (choose the best answer)
-
-- [x] Anytime during the Sprint.
-- [ ] Never. It is the sole responsibility of the Product Owner to refine the Product Backlog.
-- [ ] Only during Refinement sessions planned by the Product Owner.
-- [ ] As Part 1 of Sprint Planning.
-
-114.  ### Question114
-      Who should be present during Product Backlog Refinement? (choose the best answer)
-
-- [ ] The integration architects from the release department.
-- [ ] Only the most senior Developers.
-- [x] Anyone that the Scrum Team decides will be valuable during Refinement.
-- [ ] The Stakeholders.
-- [ ] The external Business Analysts that have prepared the functional details.
-
-115.  ### Question115
-      True or False: Programmers and Testers should not be included in refining Product Backlog items.
-
-- [ ] True.
-- [x] False.
-
-116.  ### Question116
-      Why are automated builds important? (choose the best answer)
-
-- [ ] Without them you cannot tell if your code works.
-- [ ] You are unable to check-in code without one.
-- [ ] They are part of your done criteria.
-- [x] They provide rapid assurance that defects and configuration management issues have not been introduced.
-
-117.  ### Question117
-      Upon what type of process control is Scrum based? (choose the best answer)
-
-- [ ] Defined.
-- [x] Empirical.
-- [ ] Complex.
-- [ ] Hybrid.
-
-118.  ### Question118
-      When might a Sprint be abnormally cancelled? (choose the best answer)
-
-- [x] When the Sprint Goal becomes obsolete.
-- [ ] When the sales department has an important new opportunity.
-- [ ] When the Developers feel that the work is too hard.
-- [ ] When it becomes clear that not everything will be finished by the end of the Sprint.
-
-119.  ### Question119
-      Who should know the most about the progress toward a business objective or a release, and be able to explain the alternatives most clearly? (choose the best answer)
-
-- [ ] The Scrum Master.
-- [ ] The Project Manager.
-- [x] The Product Owner.
-- [ ] The Developers.
-
-120.  ### Question120
-      When many Scrum Teams are working on a single Product, what best describes the Definition of Done? (choose the best answer)
-
-- [ ] Each Scrum Team defines and uses its own. The differences are discussed and reconciled during a
-      hardening Sprint.
-- [ ] The Scrum Masters from each Scrum Team define a common Definition of Done.
-- [ ] Each Scrum Team uses its own, but must make their definition clear to all other teams so the differences are known.
-- [x] All Scrum Teams must have a Definition of Done that makes their combined Increment valuable and useful.
-
-121.  ### Question121
-      During a Sprint, a Developer determines that the Scrum Team will not be able to complete the items in their forecast. Who should be present to review and adjust the Product Backlog items selected? (choose the best answer)
-
-- [x] The Product Owner and the Developers.
-- [ ] The Scrum Master, the project manager, and the Developers.
-- [ ] The Product Owner and all Stakeholders.
-- [ ] The Developers.
-
-122.  ### Question122
-      When should the Developers on a Scrum Team be replaced? (choose the best answer)
-
-- [ ] As needed, with no special allowance for changes in productivity.
-- [ ] Never, it reduces productivity.
-- [x] As needed, while taking into account a short-term reduction in productivity.
-- [ ] Every Sprint to promote shared learning.
-
-123.  ### Question123
-      When is a Sprint over? (choose the best answer)
-
-- [ ] When all Product Backlog items meet their Definition of Done.
-- [x] When the timebox expires.
-- [ ] When the Product Owner says it is done.
-- [ ] When all the tasks are completed.
-
-124.  ### Question124
-      When does the next Sprint begin? (choose the best answer)
-
-- [ ] Immediately following the next Sprint Planning.
-- [x] Immediately after the conclusion of the previous Sprint.
-- [ ] When the Product Owner is ready.
-- [ ] Next Monday.
-
-125.  ### Question125
-      What does it mean to say that an event has a timebox? (choose the best answer)
-
-- [ ] The event must happen at a set time.
-- [x] The event can take no more than a maximum amount of time.
-- [ ] The event must happen by a given time.
-- [ ] The event must take at least a minimum amount of time.
-
-126.  ### Question126
-      Who is required to attend the Daily Scrum? (choose the best answer)
-
-- [ ] The Developers and Product Owner.
-- [x] The Developers.
-- [ ] The Developers and Scrum Master.
-- [ ] The Scrum Master and Product Owner.
-- [ ] The Scrum Team.
-
-127.  ### Question127
-      When does a Developer become accountable for the value of a Product Backlog item selected for the Sprint? (choose the best answer)
-
-- [ ] Whenever a team member can accommodate more work.
-- [ ] At the Sprint Planning Event.
-- [ ] During the Daily Scrum.
-- [x] Never. The entire Scrum Team is accountable for creating value every Sprint.
-
-128.  ### Question128
-      Who is on the Scrum Team? (choose the best three answers)
-
-- [ ] Project Manager.
-- [x] Developers.
-- [x] The Product Owner.
-- [x] The Scrum Master.
-
-129.  ### Question129
-      Which of the following are examples of a Scrum Team practicing Scrum poorly or not exhibiting traits of a self-managing Scrum Team? (choose the best three answers)
-
-- [ ] The Developers have all the skills they need to create a valuable, useful Increment.
-- [x] Stakeholders attend the Daily Scrum to check on the Scrum Team’s progress.
-- [ ] The Developers create their own Sprint Backlog, reflecting all work that is required to meet the Definition of Done.
-- [ ] The Developers are collaboratively selecting their own work during the Sprint.
-- [x] The Developers invite external Stakeholders to the Sprint Planning to ask them how to turn a Product Backlog item into an Increment via a complete and detailed Sprint Backlog.
-- [x] The Developers are working within the boundaries of their organizations functional description and nicely handing off work from analyst to Developer to Tester to integration.
-
-130.  ### Question130
-      The timebox for the Sprint Review is: (choose the best answer)
-
-- [ ] As long as needed.
-- [ ] 2 hours.
-- [x] 4 hours for a monthly Sprint. For shorter Sprints it is usually shorter.
-- [ ] 4 hours and longer as needed.
-- [ ] 1 day.
-
-131.  ### Question131
-      The timebox for the Sprint Planning event is? (choose the best answer)
-
-- [x] 8 hours for a monthly Sprint. For shorter Sprints it is usually shorter.
-- [ ] 4 hours.
-- [ ] Whenever it is done.
-- [ ] Monthly.
-
-132.  ### Question132
-      True or False: The purpose of a Sprint is to produce a valuable and useful Increment of working Product.
-
-- [x] True.
-- [ ] False.
-
-133.  ### Question133
-      An organization has decided to adopt Scrum, but Management wants to change the terminology to fit with terminology already used. What will likely happen if this is done? (choose the best answer)
-
-- [ ] Without a new vocabulary as a reminder of the change, very little change may actually happen.
-- [ ] The organization may not understand what has changed with Scrum and the benefits of Scrum may be lost.
-- [ ] Management may feel less anxious.
-- [x] All of the above.
-
-134.  ### Question134
-      Who creates the Definition of Done? (choose the best answer)
-
-- [ ] The Scrum Team, in a collaborative effort where the result is the common denominator of all members' definitions.
-- [ ] The Scrum Master since they are responsible for the productivity of the Developers.
-- [ ] The Product Owner since they are responsible for the Product's success.
-- [x] If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the Product.
-
-135.  ### Question135
-      Who is responsible for managing the progress of work during a Sprint? (choose the best answer)
-
-- [x] The Developers.
-- [ ] The most junior member of the team.
-- [ ] The Scrum Master.
-- [ ] The Product Owner.
-
-136.  ### Question136
-      Who has the final say on the order of the Product Backlog? (choose the best answer)
-
-- [x] The Product Owner.
-- [ ] The Stakeholders.
-- [ ] The Scrum Master.
-- [ ] The CEO.
-- [ ] The Developers.
-
-137.  ### Question137
-      Which Scrum events are timeboxed? (choose the best three answers)
-
-- [ ] Release Retrospective.
-- [x] Sprint Planning.
-- [ ] Sprint Testing.
-- [ ] Refinement.
-- [x] Sprint Retrospective.
-- [x] Sprint Review.
-- [ ] Release Testing.
-
-138.  ### Question138
-      A Scrum Team consists of the following: (choose the best three answers)
-
-- [x] Product Owner.
-- [x] Scrum Master.
-- [ ] Customers.
-- [ ] Users.
-- [x] Developers.
-
-139.  ### Question139
-      When does a Developer become the sole owner of a Sprint Backlog item? (choose the best answer)
-
-- [ ] Whenever a team member can accommodate more work.
-- [ ] During the Daily Scrum.
-- [ ] At the Sprint Planning event.
-- [x] Never. All Sprint Backlog items are "owned" by the Developers on the Scrum Team even though each item may be implemented by an individual Developer.
-
-140.  ### Question140
-      What is the role of Management in Scrum? (choose the best answer)
-
-- [x] Support the Product Owner with insights and information into high value Product and system capabilities. Support the Scrum Master to cause organizational change that fosters empiricism, self-management, bottom-up intelligence, and intelligent Product delivery.
-- [ ] Continually monitor staffing levels of the Scrum Team.
-- [ ] Monitor the progress of the Developers on the Scrum Team.
-- [ ] Identify and remove people that are not working hard enough.
-
-141.  ### Question141
-      Why is the Daily Scrum held at the same time and same place? (choose the best answer)
-
-- [x] The consistency reduces complexity.
-- [ ] The place can be named.
-- [ ] The Product Owner demands it.
-- [ ] Rooms are hard to book and this lets it be booked in advance.
-
-142.  ### Question142
-      The length of a Sprint should be: (choose the best answer)
-
-- [ ] Short enough to keep the business risk acceptable to the Product Owner.
-- [ ] Short enough to be able to synchronize the development work with other business events.
-- [ ] One month or less.
-- [x] All of the above.
-
-143.  ### Question143
-      How much work must the Developers complete for each Product Backlog item they select for a Sprint? (choose the best answer)
-
-- [x] Enough so that each Product Backlog item they select meets the Definition of Done.
-- [ ] Analysis, design, programming, testing and documentation.
-- [ ] As much as it can fit into the Sprint.
-- [ ] All development work and at least some testing.
-
-144.  ### Question144
-      The CEO asks the Developers to add a "very important" item to a Sprint that is in progress. What should the Developers do? (choose the best answer)
-
-- [ ] Add the item to the current Sprint and drop an item of equal size.
-- [x] Inform the other members of the Scrum Team so the team can decide what to do.
-- [ ] Add the item to the next Sprint.
-- [ ] Add the item to the current Sprint without any adjustments.
-
-145.  ### Question145
-      What is the recommended size for a Scrum Team? (choose the best answer)
-
-- [ ] Minimum of 7.
-- [ ] 9.
-- [x] Typically 10 or fewer people.
-- [ ] 7 plus or minus 2.
-
-146.  ### Question146
-      Which statement best describes a Product Owner's responsibility? (choose the best answer)
-
-- [ ] Keep Stakeholders from distracting the Developers.
-- [x] Optimizing the value of the work the Scrum Team does.
-- [ ] Managing the project and ensuring that the work meets the commitments to the Stakeholders.
-- [ ] Directing the Developers.
-
-147.  ### Question147
-      True or False: 100% Code Coverage of tests guarantees bug-free Software.
-
-- [ ] True.
-- [x] False.
-
-148.  ### Question148
-      Who is responsible for monitoring the progress of work during a Sprint? Pick 1
-
-- [ ] Product Owner.
-- [ ] Project Manager.
-- [ ] Scrum Master.
-- [x] Development Team.
-
-149.  ### Question149
-      Who can tell the Developers what to work on?
-
-- [x] The Product Owner.
-- [ ] The COO, CEO and CTO.
-- [ ] The Project Manager.
-- [ ] The Scrum Master.
-
-150.  ### Question150
-      Who can do the work to ensure the Product Backlog is refined to a state that it is useful? Pick 2
-
-- [x] The Product Owner.
-- [ ] The Business Analyst.
-- [ ] Stakeholders.
-- [x] The Developers, with support from the Product Owner who is still accountable for it.
-
-151.  ### Question151
-      SCRUM stands for:
-
-- [ ] Super Creative Really Useful Method.
-- [ ] Self organising Collaborative & Reflective Universal Method.
-- [ ] Safe Controlled Response Under Management.
-- [x] Nothing. Its not an acronym.
-
-152.  ### Question152
-      Who manages the Sprint Backlog?
-
-- [ ] The Scrum Master.
-- [ ] The Product Owner.
-- [x] The Developers.
-- [ ] The Scrum Team.
-
-153.  ### Question153
-      Which statement best describes a cross-functional team? Pick 1
-
-- [ ] The team has a good mix of skills.
-- [ ] All members of the team have all the skills required to create the Product.
-- [x] The team has all competencies needed to accomplish the work.
-
-154.  ### Question154
-      Bugs discovered out of Sprint should be:
-
-- [ ] Investigated and fixed immediately by the Developers.
-- [x] Reviewed with the Product Owner and added to the Product Backlog.
-
-155.  ### Question155
-      When could a release to Production occur if a Scrum Team produced a Done increment multiple times each day? Select all that apply
-
-- [x] Mid Sprint.
-- [x] Every Sprint.
-- [x] Multiple times per day.
-- [x] Every Day.
-
-156.  ### Question156
-      True or False: The Definition of Done is a mandatory part of Scrum.
-
-- [ ] False.
-- [x] True.
-
-157.  ### Question157
-      Who may be best positioned to decide who will be the Scrum Master for a new Scrum Team?
-
-- [ ] The Developers.
-- [ ] The Product Owner.
-- [x] The Developers and the Product Owner.
-- [ ] Stakeholders.
-
-158.  ### Question158
-      True or False: A Scrum Team must be 10 or fewer people.
-
-- [ ] True.
-- [x] False.
-
-159.  ### Question159
-      Continuous Integration (CI) provides the following advantages: Select all that apply
-
-- [x] Less back-tracking to discover where things went wrong, so you can spend more time building features.
-- [x] Allows teams to detect problems early.
-- [ ] Automatically eliminates all integration issues.
-- [x] Stop waiting to find out if your code’s going to work.
-
-160.  ### Question160
-      Sizing is best when: Select all that apply
-
-- [x] It is done by the actual Developers who will carry out the work.
-- [x] It is done by a group, rather than an individual.
-- [x] Estimates are made relative to similar things.
-- [ ] It is done by the Lead Developer alone.
-
-161.  ### Question161
-      Select the correct timebox for each Scrum event.
-
-- [ ] Sprint Planning - 8 hours or less, Daily Scrum - 30 minutes or less, Sprint Review - 4 hours or less, Sprint Retrospective - 3 hours or less.
-- [ ] Sprint Planning - 4 hours or less, Daily Scrum - 15 minutes or less, Sprint Review - 8 hours or less, Sprint Retrospective - 4 hours or less.
-- [ ] Sprint Planning - 4 hours or less, Daily Scrum - 15 minutes or less, Sprint Review - 4 hours or less, Sprint Retrospective - 4 hours or less.
-- [x] Sprint Planning - 8 hours or less, Daily Scrum - 15 minutes or less, Sprint Review - 4 hours or less, Sprint Retrospective - 3 hours or less.
-
-162.  ### Question162
-      True or False: Planning Poker must be used by Scrum Teams.
-
-- [ ] False.
-- [x] True.
-
-163.  ### Question163
-      What is Test Driven Development?
-
-- [ ] Appointing the QA Tester as the Lead Developer.
-- [x] The practice of writing Unit Tests prior to writing the implementation code.
-- [ ] Integrating Testers and Developers.
-- [ ] The process of motivating Testers.
-
-164.  ### Question164
-      True or False: Tasks in a Sprint Backlog must be estimated in days/hours.
-
-- [ ] True.
-- [x] False.
-
-165.  ### Question165
-      Who is responsible for testing in Scrum?
-
-- [ ] The Product Owner.
-- [x] The Developers.
-- [ ] Stakeholders.
-- [ ] The Scrum Master.
-
-166.  ### Question166
-      Bugs discovered in Sprint should be:
-
-- [x] Fixed immediately.
-- [ ] Ignored if not created by me.
-- [ ] Send to the Junior Developer to fix.
-- [ ] Added to the bug tracking repository and left for a later Sprint.
-
-167.  ### Question167
-      True or False: YAGNI states that most systems work best if they are kept simple rather than made complicated.
-
-- [x] False.
-- [ ] True.
-
-168.  ### Question168
-      Which one is a Scrum Value? Pick all that apply
-
-- [x] Focus
-- [x] Commitment
-- [x] Courage
-- [ ] Creativity
-- [ ] Accountability
-
-169.  ### Question169
-      What is NOT the name of the original program in source control from which branches are taken?
-
-- [ ] Mainline
-- [x] Feature
-- [ ] Trunk
-- [ ] Master
-
-170.  ### Question170
-      What is the Static Analysis?
-
-- [x] Analysis performed on code in a non-runtime environment
-- [ ] Analysis performed on Software at runtime
-- [ ] Duties of a Business Analyst
-- [ ] Checking static classes’ readability
-
-171.  ### Question171
-      Which one is true about Black-box testing? Pick all that apply
-
-- [ ] Tester can see inside the component or system under test
-- [x] Tests that are done can be either functional or non-functional
-- [ ] The internal structure of the item being tested is known to the Tester
-- [x] Tester cannot see inside the component or system under test
-- [x] The internal structure of the item being tested is not known to the Tester
-
-172.  ### Question172
-      Which expression is NOT used for KISS principle?
-
-- [ ] Keep it simple, silly
-- [x] Keep it safe and same
-- [ ] Keep it small and simple
-- [ ] Keep it simple stupid
-
-173.  ### Question173
-      What shapes can be an architecture spike? Pick all that apply
-
-- [x] A prototype which will be thrown away
-- [ ] A comprehensive architecture implementation
-- [x] A quick and dirty implementation
-- [ ] A plan for all required architectures of the Product
-
-174.  ### Question174
-      What does cross-functionality mean in a Scrum Team?
-
-- [ ] Each Developer who has a special skill and works with all Scrum Teams of the organization is cross-functional
-- [ ] The Development Team should collaborate with all other functional departments of the organization
-- [x] The Development Team should have all required skills to create potentially releasable Increments without any dependency to others outside the team
-- [ ] Each Development Team member should have all required skills to create potentially releasable Increments without any dependency to others outside the team
-
-175.  ### Question175
-      What is the proper reaction of the Development Team in the middle of the Sprint when they found they have over committed?
-
-- [ ] They should ask the Product Owner to cancel the Sprint
-- [ ] They extend the Sprint duration
-- [ ] They can add new team members to the Team
-- [x] They negotiate with the Product Owner about the scope of the Sprint Backlog Items
-
-176.  ### Question176
-      What is the Sprint Planning time-box for two-week Sprints?
-
-- [ ] Usually 2 hours
-- [ ] Usually 8 hours
-- [ ] Usually 6 hours
-- [x] Usually 4 hours
-
-177.  ### Question177
-      Which one is true?
-
-- [ ] There is no assignment for both Sprint Backlog elements
-- [x] The Team can assign a task to a Team member with consensus
-- [ ] The Team should assign both Sprint Backlog elements
-- [ ] The Team assigns a Sprint Backlog Item to a Team member
-
-178.  ### Question178
-      Through Depth of Inheritance metric, a low number for depth implies less complexity but also the possibility of less code reuse through inheritance.
-
-- [ ] False
-- [x] True
-
-179.  ### Question179
-      Who is responsible for writing tests in a Scrum Team?
-
-- [x] The Development Team
-- [ ] The programmer
-- [ ] The QA specialist
-- [ ] The Tester
-
-180.  ### Question180
-      Who are the participants of the Daily Scrum?
-
-- [ ] The Development Team and the Scrum Master
-- [ ] The Development Team and the Product Owner
-- [ ] The Scrum Team
-- [x] The Development Team
-
-184.  ### Question184
-      Which concept has interactive attribute?
-
-- [ ] Sketch
-- [ ] Mockup
-- [ ] Wireframe
-- [x] Prototype
-
-185.  ### Question185
-      Who is responsible for the documentation?
-
-- [x] Development Team
-- [ ] Tech Lead
-- [ ] Document Writer
-- [ ] Scrum Master
-
-186.  ### Question186
-      Afferent Coupling measures the number of classes on which a given class depends.
-
-- [x] False
-- [ ] True
-
-187.  ### Question187
-      Which concerns are most important in the scaled Scrum? Pick 2
-
-- [x] Minimizing or removing dependencies between teams
-- [x] Creating an integrated releasable Increment at the end of each Sprint
-- [ ] Having same Sprint duration for all teams
-- [ ] Increasing all team members utilization
-
-188.  ### Question188
-      Who makes the decision for the architecture in a Scrum Team?
-
-- [ ] Tech Lead
-- [x] Development Team
-- [ ] Chief Architect
-- [ ] CTO (Chief Technology Officer)
-- [ ] Scrum Master
-
-189.  ### Question189
-      How much time does the Product Owner should consume for the Product Backlog Refinement?
-
-- [ ] No more than 10%
-- [ ] No more than 20%
-- [ ] It is not the Product Owner responsibility
-- [x] Any time that the Product Owner needs
-
-190.  ### Question190
-      Which one is a Scrum Team role? Pick all that apply
-
-- [x] The Product Owner
-- [ ] The Project Manager
-- [x] The Scrum Master
-- [x] The Development Team
-
-191.  ### Question191
-      Which one is NOT a Test Double?
-
-- [x] Two combined Unit Tests
-- [ ] Test Spy
-- [ ] Test Stub
-- [ ] Mock Object
-
-192.  ### Question192
-      Which is true about refactoring?
-
-- [x] Through it internal structure of code is altered
-- [x] Its results are improved maintainability, code readability and reduced complexity
-- [ ] There should be special and distinct Sprints called “Refactoring Sprint” to do refactoring with focus every a few Sprints
-- [ ] Through it external behavior of code is altered
-
-193.  ### Question193
-      When the Product Owner can see the Development Team work?
-
-- [ ] Just at the Sprint Review
-- [ ] Whenever the Development Team is ready
-- [x] Anytime the Product Owner asks
-- [ ] When the Tech Lead allows the Development Team to show their work
-
-194.  ### Question194
-      What are the most important things for increasing transparency?
-
-- [ ] Using chat tools to have the best communication
-- [x] Having a Definition of Done
-- [x] Having a common language
-- [ ] Having a comprehensive documentation
-
-195.  ### Question195
-      What is the ATDD?
-
-- [x] Using Acceptance Tests to define requirements specified by the customer and market
-- [ ] Using advanced Integration Test to develop quality Product
-- [ ] Using approved tests by Product Owner in TDD
-- [ ] Using Unit Tests to define requirements specified by the customer and market
-
-196.  ### Question196
-      In Software Development, which acronym is NOT true?
-
-- [ ] LOC: Lines of Code
-- [ ] CBO: Coupling Between Objects
-- [ ] DIT: Depth of Inheritance Tree
-- [x] SLOC: Sample Lines of Code
-
-197.  ### Question197
-      Where does Smoke testing originate from?
-
-- [ ] Comes from a comprehensive type of hardware testing in which a device passes the test if it does not catch fire during a sample long time run
-- [ ] Comes from a basic type of hardware testing in which a device passes the test if it does not catch fire during a sample long time run
-- [x] Comes from a basic type of hardware testing in which a device passes the test if it does not catch fire the first time it turns on
-- [ ] Comes from a comprehensive type of hardware testing in which a device passes the test if it does not catch fire the first time it turns on
-
-198.  ### Question198
-      What is the goal of the Continuous Integration?
-
-- [ ] To publish the Product Increment on Production
-- [ ] To penalize the Developer who breaks the build
-- [x] To provide rapid feedback of build and test result
-- [ ] To find who has made the change on source control
-
-199.  ### Question199
-      What kind of activity can be done in the Product Backlog Refinement?
-
-- [ ] Adding detail to the items
-- [x] Ordering
-- [x] Design
-- [ ] Develop
-
-200.  ### Question200
-      What is the recommended size of the Development Team?
-
-- [ ] 7 ± 2
-- [ ] 5 ± 4
-- [x] 6 ± 3
-- [ ] 9 ± 3
-
-201.  ### Question201
-      What are the duties of the Development Team in a Scrum Team?
-
-- [ ] Removing impediments
-- [x] Making technical decisions
-- [x] Resolving team internal conflicts
-- [ ] Assigning value to the Product Backlog Items
-
-202.  ### Question202
-      Which one is true about the scaled Scrum? Pick 2
-
-- [ ] The scaled Scrum does not add or change anything in Scrum framework
-- [x] It is based on the Scrum framework
-- [x] It uses Scrum parts as its building blocks
-- [ ] Through scaled Scrum Teams work on multiple Products
-
-203.  ### Question203
-      Which factors should be considered to determine the Sprint length? Pick all that apply
-
-- [x] Market change speed
-- [x] Raising complexity speed
-- [x] Amount of the risk
-- [x] Cost of risk
-
-241.  ### Question241
-      One of the outcomes of using TDD is creating an automated Regression Test suite.
-
-- [ ] False
-- [x] True
-
-204.  ### Question204
-      Which work can be done between two Sprints?
-
-- [x] Nothing. There is no special time between two Sprints
-- [ ] Resolving some important bugs
-- [ ] Preparing Product Backlog Items for the next Sprint
-- [ ] Thinking about architectural concerns of the next Sprint
-
-205.  ### Question205
-      How often does the Sprint Planning should be conducted?
-
-- [ ] Once a Release
-- [ ] Each time that the Product Owner decides
-- [ ] In the middle of each Sprint
-- [x] Once a Sprint
-
-206.  ### Question206
-      Creating a done and potentially releasable Increment is the purpose of each Sprint.
-
-- [ ] False
-- [x] True
-
-207.  ### Question207
-      Which is NOT true about Lines of Code metric?
-
-- [ ] A high count might indicate that a type or method is doing too much work
-- [ ] A high count might be a warning that code will be hard to maintain
-- [ ] It isn’t a Code Quality metric
-- [x] It is explained via percentage
-
-208.  ### Question208
-      What does Code Coverage mean?
-
-- [x] The degree of a source code which is executed or exercised by a test suite
-- [ ] The number of Unit Tests which have passed through a test suite run
-- [ ] The amount of codes which is covered in a source control
-- [ ] The number of Unit Tests which have failed through a test suite run
-
-209.  ### Question209
-      Who are responsible for monitoring the progress over the Project and Sprint?
-
-- [x] Project Progress: the Product Owner, Sprint Progress: the Development Team
-- [ ] Project Progress: the Scrum Master, Sprint Progress: the Development Team
-- [ ] Project Progress: the Development Team, Sprint Progress: the Product Owner
-- [ ] Project Progress: the Product Owner, Sprint Progress: the Scrum Master
-
-210.  ### Question210
-      Which is true about Strategic debt in Technical debt context?
-
-- [x] Debt caused to gain strategic benefits (such as time to market)
-- [ ] This is typically caused by lack of awareness or knowledge
-- [ ] Short-time gains, for instance cutting some corners to make an extra release for increased customer satisfaction
-
-211.  ### Question211
-      Which one is a code metric? Pick all that apply
-
-- [x] Code Coverage
-- [x] Lines of Code
-- [ ] Automated build
-- [ ] Test Doubles
-- [x] Class Coupling
-
-212.  ### Question212
-      What are the outputs of the Sprint Planning?
-
-- [ ] The Increment
-- [ ] The Release Plan
-- [x] The Sprint Backlog
-- [x] The Sprint Goal
-
-213.  ### Question213
-      Dependency Inversion principle implies that entities must depend on abstractions not on concretions.
-
-- [ ] False
-- [x] True
-
-214.  ### Question214
-      What will happen for the undone Sprint Backlog Items at the end of the Sprint?
-
-- [ ] Extend the Sprint to finish them
-- [ ] Move back to the bottom of the Product Backlog
-- [x] Re-estimate and move back to the Product Backlog
-- [ ] Directly move to the next Sprint
-
-215.  ### Question215
-      What does the Development Team should do when the CEO assign them an unplanned work in the middle of the Sprint?
-
-- [ ] Inform the Scrum Master to work with his/her
-- [ ] Reject it because they are independent
-- [ ] Accept it because the CEO is the highest rank in the organization
-- [x] Inform the Product Owner to work with his/her
-
-216.  ### Question216
-      When the Development Team can change their practices, tools or techniques?
-
-- [x] Whenever needed
-- [ ] At the end of each release
-- [ ] At the beginning of the project
-- [ ] At the end of each Sprint
-
-217.  ### Question217
-      How many Definition of Done should be used in scaled Scrum?
-
-- [ ] They can have a separate Definition of Done for each team as long as they do not violate each other
-- [ ] Each team should have a separated Definition of Done
-- [x] All teams should have one Definition of Done
-- [x] All teams can have one common Definition of Done as long as they can create a unique integrated Increment
-
-218.  ### Question218
-      Which two of the followings are synonyms of TDD?
-
-- [ ] Domain Driven Design
-- [x] Red-Green-Refactor
-- [x] Test First Development (TFD)
-- [ ] Continuous Deployment
-
-219.  ### Question219
-      When tests should be added in the development process?
-
-- [ ] At the end of each release
-- [x] From the beginning of the project
-- [ ] At the end each Sprint
-- [ ] In special Sprints called “Test Sprint”
-
-220.  ### Question220
-      Which language is usually used in BDD?
-
-- [ ] Ubiquitous language
-- [ ] Tongue language
-- [ ] Technical language
-- [x] Native language
-
-221.  ### Question221
-      Which of the followings are characteristics of a good bug report? Pick all that apply
-
-- [ ] Impacted related requirement
-- [x] Version and build of the Software under test
-- [x] The severity of the defect
-- [x] Expected results and observed results
-
-222.  ### Question222
-      Who creates the Sprint Backlog?
-
-- [ ] The Scrum Master
-- [ ] The Product Owner
-- [ ] The Scrum Team
-- [x] The Development Team
-
-223.  ### Question223
-      When is a feature done?
-
-- [x] When it is potentially releasable and shippable
-- [ ] When the Product Owner approves it
-- [ ] When the customer accepts it
-- [ ] When the Scrum Master approves it
-
-224.  ### Question224
-      The Development Team has immediately resolved a bug, which is found in the current Sprint and belongs to an Increment that has already been delivered to the market. Is it a proper behavior?
-
-- [x] False
-- [ ] True
-
-225.  ### Question225
-      Why mock objects are used in Unit Tests? Pick 3
-
-- [x] To simulate the behavior of a given object
-- [x] To isolate system under test for controlled testing
-- [x] To cope with dependencies
-- [ ] TDD can be done just by having mock objects
-
-226.  ### Question226
-      What is the usual comparison of Product Backlog Items average size in the Product Backlog and Sprint Backlog?
-
-- [ ] Product Backlog Items in the Product Backlog are usually smaller than the Sprint Backlog
-- [ ] Product Backlog Items in the Product Backlog are usually larger than the Sprint Backlog
-- [ ] Product Backlog Items usually have the same size in both the Product Backlog and the Sprint Backlog
-- [x] Such a comparison does not make sense
-
-227.  ### Question227
-      Which is NOT true about Efferent Coupling?
-
-- [x] Classes with high efferent will affect other classes when changes are made
-- [ ] A large efferent coupling can indicate that a class is unfocussed and may also indicate that it is unstable since it depends on the stability of all the types to which it is coupled
-- [ ] Classes with high efferent coupling will receive the effects of changes or defects in other classes
-- [ ] It is a Code Quality metric
-
-228.  ### Question228
-      What is the Instability Index metric calculation formula? (Ca: Afferent Coupling, Ce: Efferent Coupling)
-
-- [ ] Ca / (Ca+Ce)
-- [x] Ce / (Ca+Ce)
-- [ ] (Ca+Ce) / Ce
-- [ ] (Ca+Ce) / Ca
-
-229.  ### Question229
-      Which is true about the Sprint Backlog?
-
-- [ ] It is a list of selected Product Backlog Items that the Development Team has committed for the Sprint
-- [ ] It contains all Product Backlog Items and requirements that could be implemented for the project
-- [ ] It is created one Sprint ahead the current Sprint
-- [x] It is a plan for the Development Team to realize the Sprint Goal
-
-230.  ### Question230
-      Which one is true about Definition of Done and Acceptance Criteria? Pick all that apply
-
-- [ ] Acceptance Criteria should be passed for a feature in order to be called as complete and done
-- [x] Acceptance Criteria should be passed to ensure that a feature is working as expected
-- [x] Definition of Done should be applied to a feature in order to be called as complete
-- [x] There are many Acceptance Criteria in a Product
-- [ ] There are many Definition of Done in a Product and a Scrum Team
-
-231.  ### Question231
-      Which principle is included in SOLID? Pick all that apply
-
-- [x] Liskov Substitution Principle
-- [ ] Dual Interface Principle
-- [x] Single Responsibility Principle
-- [x] Open-Closed Principle
-- [x] Interface Segregation Principle
-
-232.  ### Question232
-      In an impediment case, the Scrum Master can intervene to help the Development Team to remove a member from the Development Team.
-
-- [ ] False
-- [x] True
-
-233.  ### Question233
-      Which one is true about the Daily Scrum? Pick 3
-
-- [x] It is a feedback loop
-- [ ] All Scrum Team members should participate in it
-- [x] The Development Team monitors Sprint progress toward the Sprint Goal
-- [x] It is a 15 minutes time-box event
-
-234.  ### Question234
-      What are traits of a high performance Scrum Team? Pick all that apply
-
-- [x] They live the Scrum Values deeply
-- [x] They help their customers become more successful
-- [x] They evolve the Definition of Done over time and add more stringent criteria to it continuously
-- [x] There is a high level of creativity, productivity and accountability in the Team dynamics
-- [ ] They respect top managers through accepting their work every time
-
-235.  ### Question235
-      Who knows best about how to create usable and releasable Increments?
-
-- [x] The Development Team
-- [ ] The Scrum Master
-- [ ] The Technical Manager
-- [ ] The Product Owner
-
-236.  ### Question236
-      Interface Segregation principle implies that a client should never be forced to implement an interface that it doesn’t use.
-
-- [ ] False
-- [x] True
-
-237.  ### Question237
-      Who is responsible for the Product Backlog Items and tasks estimation in Scrum?
-
-- [ ] The Product Owner
-- [ ] The Scrum Master
-- [ ] The Project Manager
-- [x] The Development Team
-
-238.  ### Question238
-      How do the Developers divide into multiple teams in scaled Scrum?
-
-- [ ] The top Management divides them
-- [x] The Developers divide themselves
-- [ ] The Product Owner divides them
-- [ ] The Scrum Master divides them
-
-239.  ### Question239
-      What should the Development Team do when there is no standard contract to create a releasable Product?
-
-- [ ] Ask the Product Owner to make a Definition of Done
-- [ ] Ask Project manager to help them
-- [ ] Define a list of satisfactory tests for each PBI
-- [x] The Development Team should define a Definition of Done
-
-240.  ### Question240
-      Through the Sprint Review, the Scrum Team tries to hand-off the Increment to the Customer formally.
-
-- [x] False
-- [ ] True
-
-241.  ### Question241
-      Which Scrum Values are adhered by not building Product Backlog items that have low business value? Pick 3
-
-- [x] Courage
-- [x] Respect
-- [x] Focus
-- [ ] Transparency
-- [ ] Adaptation
-
-242.  ### Question242
-      Which one is true about Design Patterns?
-
-- [x] Is a general, reusable solution to a commonly occurring problem within a given context in Software Design
-- [ ] Is a low-fidelity UI pattern that can be called sketch
-- [ ] Is a list of guidelines to design better UX for customers
-- [ ] Is a high-fidelity UI pattern that can be called prototype
-
-243.  ### Question243
-      Which Scrum events can use more time rather than their time-box if there are 9 Developers (the maximum Development Team size) in the Team?
-
-- [ ] The Daily Scrum
-- [ ] The Sprint Retrospective
-- [x] No one
-- [ ] The Sprint Review
-
-244.  ### Question244
-      Product Backlog items are refined by:
-
-- [ ] The Business Analyst and the Product Owner
-- [ ] The Development Team
-- [x] The Development Team and the Product Owner
-- [ ] The Product Owner solely
-
-245.  ### Question245
-      Select the desirable characteristics of a Unit Test. (choose the best four answers)
-
-- [x] Code in each test is as small as possible while maintaining readability of the code.
-- [x] Each test is independent of other Unit Tests.
-- [x] Each test makes assertions about only one logical concept.
-- [x] The test executes fast.
-- [ ] They exercise the persistence layer of a solution.
-
-246.  ### Question246
-      Should User Stories be part of the documentation generated by a Scrum project?
-
-- [ ] Always.
-- [ ] If the Architect requires it.
-- [x] If they are part of the Definition of Done.
-- [ ] Never.
-- [ ] They must be provided to the Development Team as part of the user specifications documents.
-
-247.  ### Question247
-      The Definition of Done describes the work that must be completed for every Product Backlog item before it can be deemed releasable. What should the Development Team do when, during the Sprint, it finds out that a problem outside of their control blocks them from doing all this work?
-
-- [ ] Cancel the Sprint.
-- [ ] Complete the work that can be done on as much scope as possible and complete the rest during the "hardening" Sprints at the end of the release.
-- [ ] Complete the work that can be done on as much scope as possible and use the Sprint Review to plan the rest with the Stakeholders.
-- [x] Immediately raise the issue to the Scrum Master as an impediment.
-- [ ] Stop using Scrum.
-
-248.  ### Question248
-      To refine Product Backlog items, the following activities will occur implicitly or explicitly: (choose all that apply)
-
-- [x] Analysis
-- [x] Decomposition
-- [x] Design
-- [ ] Programming
-- [ ] Testing
-
-249.  ### Question249
-      True or False: Only technical writers can create documentation during a Sprint.
-
-- [ ] True
-- [x] False
-
-250.  ### Question250
-      True or False: The Scrum Team should choose at least one high priority process improvement, identified during the Sprint Retrospective, and place it in the Product Backlog.
-
-- [ ] True
-- [x] False
-
-251.  ### Question251
-      What are reasons to automate the Software build process? (choose the best two answers)
-
-- [x] Automation improves the quality of Software by making builds less error-prone.
-- [ ] Code reviews are much faster if you automate your build.
-- [x] To get feedback on changes to the code early and often.
-- [ ] You can't run automated tests without an automated build.
-
-253.  ### Question253
-      What are some shortcomings of Code Coverage as a measurement for how well a system or Product is tested? (choose the best three answers)
-
-- [x] Code Coverage does not ensure that the most important or highest risk areas of the code are being exercised by tests.
-- [x] Code Coverage does not necessarily provide functional coverage.
-- [ ] Code Coverage metrics vary by development platform (e.g., .NET, Java)
-- [x] Could create incentives to write tests that simply increase Code Coverage, rather than tests that find bugs without increasing coverage.
-- [ ] It is too complicated to explain to Management.
-
-254.  ### Question254
-      What are three advantages of Continuous Integration? (choose the best three answers)
-
-- [x] Broken builds are detected quickly.
-- [x] Know immediately how a check-in affected the build.
-- [ ] Readability of code is improved.
-- [x] The Software is generally kept in a buildable state.
-
-255.  ### Question255
-      What are ways a Development Team can ensure a good Application Architecture? (choose the best two answers)
-
-- [ ] A Development Team doesn't need an architecture model in Scrum and should focus on adding functionality. The architecture will come into place without fail as the Development Team adds functionality.
-- [ ] The Development Team plans a Sprint 0 at the beginning of a project with the objective of developing an architecture model used during the following Sprints.
-- [x] The Development Team plans some time each Sprint to discuss the architecture needed for the features planned in that Sprint.
-- [ ] The Development Team should assign someone to the role of Software Architect whose job it is to make sure a consistent architecture is developed.
-- [x] The Development Team should have a set of guiding architecture principles that every Development Team member understands and follows when writing code.
-
-256.  ### Question256
-      What does a test written with Test Driven Development represent?
-
-- [ ] A bug that will be uncovered.
-- [x] A technical requirement that must be satisfied.
-- [ ] An assignment from the lead quality engineer
-- [ ] Something that completes the test coverage of a system.
-
-257.  ### Question257
-      What does Code Coverage show?
-
-- [x] Code being exercised by tests
-- [ ] The absence of defects in code
-- [ ] The quality of Unit Tests being written
-- [ ] The ratio of number of tests to lines of code in the system being tested
-- [ ] When a feature is done
-
-258.  ### Question259
-      What is a Unit Test?
-
-- [ ] A technique for ensuring that units of co-dependent or clustered computers perform correctly.
-- [x] A test that isolates and verifies individual units of source code.
-- [ ] A way for the team to ensure that the system satisfies the user requirements.
-- [ ] A way in which units of programmers ensure their code works.
-
-260.  ### Question260
-      What is Code Coverage?
-
-- [ ] An insurance policy that covers the code for defects.
-- [x] The degree to which the system under test has been exercised by tests.
-- [ ] The number of Developers that understand how the code works.
-- [ ] The percent of code in version control included in a build.
-
-261.  ### Question261
-      What is NOT Test Driven Development?
-
-- [ ] A predictable way to develop working, clean code.
-- [ ] A Software Development technique based on automated tests.
-- [ ] An incremental and emergent approach to Software Design.
-- [x] Testing existing Software before developing any new Software.
-
-262.  ### Question262
-      What is Pair Programming?
-
-- [ ] A Developer and a Tester work together to write and test code.
-- [ ] Managers doing performance reviews by comparing one programmer's code to another's.
-- [ ] The Scrum Team is divided into several two-person Development Teams that consolidate work in a Scrum of Scrums.
-- [x] Two Developers writing code together, providing constant peer review.
-- [ ] Two programmers write code separately. A third programmer integrates the work.
-
-263.  ### Question263
-      What is Technical Debt?
-
-- [x] A term representing the eventual consequences of poor technical choices.
-- [ ] Code that has not been commented or documented.
-- [ ] The average time or money a Scrum Team spends per Sprint on bug fixes.
-- [ ] The money an organization owes to tool and hardware vendors.
-
-264.  ### Question264
-      What is the value of refactoring code?
-
-- [ ] To have all code in a single file for easy printing and code reviews.
-- [x] To improve readability and maintainability.
-- [ ] To keep the code moving.
-- [ ] To make the Software faster at runtime.
-
-265.  ### Question265
-      What relationship does Scrum have to technical practices?
-
-- [ ] All technical practices must be used to support Scrum.
-- [x] Scrum Development Teams with excellent technical practices will likely be more successful.
-- [ ] Scrum requires specific technical practices or it isn't Scrum.
-- [ ] None.
-
-266.  ### Question266
-      When are Testers and quality experts ideally included in a project?
-
-- [ ] After Developer handoff.
-- [ ] After Sprint Review.
-- [x] From the beginning and throughout all Sprints.
-- [ ] When the Product is feature complete.
-
-267.  ### Question267
-      When does the Development Team participate in Product Backlog Refinement?
-
-- [x] Anytime during the Sprint.
-- [ ] As Part 1 of the Sprint Planning meeting.
-- [ ] Never. It is the sole responsibility of the Product Owner to refine the Product Backlog.
-- [ ] Only during Refinement meetings planned by the Product Owner.
-
-268.  ### Question268
-      When is a system's architecture decided?
-
-- [ ] In the beginning of the project, during Sprint 0.
-- [ ] It is designed along with the vision, before the first Sprint.
-- [x] Throughout the project, as understanding emerges and the Development Team learns more about the project.
-- [ ] Whenever the assigned Architect can join the Development Team.
-
-269.  ### Question269
-      Which are attributes of a good bug report? (choose all that apply)
-
-- [x] Build/version where bug was found.
-- [x] Clear title and proper grammar in report.
-- [x] Expected results and observed results.
-- [x] One bug per report.
-- [x] Screenshots or other pictures of bug in action when user interfaces are involved.
-- [x] Simple and repeatable reproduction steps.
-
-270.  ### Question270
-      Which are potential benefits of Test Driven Development? (choose all that apply).
-
-- [x] It causes you to construct a test harness that can be automated.
-- [x] It improves quality and reduces bugs.
-- [x] It promotes good design and separation of concerns.
-- [x] It speeds the overall development process.
-
-271.  ### Question271
-      Which describes the practice of expressing requirements as Acceptance Tests?
-
-- [x] Acceptance Test Driven Development
-- [ ] Object Driven Requirements Definition.
-- [ ] Quality Oriented Requirements Definition.
-- [ ] Regression Testing
-
-272.  ### Question272
-      Which is a benefit of establishing naming standards for code?
-
-- [ ] To communicate the name of the Developer that worked on the code.
-- [ ] To ensure that "orphan functions" are not created.
-- [ ] To make it easy to distinguish between different Software Products.
-- [x] To make the code more readable.
-
-272.  ### Question272
-      Which of the following are benefits of Continuous Integration? (choose the best two answers)
-
-- [x] Causes team members to consider each other's work and context.
-- [ ] It eliminates bugs completely.
-- [x] It leads to higher transparency and rapid feedback to the team.
-- [ ] The build is executed once every night and at least once each weekend.
-
-273.  ### Question273
-      Which of the following are NOT metrics of Code Quality? (choose all that apply)
-
-- [ ] Class coupling
-- [x] Code Coverage
-- [x] Cycle time per feature
-- [ ] Cyclomatic Complexity
-- [ ] Depth of inheritance
-
-274.  ### Question274
-      Which of the following best describes Continuous Integration?
-
-- [ ] A Software Development practice that continuously integrates feedback from users into Software Design.
-- [ ] A Software Development practice used by Integration Teams to create Best Practice branching and merging strategies.
-- [ ] A Software Development practice where members of a development team all work on the same computer to ensure a common code base.
-- [x] A Software Development practice where members of a development team integrate and verify their work frequently, often multiple times each day, to detect integration errors as quickly as possible.
-
-275.  ### Question275
-      Which of the following describe an architecture spike?
-
-- [ ] A decision made by a systems Architect to settle disagreement within a Development Team
-- [ ] A fundamental architectural problem found in an existing application
-- [x] A small development activity to learn about technical elements of a proposed solution
-- [ ] The result of an exhaustive architectural planning effort
-
-276.  ### Question276
-      Which statement describes how often the build should be executed?
-
-- [ ] As often as possible, and certainly prior to the end of the Sprint.
-- [ ] Once per day.
-- [x] Whenever new or changed code is checked into version control.
-- [ ] Whenever the Quality Assurance group becomes uncertain that the system works.
-
-277.  ### Question277
-      Which statement describes Test First Development (TFD)?
-
-- [x] Designing tests before satisfying them.
-- [ ] Having the Tester in the Development Team write the test plans before coding.
-- [ ] Testing existing code before adding more code to it.
-- [ ] The continuous restructuring of Software to retain flexibility.
-
-278.  ### Question278
-      Which statements describe why automated builds are important? (choose the best three answers)
-
-- [x] They allow frequent validation of the unit of Software being worked on, ensuring it remains in a potentially shippable state.
-- [x] The build process is clearly defined and scripted, making it easy consistent and repeatable.
-- [ ] They eliminate the need for Build Engineers.
-- [x] They ensure your Product remains bug free.
-- [ ] They support continuous integration.
-
-279.  ### Question279
-      While changing Software, you find a bug in a previously delivered piece of functionality. What should you do?
-
-- [ ] Fix the bug.
-- [x] Fix the bug if it is critical or easily fixed. Otherwise, put the new bug into the Product Backlog to be prioritized and fixed in an upcoming Sprint.
-- [ ] Revise the tests so that the bug no longer appears on the bug report.
-- [ ] Stub out the code that caused the bug so it no longer occurs.
-
-280.  ### Question280
-      Who is responsible for the system architecture of a Product being developed using Scrum?
-
-- [ ] The Architect chosen by the Development Team.
-- [ ] The Corporate Architect.
-- [x] The Development Team.
-- [ ] The Software Architect.
-
-281.  ### Question281
-      Who must be present at the Daily Scrum meeting?
-
-- [ ] Anyone who wants to attend
-- [ ] No one is required, anyone who wishes to attend is welcome
-- [x] The Development Team
-- [ ] The entire Scrum Team
-- [ ] The Scrum Master and the Development Team
-
-282.  ### Question282
-      Who should be present during Product Backlog Refinement? (choose all that apply)
-
-- [ ] Only the most senior people from the Development Team.
-- [x] The Development Team.
-- [ ] The external Business Analysts that have prepared the functional details.
-- [ ] The integration architects from the release department.
-- [x] The Product Owner.
-- [ ] The Stakeholders.
-
-283.  ### Question283
-      You are on a Scrum Team that is enhancing an existing Product. Which is the LEAST useful piece of documentation you want to have at your disposal?
-
-- [ ] Acceptance Tests.
-- [ ] Detailed designs.
-- [x] The full history of retrospective plans and lessons learned.
-- [ ] Well-structured and named code.
+- [ ] Yes.
+- [x] No.
+
+### Your team needs to have a tool that provides a digital online assistant that can provide speech support. Which of the following service can be used for this purpose?
+
+- [ ] Azure Machine Learning.
+- [ ] Azure loT Hub.
+- [x] Azure Al bot.
+- [ ] Azure Functions.
+
+### Your team needs to have a tool that can use past trainings to provide predictions of very high probability. Which of the following service can be used for this purpose?
+
+- [x] Azure Machine Learning.
+- [ ] Azure loT Hub.
+- [ ] Azure Al bot.
+- [ ] Azure Functions.
+
+### Your team needs to have a tool that can provide serverless computing capabilities. Which of the following service can be used for this purpose?
+
+- [ ] Azure Machine Learning.
+- [ ] Azure loT Hub.
+- [ ] Azure Al bot.
+- [x] Azure Functions.
+
+### Your team needs to have a tool that can be used to process data from millions of sensors. Which of the following service can be used for this purpose?
+
+- [ ] Azure Machine Learning.
+- [x] Azure loT Hub.
+- [ ] Azure Al bot.
+- [ ] Azure Functions.
+
+### A company needs to deploy a set of resources to Azure. Below are the key requirements for the deployment a) The need to be deployed across several departments b) The resources that need to be deployed are all of the same type You need to recommend a solution to automate the deployment of the Azure resources. Which of the following would you use for this requirement?
+
+- [ ] Virtual Machine scale sets.
+- [ ] Management Groups.
+- [ ] Azure AD.
+- [x] Azure Resource Manager Templates.
+
+### Your company needs to deploy an application to virtual machines hosted in Azure. The solution must ensure an SLA of 99.99%. What is the minimum number of virtual machines and availability zones that you need to recommend for the deployment?
+
+- [ ] One virtual machine and One availability zone.
+- [ ] Two virtual machines and availability zone.
+- [ ] One virtual machine and Two availability zones.
+- [x] Two virtual machines and Two availability zones.
+
+### Your team needs a tool that can be used to correlate events from multiple resources into a central repository. Which of the following can be used for this purpose
+
+- [ ] Azure Event Hubs.
+- [ ] Azure Security Center.
+- [ ] Azure AD.
+- [x] Azure Log Analytics.
+
+### A company is planning on hosting an application on an Azure Virtual Machine. It needs to be ensured that the application hosted on the virtual machine is accessible from the Internet over HTTPS. You decide to implement a DDOS protection plan. Would this satisfy the requirement
+
+- [ ] Yes.
+- [x] No.
+
+### A company is planning on hosting an application on an Azure Virtual Machine. It needs to be ensured that the application hosted on the virtual machine is accessible from the Internet over HTTPS. You decide to implement an Azure Traffic Manager profile. Would this satisfy the requirement
+
+- [ ] Yes.
+- [x] No.
+
+### Which of the following customers are eligible to use Azure Government to develop a cloud solution? Choose 2 answers from the options given below
+
+- [x] United states government Entity.
+- [x] A United states government contractor.
+- [ ] A European government Entity.
+- [ ] A European government contractor.
+
+### A team is currently planning on using Azure for hosting resources. They are going to create users which would have access to the Azure resources. The want to implement Multi-Factor authentication for the users. Is it required to deploy a federated solution to implement Multi-Factor authentication
+
+- [ ] Yes.
+- [x] No.
+
+### A team is currently planning on using Azure for hosting resources. They are going to create users which would have access to the Azure resources. The want to implement Multi-Factor authentication for the users. Are two valid methods for Azure Multi-Factor authentication picture identification and entering a passport number
+
+- [ ] Yes.
+- [x] No.
+
+### Which of the following support plan gives you access to best practice information, health status and notifications, and 24/7 access to billing information at the lowest possible cost
+
+- [x] Basic.
+- [ ] Standard.
+- [ ] Premier.
+- [ ] Developer.
+
+### If you plan to host a web application in the Azure platform as a service solution of Azure Web Apps, then you will have complete control over the underlying operating system
+
+- [ ] Yes.
+- [x] No.
+
+### You decide to create a virtual machine which is of the size "D2s_v3". If you plan to stop the virtual machine, will you incur any costs for the storage associated with the virtual machine
+
+- [x] Yes.
+- [ ] No.
+
+### Your company is planning on using Azure for hosting Infrastructure level resources such as Azure Virtual Machines. When planning for the costing aspect for these resources, is there a flexibility offered when it comes to Capital and Operational Expenditure
+
+- [x] Yes.
+- [ ] No.
+
+### You are looking at using a Software as a Solution service in Azure. Which of the following would you be responsible for
+
+- [ ] High availability of the solution.
+- [x] Configuration of the solution.
+- [ ] Installing the solution.
+- [ ] Scalability of the solution.
+
+### A company is planning on migrating all of their on-premise servers to Azure. Their business continuity department has advised that they need to ensure that servers hosted in Azure are available even if an Azure Data Center were to go down. Which of the following is a concept that would be involved in the design stage for this requirement
+
+- [ ] Scalability.
+- [x] Fault Tolerance.
+- [ ] Low Latency.
+- [ ] Elasticity.
+
+### Under which of the following circumstances could a company look at decommissioning its data center
+
+- [ ] If they have their infrastructure hosted in a private cloud.
+- [x] If they have their infrastructure hosted in the public cloud.
+- [ ] If they have their infrastructure hosted in a hybrid cloud.
+
+### A company is planning on migrating a web site to Azure. This is a public web site that is used by users on the Internet. Which of the following must the company plan for if they are planning to migrate the web site to Azure
+
+- [ ] They would need to deploy a VPN.
+- [ ] They would need to pay for the cost to transfer the web site to Azure.
+- [x] They would need to pay for the monthly costs incurred for hosting the web site.
+- [ ] hey would need to pay for the number of connections to the web site.
+
+### An administrator needs to run a script written in Powershell. This script is going to create a virtual machine in Azure. Would the script run on a computer that runs Linux and has the Azure CLI tools installed
+
+- [ ] Yes.
+- [x] No.
+
+### An administrator needs to run a script written in Powershell. This script is going to create a virtual machine in Azure. Would you be able to run the script on a machine that has Chrome OS installed and uses Azure Cloud Shell
+
+- [x] Yes.
+- [ ] No.
+
+### An administrator needs to run a script written in Powershell. This script is going to create a virtual machine in Azure. Would you be able to run the script on a machine that has macOS and Powershell core installed
+
+- [x] Yes.
+- [ ] No.
+
+### An Administrator needs to view the list of planned maintenance events that could potentially affect the availability of the resources hosted in an AZure subscription. Which of the following blade in the Azure portal should the administrator consider for this requirement
+
+- [ ] Resource Groups.
+- [ ] Azure Active Directory.
+- [ ] Azure Advisor.
+- [x] Help + Support.
+
+### Your team needs to have an integrated solution in place that can be used for the deployment of code. Which of the following service can be used for this purpose
+
+- [ ] Azure Advisor.
+- [ ] Azure Cognitive services.
+- [ ] Azure Application Insights.
+- [x] Azure Devops.
+
+### Your team needs a tool that can provide guidance and recommendations that can be used to improve an Azure environment. Which of the following service can be used for this purpose
+
+- [x] Azure Advisor.
+- [ ] Azure Cognitive services.
+- [ ] Azure Application Insights.
+- [ ] Azure Devops.
+
+### Your team needs to use a tool that can be used to build intelligent Artificial Intelligence based applications. Which of the following service can be used for this purpose
+
+- [ ] Azure Advisor.
+- [x] Azure Cognitive services.
+- [ ] Azure Application Insights.
+- [ ] Azure Devops.
+
+### Your team needs to have a tool that can be used to monitor web applications deployed to Azure. Which of the following service can be used for this purpose
+
+- [ ] Azure Advisor.
+- [ ] Azure Cognitive services.
+- [x] Azure Application Insights.
+- [ ] Azure Devops.
+
+### A team currently has several computers in their on-premise environment that runs on Windows 10. They need to share files by enabling mapped drives from the computers. Which of the following would be an ideal storage solution for this requirement
+
+- [ ] Using the Azure storage - BLOB service.
+- [x] Using the Azure storage - File service.
+- [ ] Using the Azure storage - Queue service.
+- [ ] Using the Azure storage - Table service.
+
+### A company wants to have a data store hosted in Azure. Below are the key requirements for the data store a) The data store must be able to store JSON documents b) The data store must be able to handle data writes from multiple regions Which of the following would be the ideal data store for this requirement
+
+- [ ] Azure SQL Database.
+- [x] Azure CosmosDB.
+- [ ] Azure Redis Cache.
+- [ ] Azure SQL data warehouse.
+
+### A team is planning on deploying Azure Virtual Machines to a resource group named "demogroup". The group has been created in the US Central region. Do the virtual machines deployed to the resource group also need to be deployed to the US Central region only
+
+- [ ] Yes.
+- [x] No.
+
+### A team is planning on assigning tags to a resource group. Would the tag be inherited by resources in the resource group
+
+- [ ] Yes.
+- [x] No.
+
+### A set of IAM permissions have been assigned to a resource group. Would the resources in the resource group automatically inherit the IAM permissions assigned to the resource group
+
+- [x] Yes.
+- [ ] No.
+
+### Which of the following service can be used to build, test and deploy a predictive analytics solution that could subsequently be used to deploy an Artificial Intelligence solution to Azure
+
+- [ ] Azure Functions.
+- [ ] Azure Logic Apps.
+- [ ] Azure Batch.
+- [x] Azure Machine Learning Studio.
+
+### Your team is planning on using the Azure Advisor tool. Would the Azure Advisor tool give recommendations on how to configure network settings for Azure virtual machines
+
+- [ ] Yes.
+- [x] No.
+
+### Your team is planning on using the Azure Advisor tool. Would the Azure Advisor tool give recommendations on how to save costs when it comes to hosting virtual machines in Azure
+
+- [x] Yes.
+- [ ] No.
+
+### Your team is planning on using the Azure Advisor tool. Would the Azure Advisor tool give recommendations on how to improve the security for Azure Active Directory
+
+- [ ] Yes.
+- [x] No.
+
+### A support engineer currently has a computer that runs Ubuntu. Which of the following Azure Management tools could be run from this computer
+
+- [x] Azure CLI.
+- [x] Azure Powershell.
+- [x] The Azure Portal.
+
+### Your company has just setup an Azure account and Azure Active Directory. They need to ensure that when users connect to Azure AD from the Internet from an Anonymous IP address, they are prompted to change their password automatically. Which of the following Azure service can help them achieve this requirement
+
+- [ ] Azure AD Connect.
+- [x] Azure AD Identity Protection.
+- [ ] Azure AD Privileged Identity Management.
+- [ ] Azure Advanced Threat Protection.
+
+### A company is planning on creating several virtual machines that will be used to host web and database servers. You need to limit the type of connections from the web and database servers. Which of the following can be used to fulfil this requirement
+
+- [x] Network Security Groups.
+- [ ] Azure AD Identity Protection.
+- [ ] Azure VPN.
+- [ ] Azure Route tables.
+
+### Which of the following can be used to allow an organization to manage the compliance of resources across multiple subscriptions
+
+- [ ] Resource Groups.
+- [ ] Management Groups.
+- [x] Azure Policies.
+- [ ] Azure Resource Manager templates.
+
+### Your company is planning on setting an Azure environment by setting up a subscription and Azure AD. They need to purchase a low-cost option support plan. The support plan needs to ensure 24\*7 access to support engineers by phone or email. You suggest opting for the Basic Support plan. Does this support the requirement
+
+- [ ] Yes.
+- [x] No.
+
+### Your company is planning on setting an Azure environment by setting up a subscription and Azure AD. They need to purchase a low-cost option support plan. The support plan needs to ensure 24\*7 access to support engineers by phone or email. You suggest opting for the Standard Support plan. Does this support the requirement
+
+- [x] Yes.
+- [ ] No.
+
+### Does Microsoft release most of the Azure services in private preview before being introduced in public preview
+
+    - [x] Yes.
+    - [ ] No.
+
+### Is it true that Azure services released in public preview can only be managed via the Azure command line interface
+
+- [ ] Yes.
+- [x] No.
+
+### Is it true that an Azure service that is released in private preview is made available to all Azure customers
+
+- [ ] Yes.
+- [x] No.
+
+### Is it true that an Azure service that is released in public preview is made available to all Azure customers
+
+- [x] Yes.
+- [ ] No.
+
+### Is it true that an Azure service that is released as generally available is made available to all Azure customers
+
+- [x] Yes.
+- [ ] No.
+
+### Can a single Microsoft Account be used to manage multiple Azure subscriptions
+
+- [x] Yes.
+- [ ] No.
+
+### Is it possible to merge subscriptions into a single subscription
+
+- [ ] Yes.
+- [ ] No.
+
+### A company has just started using Azure. They have setup a subscription and started deploying resources to Azure. Would they be guaranteed a service level agreement of at least 99.9% for paid Azure services
+
+- [x] Yes.
+- [ ] No.
+
+### A company has just started using Azure. They have setup a subscription and started deploying resources to Azure. Could the company increase the SLA for their resources by deploying resources across multiple regions
+
+- [x] Yes.
+- [ ] No.
+
+### A company has just started using Azure. They have setup a subscription and started deploying resources to Azure. Could the company increase the SLA for their resources by purchasing multiple subscriptions
+
+- [ ] Yes.
+- [x] No.
+
+### A set of virtual machines have been created in a subscription. You have now paid for a new subscription. Is it possible to move the virtual machines to the new subscription
+
+- [x] Yes.
+- [ ] No.
+
+### A company has defined the following resources in Azure a) 10 Public IP addresses b) 20 users in Azure AD C) 5 user groups in Azure AD They now want to reduce the costs associated with the Azure account. Would the removal of the users from the account help reduce the cost
+
+- [ ] Yes.
+- [x] No.
+
+### A company has defined the following resources in Azure a) 10 Public IP addresses b) 20 users in Azure AD c) 5 user groups in Azure AD They now want to reduce the costs associated with the Azure account. Would the removal of the user groups from the account help reduce the cost?
+
+- [ ] Yes.
+- [x] No.
+
+### A company has defined the following resources in Azure a) 10 Public IP addresses b) 20 users in Azure AD c)5 user groups in Azure AD They now want to reduce the costs associated with the Azure account. Would the removal of the public IP addresses from the account help reduce the cost?
+
+- [x] Yes.
+- [ ] No.
+
+### A team member currently has a laptop that is based on the Android OS. The team member wants to create a virtual machine in Azure. The team member decides to use the Azure portal to create the virtual machine. Would this suit the purpose
+
+- [x] Yes.
+- [ ] No.
+
+### A team member currently has a laptop that is based on the Android OS. The team member wants to create a virtual machine in Azure. The team member decides to use the PowerApps portal to create the virtual machine. Would this suit the purpose
+
+- [ ] Yes.
+- [x] No.
+
+### You need to work with Azure Cloud Shell. Which of the following icon should you choose to use this tool
+
+- [x] Icon 1.
+- [ ] Icon 2.
+- [ ] Icon 3.
+- [ ] Icon 4.
+
+### Which of the following URL is used to manage the creation of Azure resources
+
+- [ ] https://admin.azure.com
+- [ ] https://admin.azurewebsites.com
+- [ ] https://portal.microsoft.com
+- [ ] https://portal.azurewebsites.com
+- [x] https://portal.azure.com
+
+### You need to create a virtual machine in Azure. Which of the following storage account service is used to store the data disks for the virtual machine
+
+- [x] Blobs.
+- [ ] Files.
+- [ ] Tables.
+- [ ] Queues.
+
+### Your company needs to have a data store in Azure. Below are the key requirements for the data store a) The data store should be capable of storing 10TB of data b) The data would be accessed infrequently c) The data would need to be visualised using PowerBl Which of the following services could you use for this requirement? Choose 2 answers from the options given below
+
+- [ ] Azure SQL database.
+- [x] Azure SQL data warehouse.
+- [x] Azure Data Lake.
+- [ ] Azure CosmosDB.
+
+### You need to deploy several virtual machines to Azure. You need to ensure that you can assign permissions to the virtual machines simultaneously. Which of the following can be implemented to fulfil this requirement
+
+- [ ] Deploy all the virtual machines to the same region.
+- [x] Deploy all the virtual machines to the same resource group.
+- [ ] Deploy all the virtual machines to the same availability zone.
+- [ ] Deploy all the virtual machines to the same scale.
+
+### Which of the following is a benefit of moving on-premise servers to the Azure cloud environment
+
+- [ ] The Azure platform is a public cloud platform wherein all the resources can be accessed by the public.
+- [ ] The Azure platform is a private cloud platform wherein all the resources can be accessed only by a private handful of people.
+- [x] The Azure platform is a shared platform wherein multiple companies can use a portion of the resources on the platform.
+- [ ] The Azure platform is an ecommerce platform wherein users can buy and sell resources as required.
+
+### You have an on-premises network that contains several servers. You plan to migrate all the servers to Azure. You need to recommend a solution to ensure that some of the servers are available if a single Azure data center goes offline for an extended period.
+
+- [x] Fault tolerance.
+- [ ] Elasticity.
+- [ ] Scalability.
+- [ ] Low latency.
+
+### An organization that hosts its infrastructure in a private cloud can close its data center.
+
+- [ ] No change is needed.
+- [ ] In a hybrid cloud.
+- [x] In the public cloud.
+- [ ] On a Hyper-V host.
+
+### What are two characteristics the public cloud? Each correct answer presents a complete solution.
+
+- [x] Unsecured connections.
+- [ ] Limited storage.
+- [ ] Metered pricing.
+- [ ] Self-service management.
+
+### Your company plans to migrate all its data and resources to Azure. The company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure SQL databases. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your company plans to migrate all its data and resources to Azure. The company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company plans to migrate all its data and resources to Azure The company's migration plan atatoa that only Platform as a Scrvice (Paas) solutions muat be uaod in Azure. You need lo deploy an Acure ernvironmenl Uhal meels tUhe company migration plan. Solution: You create an Azure App Service and Azure Storage accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company hosts an accounting application named App1 that is used by all the customers of the company App1 has low usage during the first three weeks of each month and very high usage during the last week of each month. Which benefit of Azure Cloud Services supports cost management for this type of usage pattern?
+
+- [ ] High availability.
+- [ ] High latency.
+- [x] Elasticity.
+- [ ] Load balancing.
+
+### You plan to migrate a web application to Azure. The web application is accessed by external users. You need to recommend a cloud deployment solution to minimize the amount of administrative effort used to manage the web application. What should you include in the recommendation?
+
+- [ ] Software as a Service (SaaS).
+- [x] Platform as a Service (PaaS).
+- [ ] Infrastructure as a Service (laaS).
+- [ ] Database as a Service (DaaS).
+
+### You have an on-premises network that contains 100 servers. You need to recommend a solution that provides additional resources to your users. The solution must minimize capital and operational expenditure costs. What should you include in the recommendation?
+
+- [ ] A complete migration to the public cloud.
+- [ ] An additional data center.
+- [ ] A private cloud.
+- [x] A hybrid cloud.
+
+### You plan to migrate several servers from an on-premises network to Azure. What is an advantage of using a public cloud service for the servers over an on-premises network?
+
+- [ ] The public cloud is owned by the public, NOT a private corporation.
+- [ ] The public cloud is owned by the public, NOT a private corporation.
+- [ ] All public cloud resources can be freely accessed by every member of the public.
+- [x] The public cloud is a shared entity whereby multiple corporations each use a portion of the resources in the cloud.
+
+### You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails, Solution: You deploy the virtual machines to two or more scale sets. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more availability zones. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more regions. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You have 1,000 virtual machines hosted on the Hyper-V hosts in a data center. You plan to migrate all the virtual machines to an Azure pay-as-you-go subscription. You need to identify which expenditure model to use for the planned Azure solution. Which expenditure model should you identify?
+
+- [x] Operational.
+- [ ] Elastic.
+- [ ] Capital.
+- [ ] Acalable.
+
+### The company plans to reduce the following administrative responsibilities of network administrators: • Backing up application data _ Replacing failed server hardware Managing physical server security _ Updating server operating systems • Managing permissions to shared documents The company plans to migrate several servers to Azure virtual machines. You need to identify which administrative responsibilities will be eliminated after the planned migration. Which two responsibilities should you identify? Each correct answer presents a complete solution.
+
+- [x] Replacing failed server hardware.
+- [ ] Backing up application data.
+- [x] Managing physical server security.
+- [ ] Updating server operating systems.
+- [ ] Managing permissions to shared documents.
+
+### You plan to provision Infrastructure as a Service (laaS) resources in Azure. Which resource is an example of laaS?
+
+- [ ] An Azure web app.
+- [x] An Azure virtual machine.
+- [ ] An Azure logic app.
+- [ ] An Azure SQL database.
+
+### A team of developers at your company plans to deploy, and then remove, 50 virtual machines each week. All the virtual machines are configured by using Azure Resource Manager templates. You need to recommend which Azure service will minimize the administrative effort required to deploy and remove the virtual machines. What should you recommend?
+
+- [ ] Azure Reserved Virtual Machine (VM) Instances.
+- [x] Azure DevTest Labs.
+- [ ] Azure virtual machine scale sets.
+- [ ] Microsoft Managed Desktop.
+
+### You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more resource groups. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company plans to migrate all its data and resources to Azure. The company's migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure virtual machines, Azure SQL databases, and Azure Storage accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company plans to deploy several custom applications to Azure. The applications will provide invoicing services to the customers of the company. Each application will have several prerequisite applications and services installed. You need to recommend a cloud deployment solution for all the applications. What should you recommend?
+
+- [ ] Software as a Service (SaaS).
+- [ ] Piatform as a Service (PaaS).
+- [x] Infrastructure as a Service (laas).
+
+### An Azure region contains one or more data centers that are connected by using a low-latency network Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed". If the statement is incorect, select the answer choice that makes the statement correct
+
+- [x] No change is needed.
+- [ ] Is found in each country where Microsoft has a subsidiary office.
+- [ ] Can be found in every country in Europe and the Americas only.
+- [ ] Contains one or more data centers that are connected by using a high-latency network.
+
+### A team of developers at your company plans to deploy, and then remove, 50 customized virtual machines each week. Thirty of the virtual machines run Windows Server 2016 and 20 of the virtual machines run Ubuntu Linux. You need to recommend which Azure service will minimize the administrative effort required to deploy and What should you recommend?
+
+- [ ] Azure Reserved Virtual Machines (VM) Instances.
+- [ ] Azure virtual machine scale sets.
+- [x] Azure DevTest Labs.
+- [ ] Microsoft Managed Desktop.
+
+### One of the benefits of Azure SQL Data Warehouse is that high availability is built into the platform. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed". If the statement makes the statement correct. If incorrect, select the answer choice that the statement correct.
+
+- [x] No change is needed.
+- [ ] Automatic scaling.
+- [ ] Data compression.
+- [ ] Versioning.
+
+### A support engineer plans to perform several Azure management tasks by using the Azure CLI. You install the CLI on a computer. You need to tell the support engineer which tools to use to run the CLI. Which two tools should you instruct the support engineer to use? Each correct answer presents a complete solution.
+
+- [x] Command Prompt.
+- [ ] Azure Resource Explorer.
+- [x] Windowe PowerShell.
+- [ ] Windows Defender Firewall.
+- [ ] Network and Sharing Center.
+
+### You plan to store 20 TB of data in Azure. The data will be accessed infrequently and visualized by using Microsoft Power BI. You need to recommend a storage solution for the data Which two solutions should you recommend? Each correct answer presents a complete solution.
+
+- [x] Azure Data Lake.
+- [ ] Azure Cosmos DB.
+- [x] Azure SOQL Data Warehouse.
+- [ ] Azure SQL Database.
+- [ ] Azure Database for PostgreSQL.
+
+### You need to identify the type of failure for which an Azure Availability Zone can be usod to protect access to Azure services What should you identify?
+
+- [ ] A physical server failure.
+- [ ] An Azure region failure.
+- [ ] A storage failure.
+- [ ] An Azure data center failure.
+
+### You have a virtual machine named VM1 that runs Windows Server 2016. VM1 is in the East US Azure region. Which Azure service should you use from the Azure portal to view service failure notifications that can affect the availability of VM1?
+
+- [ ] Azure Service Fabric.
+- [ ] Azure Monitor.
+- [x] Azure virtual machines.
+- [ ] Azure Advisor.
+
+### An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Solution: Run the script from a computer that runs Linux and has the Azure CLI tools installed. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Solution: Run the script from a computer that runs Chrome OS and uses Azure Cloud Shell Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script Solution: Run the script from a computer that runs macOS and has PowerShell Core 6.0 installed. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure environment that contains 10 virtual networks and 100 virtual machines You need to limit the amount of inbound traffic to al the Anure virtual networke. What should you create?
+
+- [ ] One application necurity group (ASG).
+- [ ] 10 virtual network gateways.
+- [ ] 10 Azure ExpressRoute circults.
+- [x] One Azure firewal.
+
+### You have an Azure environment that contains multiple Azure virtual machines. You plan to implement a solution that enables the client computers on your on-premises network to communicate to the Azure virtual machines. You need to recommend which Azure resources must be created for the planned solution. Which two Azure resources should you include in the recommendation? Each corect answer presents part of the solution.
+
+- [x] A virtual network gateway.
+- [ ] A load balancer.
+- [ ] An application gateway.
+- [ ] A virtual network.
+- [x] A gateway subnet.
+
+### You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. Solution: You use Bash in Azure Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your company plans to move several servers to Azure. The companys compliance policy states that a server named FinServer must be on a separate network segment. You are evaluating which Azure services can be used to meet the compliance policy requirements. Which Azure solution should you recommend?
+
+- [ ] A resource group for FinServer and another resource group for all the other servers.
+- [x] A virtual network for FinServer and another virtual network for all the other servers.
+- [ ] A VPN for FinServer and a virtual natwork gateway for aach nther server.
+- [ ] One resource group for all the servers and a resource lock for FinServer.
+
+### You plan to map a network drive from several computers that run Windows 10 to Azure Storage. You need to create a storage solution in Azure for the planned mapped drive. What should you create?
+
+- [ ] An Azure SQL database.
+- [ ] A virtual machine data disk.
+- [x] A Files service in a storage account.
+- [ ] A Blobs service in a storage account.
+
+### Your company plans to migrate all its network resources to Azure. You need to start the planning process by exploring Azure. What should you create first?
+
+- [x] A subscription.
+- [ ] A resource group.
+- [ ] A virtual network.
+- [ ] A management group.
+
+### You have an on-premises application that sends email notifications automatically based on a rute, You plan to migrate the application to Azure. You need to recommend a serverless computing solution for the applicalion. What should you include in the recommendation?
+
+- [ ] A web app.
+- [ ] A server image in Azure Marketplace.
+- [x] A logic app.
+- [ ] An API app.
+
+### You plan to deploy a website to Azure. The website will be accessed by users worldwide and will host large video files. You need to recommend which Azure feature must be used to provide the best video playback experience. What should you recommend?
+
+- [ ] An application gateway.
+- [ ] An Azure ExpressRoute circuit.
+- [x] A content delivery network (CDN).
+- [ ] An Azure Traffic Manager profile.
+
+### Your company plans to deploy several million sensors that will upload data to Azure. You need to identify which Azure resources must be created to support the planned solution. Which two Azure resources should you identify? Each correct answer presents part of the solution.
+
+- [x] Azure Data Lake.
+- [ ] Azure Queue storage.
+- [ ] Azure File Storage.
+- [x] Azure loT Hub.
+- [ ] Azure Notification Hubs.
+
+### You have an Azure web app. You need to manage the settings of the web app from an iPhone. What are two Azure management tools that you can use? Each correct answer presents a complete solution.
+
+- [ ] Azure CLI.
+- [x] The Azure portal.
+- [x] Azure Cloud Shell.
+- [ ] Windows PowerShell.
+- [ ] Azure Storage Explorer.
+
+### You have an application that is comprised of an Azure web app that has a Service Level Agreement (SLA) of 99.95 percent and an Azure SQL database that has an SLA of 99.99 percent The composite SLA for the application is the product of both SLAS, which equals 99.94 percent. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed", If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] The lowest SLA associated to the application, which is 99.95 percent.
+- [ ] The highest SLA associated to the application, which is 99.99 percent.
+- [ ] The difference between the two SLAS, which is 0.05 percent.
+
+### Company plans to deploy an Artificial Intelligence (AI) solution in Azure. What should the company use to build, test, and deploy predictive analytics solutions?
+
+- [ ] Azure Logic Apps.
+- [x] Azure Machine Learning Studio.
+- [ ] Azure Batch.
+- [ ] Azure Cosmos DB.
+
+### You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keya You need to create VM1 in Subscription1 by using the command. Solution: From the Azure portal, launch Azure Cloud Shell and select PowerShell. Run the command in Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. PE VE Srcate Ecsource group RGI name VM1 mage UbuntuLTE --generate-ssh-keys You need to create VM1 in Subscription1 by using the command. Solution: From a computer that runs Windows 10, install Azure CLI. From PowerShell, sign in to Azure and then run the command. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. ae vm ereate resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh=keys You need to create VM1 in Subscription1 by using the command. Solution: From a computer that runs Windows 10, install Azure CLI. From a command prompt, sign in to Azure and then run the command. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Solution: Run the script from a computer that runs Windows 10 and has the Azure PowerShell module installed. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Which service provides serverless computing in Azure?
+
+- [ ] Azure Virtual Machines.
+- [x] Azure Functions.
+- [ ] Azure storage account.
+- [ ] Azure Container Instances.
+
+### You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-seh-keys You need to create VM1 in Subscription1 by using the command. Solution: From the Azure portal, launch Azure Cloud Shell and select Bash. Run the command in Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your company has several business units. Each business unit requires 20 different Azure resources for daily operation. All the business units require the same type of Azure resources. You need to recommend a solution to automate the creation of the Azure resources. What should you include in the recommendations?
+
+- [x] Azure Resource Manager templates.
+- [ ] Virtual machine scale sets.
+- [ ] The Azure API Management service.
+- [ ] Management groups.
+
+### Which Azure service should you use to collect events from multiple resources into a centralized repository?
+
+- [x] A Azure Event Hubs.
+- [ ] Azure Analysis Services.
+- [ ] Azure Monitor.
+- [ ] Azure Stream Analytics.
+
+### You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. Solution: You use PowerShell in Azure Cloud Shell, Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. Solution: You use the PowerApps portal. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. Solution: You use the Azure portal. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Azure Databricks is an Apache Spark-based analytics service. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed." If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Azure Data Factory.
+- [ ] Azure DevOps.
+- [ ] Azure HDinsight.
+
+### Which Azure service provides a set of version control tools to manage code?
+
+- [x] Azure Repos.
+- [ ] Azure DevTest Labs.
+- [ ] Azure Storage.
+- [ ] Azure Cosmos DB.
+
+### Azure Site Recovery provides fault tolerance for virtual machines: Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed." If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Disaster recovery.
+- [ ] Elasticity.
+- [ ] High availability.
+
+### An Availability Zone in Azure has physically separate locations across two continents Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed." If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [x] Within a single Azure region.
+- [ ] Within multiple Azure regions.
+- [ ] Within a single Azure datacenter.
+
+### Your company plans to migrate all on-premises data to Azure. You need to identify whether Azure complies with the company's regional requirements. What should you use?
+
+- [ ] The Knowledge Center.
+- [ ] Azure Marketplace.
+- [ ] The MyApps portal.
+- [x] The Trust Center.
+
+### Azure Key Vault is used to store secrets for Azure Active Directory (Azure AD) user accounts. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed". If the statement is incorrect, select the answer choice that makes the statement corect.
+
+- [ ] No change is needed.
+- [ ] Azure Active Directory (Azure AD) administrative accounts.
+- [ ] Personally Identifiable Information (PII).
+- [x] Server applications.
+
+### Your company plans to automate the deployment of servers to Azure. Your manager is concerned that you may expose administrative credentials during the deployment. You need to recommend an Azure solution that encrypts the administrative credentials during the deployment. What should you include in the recommendation?
+
+- [x] Azure Key Vault.
+- [ ] Azure Information Protection.
+- [ ] Azure Security Center.
+- [ ] Azure Multi-Factor Authentication (MFA).
+
+### You plan to deploy several Azure virtual machines. You need to control the ports that devices on the Internet can use to access the virtual machines. What should you use?
+
+- [x] a network security group (NSG).
+- [ ] an Azure Active Directory (Azure AD) role.
+- [ ] an Azure Active Directory group.
+- [ ] an Azure key vault.
+
+### Azure Germany can be used by legal residents of Germany only. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed". If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Only cnterprises that arc rogistorod in Germeny.
+- [ ] Only enterprises that purchase their azure licenses from a partner based in Germany.
+- [x] Any user or enterprise that requires its data to reside in Germany.
+
+### After you create a virtual machine, you need to modify the network security group (NSG) to allow connections to TCP port 8080 on the virtual machine. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed". If the statement is incorrect, select the answer choice that makes the statement correct
+
+- [x] No change is needed.
+- [ ] Virtual network gateway.
+- [ ] Virtual network.
+- [ ] Route tabie.
+
+### Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the lnternet over HTTP. Solution. You modify a network security group (NSG). Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 Is accessible from the Internet over HTTP Solution: You modify a DDOS protection plan. Does this meet the goal?
+
+- [ ] Yes.
+- [ ] No.
+
+### Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. Solution: You modify an Azure firewall. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. Solution: You modify an Azure Traffic Manager profile. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Which two types of customers are eligible to use Azure Government to develop a cloud solution?
+
+- [ ] A Canadian government contractor.
+- [ ] A European government contractor.
+- [x] A United States government entity.
+- [x] A United States government contractor.
+- [ ] A European govemment entity.
+
+### You need to ensure that when Azure Active Directory (Azure AD) users connect to Azure AD from the Internet by using an anonymous IP address, the users are prompted automatically to change their password. Which Azure service should you use?
+
+- [ ] Azure AD Connect Health.
+- [ ] Azure AD Privileged Identity Management.
+- [ ] Azure Advanced Threat Protection (ATP).
+- [x] Azure AD ldentity Protection.
+
+### Your company plans to deploy several web servers and several database servers to Azure. You need to recommend an Azure solution to limit the types of connections from the web servers to the database servers. What should you include in the recommendation?
+
+- [x] network security groups (NSGs).
+- [ ] Azure Service Bus.
+- [ ] A local network gateway.
+- [ ] A route filter.
+
+### To what should an application connect to retrieve security tokens?
+
+- [ ] An Azure Storage account.
+- [x] Azure Active Directory (Azure AD).
+- [ ] A certificate store.
+- [ ] An Azure key vault.
+
+### Resource groups provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions.
+
+- [ ] No change is needed.
+- [ ] Management groups.
+- [x] Azure policies.
+- [ ] Azure App Service plans.
+
+### Your network contains an Active Directory forest. The forest contains 5.000 user accounts. Your company plans to migrate all network resources to Azure and to decommission the on-premises data center. You need to recommend a solution to minimize the Impact on users after the planned migration. What should you recommend?
+
+- [ ] Implement Azure Multi-Factor Authentication (MFA).
+- [x] Sync all the Active Directory user accounts to Azure Active Directory (Azure AD).
+- [ ] Instruct all users to change their password.
+- [ ] Create a guest user account in Azure Active Directory (Azure AD) for each user.
+
+### Which service provides network traffic filtering across multiple Azure subscriptions and virtual networks?
+
+- [x] Azure Firewall.
+- [ ] An application security group.
+- [ ] Azure DDOS protection.
+- [ ] A network security group (NSG).
+
+### Which Azure service should you use to store certificates?
+
+- [ ] Azure Security Center.
+- [ ] An Azure Storage account.
+- [x] Azure Key Vault.
+- [ ] Azure Information Protection.
+
+### You have a resource group named RG1. You plan to create virtual networks and app services in RG1. You need to prevent the creation of virtual machines only in RG1. What should you use?
+
+- [ ] A lock.
+- [ ] An Azure role.
+- [ ] A tag.
+- [x] An Azure policy.
+
+### What can Azure Information Protection encrypt?
+
+- [ ] Network traffic.
+- [x] Documents and email messages.
+- [ ] An Azure Storage account.
+- [ ] An Azure SQL database.
+
+### What should you use to evaluate whether your company's Azure environment meets regulatory requirements?
+
+- [ ] The Knowledge Center website.
+- [ ] The Advisor blade from the Azure portal.
+- [x] Compliance Manager from the Service Trust Portal.
+- [ ] The Solutions blade from the Azure portal.
+
+### From Azure Monitor, you can view which user turned off a specific virtual machine during the last 14 days. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed". If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Azure Event Hubs.
+- [x] Azure Activity Log.
+- [ ] Azure Service Health.
+
+### Your company has an Azure subscription that contains resources In several regions. A company policy states that administrators must only be allowed to create additional Azure resources in a region in the country where their office is located. You need to create the Azure resource that must be used to meet the policy requirement. What should you create?
+
+- [ ] A read-only lock.
+- [x] An Azure policy.
+- [ ] A management group.
+- [ ] A reservation.
+
+### From Azure Cloud Shell, you can track your company's regulatory standards and regulations, such as ISO 27001
+
+- [ ] No change is needed.
+- [ ] The Microsoft Cloud Partner Portal.
+- [x] Compliance Manager.
+- [ ] The Trust Center.
+
+### The Microsoft Online Services Privacy Statement explains what data Microsoft processes, how Microsoft processes the data, and the purpose of processing the data.
+
+- [x] No change is needed.
+- [ ] Microsoft Online Services Terms.
+- [ ] Microsoft Online Service Level Agreement.
+- [ ] Online Subscription Agreement for Microsoft Azure.
+
+### You need to configure an Azure solution that meets the following requirements: Secures websites from attacks Generates reports that contain details of attempted attacks What should you include in the solution?
+
+- [ ] Azure Firewall.
+- [ ] A network security group (NSG).
+- [ ] Azure Information Protection.
+- [x] DDOs protection.
+
+### You attempt to create several managed Microsoft SQL Server instances in an Azure environment and receive a message that you must increase your Azure subscription limits. What should you do to increase the limits?
+
+- [ ] Create a service health alert.
+- [ ] Upgrade your support plan.
+- [ ] Modify an Azure policy.
+- [x] Create a new support request.
+
+### Your company has 10 offices. You plan to generate several billing reports from the Azure portal. Each report will contain the Azure resource utilization of each office. Which Azure Resource Manager feature should you use before you generate the reports?
+
+- [x] Tags.
+- [ ] Templates.
+- [ ] Locks.
+- [ ] Policies.
+
+### Your company plans to migrate to Azure. The company has several departments. All the Azure resources used by each department will be managed by a department administrator. What are two possible techniques to segment Azure for the departments? Each correct answer presents a complete solution.
+
+- [x] Multiple subscriptions.
+- [ ] Multiple Azure Active Directory (Azure AD) directories.
+- [ ] Multiple regions.
+- [x] Multiple resource groups.
+
+### If Microsoft plans to end support for an Azure service that does NOT have a successor service, Microsoft provide notification at least 12 months before.
+
+- [x] No change is needed.
+- [ ] 6 months.
+- [ ] 90 days.
+- [ ] 30 days.
+
+### Your company has an Azure subscription that contains the following unused resources: 20 user accounts in Azure Active Directory (Azure AD) Five groups in Azure AD 10 public IP addresses 10 network interfaces You need to reduce the Azure costs for the company. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company has an Azure subscription that contains the following unused 20 user accounts in Azure Active Directory (Azure AD) Five groups In Azure AD 10 public IP addresses 10 network interfaces You need to reduce the Azure costs for the company. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### A support plan solution that gives you best practice information, health status and notifications, and 24/7 access to billing information at the lowest possible cost is a Standard support plan. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed". If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Developer.
+- [x] Basic.
+- [ ] Premier.
+
+### In which Azure support plans can you open a neW support request?
+
+- [ ] Premier and Professional Direct only.
+- [ ] Premier, Professional Direct, and Standard only.
+- [x] Premier, Professional Direct, Standard, and Developer only.
+- [ ] Premier, Professional Direct, Standard, Developer, and Basic.
+
+### You can create an Azure support request from support.microsoft.com
+
+- [ ] No change is needed.
+- [x] The Azure portal.
+- [ ] The Knowledge Center.
+- [ ] The Security & Compliance admin center.
+
+### The Azure Standard support plan is the lowest cost option to receive 24x7 access to support engineers by phone.
+
+- [x] No change is needed.
+- [ ] Developer.
+- [ ] Basic.
+- [ ] Professional Direct.
+
+### All Azure services thal are In public preview are provided without any documentalion
+
+- [ ] No change is needed.
+- [ ] Only configurable from Azure CLI.
+- [x] Excluded from the Service Level Agreements.
+- [ ] Only configurable from the Azure portal.
+
+### What is guaranteed in an Azure Service Level Agreement (SLA) for virtual machines?
+
+- [x] Uptime.
+- [ ] Feature avalability.
+- [ ] Bandwidth.
+- [ ] Performance.
+
+### An Azure service is available to all Azure customers when it is in public preview.
+
+- [x] No change is needed.
+- [ ] Private preview.
+- [ ] Development.
+- [ ] An Enterprise Agreement (EA) subscription.
+
+### Your company plans to purchase an Azure subscription. The company's support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company plans to request an architectural review of an Azure environment from Microsoft. The company currently has a Basic support plan. You need to recommend a new support plan for the company. The solution must minimize costs. Which support plan should you recommend?
+
+- [x] Premier.
+- [ ] Developer.
+- [ ] Professional Direct.
+- [ ] Standard.
+
+### What is required to use Azure Cost Management?
+
+- [ ] A Dev/Test subscription.
+- [ ] Software Assurance.
+- [x] An Enterprise Agreement (EA).
+- [ ] A pay-as-you-go subscription.
+
+### Your Azure trial account expired last week. You are now unable to create additional Azure Active Directory (Azure AD) user accounts.
+
+- [ ] No change is needed.
+- [x] Start an existing Azure virtual machine.
+- [ ] Access your data stored in Azure.
+- [ ] Access the Azure portal.
+
+### Your company plans to purchase an Azure subscription, The company's support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your company has 10 departments. The company plans to implement Azure environment. You need to ensure that each department can use a different payment option for the Azure services it consumes. What should you create for each department?
+
+- [ ] A reservation.
+- [x] A subscription.
+- [ ] A resource group.
+- [ ] A container instance.
+
+### Which statement accurately describes the Modem Lifecycle Policy for Azure services?
+
+- [ ] Microsoft provides mainstream support for a service for five years.
+- [x] Microsoft provides a minimum of 12 months notice before ending support for a service.
+- [ ] After a service is made generally available, Microsoft provides support for the service for a minimum of four years.
+- [ ] When a service is retired, you can purchase extended support for the service for up to five years.
+
+### You can use Advisor recommendations in Azure to send email alerts when the cost of the current billing Azure subscription exceeds a specified limit. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed." If the staterment is incorrect, select the answer choice that makes the statement correct
+
+- [ ] No change is needed.
+- [ ] Access control (LAM).
+- [x] Budget alerts.
+- [ ] Compliance.
+
+### For each of the following statements, select Yes if the statement is true, Otherwise, select No. To implement a hybrid cloud model, a company must first have a private cloud.
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true, Otherwise, select No. A company can extend the computing resources of its internal network by using a hybrnd cloud.
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true, Otherwise, select No. In a public cloud model, only guest users at your company can access the resources in the cloud.
+
+- [ ] Yes.
+- [x] No.
+
+### You have an on-premises network that contains several servers. You plan to migrate all the servers to Azure. You need to recommend a solution to ensure that some of the servers are available if a single Azure data center goes offline for an extended period. What should you include in the recommendation?
+
+- [x] Fault tolerance.
+- [ ] Elasticity.
+- [ ] Scalability.
+- [ ] Low latency.
+
+### An organization that hosts its infrastructure [in a private cloud] can close its data center. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] In a hybrid cloud.
+- [x] In the public cloud.
+- [ ] On a Hyper-V host.
+
+### What are two characteristics of the public cloud? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [ ] Dedicated hardware.
+- [ ] Unsecured connections.
+- [ ] Limited storage.
+- [x] Metered pricing.
+- [x] Self-service management.
+
+### Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure SQL databases. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure Storage accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company hosts an accounting application named App1 that is used by all the customers of the company. App1 has low usage during the first three weeks of each month and very high usage during the last week of each month. Which benefit of Azure Cloud Services supports cost management for this type of usage pattern?
+
+- [ ] High availability.
+- [ ] High latency.
+- [x] Elasticity.
+- [ ] Load balancing.
+
+### You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more scale sets. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company has an on-premises network that contains multiple servers. The company plans to reduce the following administrative responsibilities of network administrators: Backing up application data Replacing failed server hardware Managing physical server security Updating server operating systems Managing permissions to shared documents The company plans to migrate several servers to Azure virtual machines. You need to identify which administrative responsibilities will be eliminated after the planned migration. Which two responsibilities should you identify? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [x] Replacing failed server hardware.
+- [ ] Backing up application data.
+- [x] Managing physical server security.
+- [ ] Updating server operating systems.
+- [ ] Managing permissions to shared documents.
+
+### You plan to provision Infrastructure as a Service (IaaS) resources in Azure. Which resource is an example of IaaS?
+
+- [ ] An Azure web app.
+- [x] An Azure virtual machine.
+- [ ] An Azure logic app.
+- [ ] An Azure SQL database.
+
+### Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure virtual machines, Azure SQL databases, and Azure Storage accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### An Azure region [contains one or more data centers that are connected by using a low-latency network.] Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Is found in each country where Microsoft has a subsidiary office.
+- [ ] Can be found in every country in Europe and the Americas only.
+- [ ] Contains one or more data centers that are connected by using a high-latency network.
+
+### A team of developers at your company plans to deploy, and then remove, 50 customized virtual machines each week. Thirty of the virtual machines run Windows Server 2016 and 20 of the virtual machines run Ubuntu Linux. You need to recommend which Azure service will minimize the administrative effort required to deploy and remove the virtual machines. What should you recommend?
+
+- [ ] Azure Reserved Virtual Machines (VM) Instances.
+- [ ] Azure virtual machine scale sets.
+- [x] Azure DevTest Labs.
+- [ ] Microsoft Managed Desktop.
+
+### One of the benefits of Azure SQL Data Warehouse is that [high availability] is built into the platform. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Automatic scaling.
+- [ ] Data compression.
+- [ ] Versioning.
+
+### You plan to store 20 TB of data in Azure. The data will be accessed infrequently and visualized by using Microsoft Power BI. You need to recommend a storage solution for the data. Which two solutions should you recommend? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [x] Azure Data Lake.
+- [ ] Azure Cosmos DB.
+- [x] Azure SQL Data Warehouse.
+- [ ] Azure SQL Database.
+- [ ] Azure Database for PostgreSQL.
+
+### You need to identify the type of failure for which an Azure Availability Zone can be used to protect access to Azure services. What should you identify?
+
+- [ ] A physical server failure.
+- [ ] An Azure region failure.
+- [ ] A storage failure.
+- [x] An Azure data center failure.
+
+### An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Solution: Run the script from a computer that runs Chrome OS and uses Azure Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Solution: Run the script from a computer that runs macOS and has PowerShell Core 6.0 installed. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure environment that contains 10 virtual networks and 100 virtual machines. You need to limit the amount of inbound traffic to all the Azure virtual networks. What should you create?
+
+- [ ] One application security group (ASG).
+- [ ] 10 virtual network gateways.
+- [ ] 10 Azure ExpressRoute circuits.
+- [x] One Azure firewall.
+
+### You have an Azure environment that contains multiple Azure virtual machines. You plan to implement a solution that enables the client computers on your on-premises network to communicate to the Azure virtual machines. You need to recommend which Azure resources must be created for the planned solution. Which two Azure resources should you include in the recommendation? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+
+- [x] A virtual network gateway.
+- [ ] A load balancer.
+- [ ] An application gateway.
+- [ ] A virtual network.
+- [x] A gateway subnet.
+
+### Your company plans to move several servers to Azure. The company’s compliance policy states that a server named FinServer must be on a separate network segment. You are evaluating which Azure services can be used to meet the compliance policy requirements. Which Azure solution should you recommend?
+
+- [ ] A resource group for FinServer and another resource group for all the other servers.
+- [x] A virtual network for FinServer and another virtual network for all the other servers.
+- [ ] A VPN for FinServer and a virtual network gateway for each other server.
+- [ ] One resource group for all the servers and a resource lock for FinServer.
+
+### You have an on-premises application that sends email notifications automatically based on a rule. You plan to migrate the application to Azure. You need to recommend a serverless computing solution for the application. What should you include in the recommendation?
+
+- [ ] A web app.
+- [ ] A server image in Azure Marketplace.
+- [x] A logic app.
+- [ ] An API app.
+
+### You have an application that is comprised of an Azure web app that has a Service Level Agreement (SLA) of 99.95 percent and an Azure SQL database that has an SLA of 99.99 percent. The composite SLA for the application is [the product of both SLAs, which equals 99.94 percent.] Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] The lowest SLA associated to the application, which is 99.95 percent.
+- [ ] The highest SLA associated to the application, which is 99.99 percent.
+- [ ] The difference between the two SLAs, which is 0.05 percent.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-sshkeys You need to create VM1 in Subscription1 by using the command. Solution: From the Azure portal, launch Azure Cloud Shell and select PowerShell. Run the command in Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys You need to create VM1 in Subscription1 by using the command. Solution: From a computer that runs Windows 10, install Azure CLI. From PowerShell, sign in to Azure and then run the command. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys You need to create VM1 in Subscription1 by using the command. Solution: From a computer that runs Windows 10, install Azure CLI. From a command prompt, sign in to Azure and then run the command. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-sshkeys You need to create VM1 in Subscription1 by using the command. Solution: From the Azure portal, launch Azure Cloud Shell and select Bash. Run the command in Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. Solution: You use PowerShell in Azure Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### [Azure Databricks] is an Apache Spark-based analytics service. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Azure Data Factory.
+- [ ] Azure DevOps.
+- [ ] Azure HDInsight.
+
+### Azure Site Recovery provides [fault tolerance] for virtual machines. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [x] Disaster recovery.
+- [ ] Elasticity.
+- [ ] High availability.
+
+### An Availability Zone in Azure has physically separate locations [across two continents.] Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Within a single Azure region.
+- [ ] Within multiple Azure regions.
+- [ ] Within a single Azure datacenter.
+
+### Your company plans to migrate all on-premises data to Azure. You need to identify whether Azure complies with the company’s regional requirements. What should you use?
+
+- [ ] The Knowledge Center.
+- [ ] Azure Marketplace.
+- [ ] The MyApps portal.
+- [x] The Trust Center.
+
+### Azure Key Vault is used to store secrets for [Azure Active Directory (Azure AD) user accounts.] Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Azure Active Directory (Azure AD) administrative accounts.
+- [ ] Personally Identifiable Information (PII).
+- [x] Server applications.
+
+### After you create a virtual machine, you need to modify the [network security group (NSG)] to allow connections to TCP port 8080 on the virtual machine. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Virtual network gateway.
+- [ ] Virtual network.
+- [ ] Route table.
+
+### Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. Solution: You modify a network security group (NSG). Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. Solution: You modify a DDoS protection plan. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### [Resource groups] provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Management groups.
+- [x] Azure policies.
+- [ ] Azure App Service plans.
+
+### Your network contains an Active Directory forest. The forest contains 5,000 user accounts. Your company plans to migrate all network resources to Azure and to decommission the on-premises data center. You need to recommend a solution to minimize the impact on users after the planned migration. What should you recommend?
+
+- [ ] Implement Azure Multi-Factor Authentication (MFA).
+- [x] Sync all the Active Directory user accounts to Azure Active Directory (Azure AD).
+- [ ] Instruct all users to change their password.
+- [ ] Create a guest user account in Azure Active Directory (Azure AD) for each user.
+
+### What should you use to evaluate whether your company’s Azure environment meets regulatory requirements?
+
+- [ ] The Knowledge Center website.
+- [ ] The Advisor blade from the Azure portal.
+- [x] Compliance Manager from the Service Trust Portal.
+- [ ] The Security Center blade from the Azure portal.
+
+### From [Azure Monitor], you can view which user turned off a specific virtual machine during the last 14 days. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Azure Event Hubs.
+- [x] Azure Activity Log.
+- [ ] Azure Service Health.
+
+### From [Azure Cloud Shell], you can track your company’s regulatory standards and regulations, such as ISO 27001. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] The Microsoft Cloud Partner Portal.
+- [x] Compliance Manager.
+- [ ] The Trust Center.
+
+### The [Microsoft Online Services Privacy Statement] explains what data Microsoft processes, how Microsoft processes the data, and the purpose of processing the data. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Microsoft Online Services Terms.
+- [ ] Microsoft Online Service Level Agreement.
+- [ ] Online Subscription Agreement for Microsoft Azure.
+
+### If Microsoft plans to end support for an Azure service that does NOT have a successor service, Microsoft will provide notification at least [12 months] before. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] 6 months.
+- [ ] 90 days.
+- [ ] 30 days.
+
+### Your company has an Azure subscription that contains the following unused resources: 20 user accounts in Azure Active Directory (Azure AD) Five groups in Azure AD 10 public IP addresses 10 network interfaces You need to reduce the Azure costs for the company. Solution: You remove the unused network interfaces. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your company has an Azure subscription that contains the following unused resources: 20 user accounts in Azure Active Directory (Azure AD) Five groups in Azure AD 10 public IP addresses 10 network interfaces You need to reduce the Azure costs for the company. Solution: You remove the unused public IP addresses. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your company has an Azure subscription that contains the following unused resources: 20 user accounts in Azure Active Directory (Azure AD) Five groups in Azure AD 10 public IP addresses 10 network interfaces You need to reduce the Azure costs for the company. Solution: You remove the unused user accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### A support plan solution that gives you best practice information, health status and notifications, and 24/7 access to billing information at the lowest possible cost is a [Standard] support plan. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Developer.
+- [x] Basic.
+- [ ] Premier.
+
+### You can create an Azure support request from [support.microsoft.com.] Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] The Azure portal.
+- [ ] The Knowledge Center.
+- [ ] The Security & Compliance admin center.
+
+### Your company has an Azure subscription that contains the following unused resources: 20 user accounts in Azure Active Directory (Azure AD) Five groups in Azure AD 10 public IP addresses 10 network interfaces You need to reduce the Azure costs for the company. Solution: You remove the unused groups. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### The Azure [Standard] support plan is the lowest cost option to receive 24×7 access to support engineers by phone. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Developer.
+- [ ] Basic.
+- [ ] Professional Direct.
+
+### All Azure services that are in public preview are [provided without any documentation.] Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Only configurable from Azure CLI.
+- [x] Excluded from the Service Level Agreements.
+- [ ] Only configurable from the Azure portal.
+
+### An Azure service is available to all Azure customers when it is in [public preview.] Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Private preview.
+- [ ] Development.
+- [ ] An Enterprise Agreement (EA) subscription.
+
+### Your company plans to purchase an Azure subscription. The company’s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Basic support plan. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has an on-premises network with numerous servers, which they intend to migrate to Azure. You have been tasked with devising a plan that allows for the availability of a few of the servers, in the event that one of the Azure data centers becomes unavailable for a lengthy interval. Solution: You should include elasticity in your plan. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has an on-premises network with numerous servers, which they intend to migrate to Azure. You have been tasked with devising a plan that allows for the availability of a few of the servers, in the event that one of the Azure data centers becomes unavailable for a lengthy interval. Solution: You should include scalability in your plan. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has an on-premises network with numerous servers, which they intend to migrate to Azure. You have been tasked with devising a plan that allows for the availability of a few of the servers, in the event that one of the Azure data centers becomes unavailable for a lengthy interval. Solution: You should include fault tolerance in your plan. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Software as a Service (SaaS). Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Platform as a Service (PaaS). Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are tasked with deploying Azure virtual machines for your company. You need to make use of the appropriate cloud deployment solution. Solution: You should make use of Infrastructure as a Service (IaaS). Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s on-premises network includes a large number of servers. They would like to make extra resources available to their users, while keeping capital and operational overheads to a minimum. You are required to make recommendations that should be included in the overall solution. Solution: You should indorse the use of an added data center as part of the solution. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s on-premises network includes a large number of servers. They would like to make extra resources available to their users, while keeping capital and operational overheads to a minimum. You are required to make recommendations that should be included in the overall solution. Solution: You should indorse the use of a hybrid cloud as part of the solution. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s on-premises network includes a large number of servers. They would like to make extra resources available to their users, while keeping capital and operational overheads to a minimum. You are required to make recommendations that should be included in the overall solution. Solution: You should indorse the use of a private cloud as part of the solution. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently hosted on the Hyper-V hosts in a data center. You are required make sure that the intended Azure solution uses the correct expenditure model. Solution: You should recommend the use of the elastic expenditure model. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently hosted on the Hyper-V hosts in a data center. You are required make sure that the intended Azure solution uses the correct expenditure model. Solution: You should recommend the use of the scalable expenditure model. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company is planning to migrate all their virtual machines to an Azure pay-as-you-go subscription. The virtual machines are currently hosted on the Hyper-V hosts in a data center. You are required make sure that the intended Azure solution uses the correct expenditure model. Solution: You should recommend the use of the operational expenditure model. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are required to deploy an Artificial Intelligence (AI) solution in Azure. You want to make sure that you are able to build, test, and deploy predictive analytics for the solution. Solution: You should make use of Azure Cosmos DB. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are required to deploy an Artificial Intelligence (AI) solution in Azure. You want to make sure that you are able to build, test, and deploy predictive analytics for the solution. Solution: You should make use of Azure Logic Apps. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are required to deploy an Artificial Intelligence (AI) solution in Azure. You want to make sure that you are able to build, test, and deploy predictive analytics for the solution. Solution: You should make use of Azure Machine Learning Studio. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure API Management service be included in the strategy. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that management groups be included in the strategy. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure Resource Manager templates be included in the strategy. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. Solution: You include two virtual machines and one availability zone in your strategy. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. Solution: You include one virtual machine and two availability zones in your strategy. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are tasked with deploying a critical LOB application, which will be installed on a virtual machine, to Azure. You are informed that the application deployment strategy should allow for a guaranteed availability of 99.99 percent. You need to make sure that the strategy requires as little virtual machines and availability zones as possible. Solution: You include two virtual machines and two availability zones in your strategy. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: you recommend the use of Microsoft Managed Desktop. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: you recommend the use of Azure Reserved Virtual Machines (VM) Instances.
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: you recommend the use of Azure DevTest Labs. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your company has virtual machines (VMs) hosted in Microsoft Azure. The VMs are located in a single Azure virtual network named VNet1. The company has users that work remotely. The remote workers require access to the VMs on VNet1. You need to provide access for the remote workers. What should you do?
+
+- [ ] Configure a Site-to-Site (S2S) VPN.
+- [ ] Configure a VNet-toVNet VPN.
+- [x] Configure a Point-to-Site (P2S) VPN.
+- [ ] Configure DirectAccess on a Windows Server 2012 server VM.
+- [ ] Configure a Multi-Site VPN.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the companyג€™s intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Information Protection. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the companyג€™s intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Key Vault. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the companyג€™s intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Multi-Factor Authentication (MFA). Does the solution meet the goal?
+
+- [ ] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet. You have been tasked with making sure that users who connect to Azure AD via the internet from an unidentified IP address, are automatically encouraged to change passwords. Solution: You configure the use of Azure Key Vault. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet. You have been tasked with making sure that users who connect to Azure AD via the internet from an unidentified IP address, are automatically encouraged to change passwords. Solution: You configure the use of Azure AD Identity Protection. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet. You have been tasked with making sure that users who connect to Azure AD via the internet from an unidentified IP address, are automatically encouraged to change passwords. Solution: You configure the use of Azure AD Privileged Identity Management. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning a strategy to deploy numerous web servers and database servers to Azure. This strategy should allow for connection types between the web servers and database servers to be controlled. Solution: You include the Azure Service Bus in your strategy. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning a strategy to deploy numerous web servers and database servers to Azure. This strategy should allow for connection types between the web servers and database servers to be controlled. Solution: You include network security groups (NSGs) in your strategy. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning a strategy to deploy numerous web servers and database servers to Azure. This strategy should allow for connection types between the web servers and database servers to be controlled. Solution: You include a local network gateway in your strategy. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to require Azure Multi-Factor Authentication (MFA). Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to sync all the Active Directory user accounts to Azure Active Directory (Azure AD). Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to enforce password change. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Your developers have created 10 web applications that must be host on Azure. You need to determine which Azure web tier plan to host the web apps. The web tier plan must meet the following requirements: The web apps will use custom domains. The web apps each require 10 GB of storage. The web apps must each run in dedicated compute instances. Load balancing between instances must be included. Costs must be minimized. Which web tier plan should you use?
+
+- [ ] Standard.
+- [x] Basic.
+- [ ] Free.
+- [ ] Shared.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are currently trying to generate a number of managed Microsoft SQL Server instances in an Azure environment. During the process, you are presented with a notification informing you that the Azure subscription limits must be increased. You want to make sure that you can complete your task. Solution: You generate a service health alert. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are currently trying to generate a number of managed Microsoft SQL Server instances in an Azure environment. During the process, you are presented with a notification informing you that the Azure subscription limits must be increased. You want to make sure that you can complete your task. Solution: You alter an Azure policy. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are currently trying to generate a number of managed Microsoft SQL Server instances in an Azure environment. During the process, you are presented with a notification informing you that the Azure subscription limits must be increased. You want to make sure that you can complete your task. Solution: You generate a new support request. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning to migrate a company to Azure. Each of the companyג€™s numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several Azure Active Directory (Azure AD) directories. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning to migrate a company to Azure. Each of the companyג€™s numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several resource groups. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning to migrate a company to Azure. Each of the companyג€™s numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several subscriptions. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your developers have created a portal web app for users in the Miami branch office. The web app will be publicly accessible and used by the Miami users to retrieve customer and product information. The web app is currently running in an on-premises test environment. You plan to host the web app on Azure. You need to determine which Azure web tier plan to host the web app. The web tier plan must meet the following requirements: The website will use the miami.weyland.com URL. The website will be deployed to two instances. SSL support must be included. The website requires 12 GB of storage. Costs must be minimized. Which web tier plan should you use?
+
+- [ ] Standard.
+- [ ] Basic.
+- [ ] Free.
+- [ ] Shared.
+
+### Your company has datacenters in Los Angeles and New York. The company has a Microsoft Azure subscription. You are configuring the two datacenters as geo-clustered sites for site resiliency. You need to recommend an Azure storage redundancy option. You have the following data storage requirements: Data must be stored on multiple nodes. Data must be stored on nodes in separate geographic locations. Data can be read from the secondary location as well as from the primary location Which of the following Azure stored redundancy options should you recommend?
+
+- [ ] Geo-redundant storage.
+- [x] Read-only geo-redundant storage.
+- [ ] Zone-redundant storage.
+- [ ] Locally redundant storage.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environmentג€™s design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Standard support plan. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environmentג€™s design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Professional Direct support plan. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environmentג€™s design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Premier support plan. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. A company that has numerous divisions is planning to deploy an Azure environment. The company would like each divisionג€™s option to pay for the Azure services it utilizes, not be the same. You have been asked to recommend a solution to meet the requirements. Solution: You recommend that an Azure role be created for each division. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. A company that has numerous divisions is planning to deploy an Azure environment. The company would like each divisionג€™s option to pay for the Azure services it utilizes, not be the same. You have been asked to recommend a solution to meet the requirements. Solution: You recommend that an Azure policy be created for each division. Does the solution meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. A company that has numerous divisions is planning to deploy an Azure environment. The company would like each divisionג€™s option to pay for the Azure services it utilizes, not be the same. You have been asked to recommend a solution to meet the requirements. Solution: You recommend that a subscription be created for each division. Does the solution meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### An Azure subscription can be associated to multiple Azure Active Directory (Azure AD) tenants.
+
+- [ ] Yes.
+- [x] No.
+
+#### You can change the Azure Active Directory (Azure AD) tenant to which an Azure subscription is associated
+
+- [x] Yes.
+- [ ] No.
+
+#### When an Azure subscription expires, the associated Azure Active Directory (Azure AD) tenant is deleted automatically
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. Resource groups provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions.bInstructions: Review the underlined text. If it makes the statement correct, select ג€No change is neededג€. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Management groups.
+- [x] Azure policies.
+- [ ] Azure App Service plans.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### A single Microsoft account can be used to manage multiple Azure subscriptions
+
+- [x] Yes.
+- [ ] No.
+
+#### Two Azure subscriptions can be merged into a single subscription
+
+- [ ] Yes.
+- [x] No.
+
+#### A company can use resources from multiple subscriptions
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Availability zones can be implemented in all Azure regions
+
+- [ ] Yes.
+- [x] No.
+
+#### Only virtual machines that run Windows Server can be created in availability zones
+
+- [ ] Yes.
+- [x] No.
+
+#### Availability zones are used to replicate data and applications to multiple regions
+
+- [ ] Yes.
+- [x] No.
+
+### You plan to create an Azure virtual machine. You need to identify which storage service must be used to store the unmanaged data disks of the virtual machine. What should you identify? To answer, select the appropriate service in the answer area. Hot Area:
+
+- [x] Containers.
+- [ ] File shares.
+- [ ] Tables.
+- [ ] Queues.
+
+### Your company plans to move several servers to Azure. The companyג€™s compliance policy states that a server named FinServer must be on a separate network segment. You are evaluating which Azure services can be used to meet the compliance policy requirements. Which Azure solution should you recommend?
+
+- [ ] A resource group for FinServer and another resource group for all the other servers.
+- [x] A virtual network for FinServer and another virtual network for all the other servers.
+- [ ] A VPN for FinServer and a virtual network gateway for each other server.
+- [ ] One resource group for all the servers and a resource lock for FinServer.
+
+### You plan to implement an Azure database solution. You need to implement a database solution that meets the following requirements: ✑ Can add data concurrently from multiple regions ✑ Can store JSON documents Which database service should you deploy? To answer, select the appropriate service in the answer area. Hot Area:
+
+- [x] Azure Cosmos DB.
+- [ ] SQL databases.
+- [ ] Azure Database for MYSQL servers.
+- [ ] Azure Database for PostgreSQL servers.
+- [ ] Azure Database for NariaDB servers.
+- [ ] SQL servers.
+- [ ] SQL Data warehouses.
+- [ ] Azure Database Migration Services.
+- [ ] Azure Cache for Redis.
+- [ ] SQL Server stretch databases.
+- [ ] Data factories.
+- [ ] SQL elastic pools.
+- [ ] Virlual Clusters.
+- [ ] Managed databases.
+- [ ] Elastic Job agents.
+- [ ] SQL managed instances.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### All the Azure resources deployed to a resource group must use the same Azure region
+
+- [ ] Yes.
+- [x] No.
+
+#### If you assign a tag to a resource group, all the Azure resources in that resource group are assigned to the same tag
+
+- [ ] Yes.
+- [x] No.
+
+#### If you assign permissions for a user to manage a resource group, the user can manage all the Azure resources in that resource group
+
+- [x] Yes.
+- [ ] No.
+
+### You plan to deploy a critical line-of-business application to Azure. The application will run on an Azure virtual machine. You need to recommend a deployment solution for the application. The solution must provide a guaranteed availability of 99.99 percent. What is the minimum number of virtual machines and the minimum number of availability zones you should recommend for the deployment? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Minimum number of virtual machines:
+
+- [ ] 1.
+- [x] 2.
+- [ ] 3.
+
+#### Minimum number of availability zones:
+
+- [ ] 1.
+- [x] 2.
+- [ ] 3.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: An Availability Zone in Azure has physically separate locations
+
+- [ ] Across two continents.
+- [x] Within a single Azure region.
+- [ ] Within multiple Azure regions.
+- [ ] Within a single Azure datacenter.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Data that is stored in an Azure Storage account automatically has at least three copies
+
+- [x] Yes.
+- [ ] No.
+
+#### All data that is copied to an Azure Storage account is backed up automatically to another Azure data center
+
+- [ ] Yes.
+- [x] No.
+
+#### An Azure Storage account can contain up to 2 TB of data and up to one million files
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### If you have Azure resources deployed to every region, you can implement availability zones in all the regions
+
+- [ ] Yes.
+- [x] No.
+
+#### Only virtual machines that run Windows Server can be created in availability zones
+
+- [ ] Yes.
+- [x] No.
+
+#### Availability zones are used to replicate data and applications to multiple regions
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### North America is represented by a single Azure region
+
+- [ ] Yes.
+- [x] No.
+
+#### Every Azure region has multiple datacenters
+
+- [x] Yes.
+- [ ] No.
+
+#### Data transfers between Azure services located in different Azure regions are always free
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more scale sets. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You need to be notified when Microsoft plans to perform maintenance that can affect the resources deployed to an Azure subscription. What should you use?
+
+- [ ] Azure Monitor.
+- [x] Azure Service Health.
+- [ ] Azure Advisor.
+- [ ] Microsoft Trust Center.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### A Windows Virtual Desktop session host can run Windows 10 only
+
+- [ ] Yes.
+- [x] No.
+
+#### A Windows Virtual Desktop host pool that includes 20 session hosts supports a maximum of 20 simultaneous user connections
+
+- [ ] Yes.
+- [x] No.
+
+#### Windows Virtual Desktop supports desktop and app virtualization
+
+- [x] Yes.
+- [ ] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area:
+
+- [ ] The Azure Migrate: Server Assessment tool.
+- [x] The Azure Total Cost of Ownership (TCO) calculator.
+- [ ] The Database Migration Assistant.
+- [ ] The pricing calculator in Azure.
+
+#### You can use Availability Zones in Azure to protect Azure virtual machines from a datacenter failure
+
+- [x] Yes.
+- [ ] No.
+
+#### You can use Availability Zones in Azure to protect Azure virtual machines from a region failure
+
+- [ ] Yes.
+- [x] No.
+
+#### c) You can use Availability Zones in Azure to protect Azure managed disks from a datacenter failure
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### An Azure subscription can have multiple account administrators
+
+- [ ] Yes.
+- [x] No.
+
+#### An Azure subscription can be managed by using a Microsoft account only
+
+- [x] Yes.
+- [ ] No.
+
+#### c) An Azure resource group can contain multiple Azure subscriptions
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. An Azure region contains one or more data centers that are connected by using a low-latency network. Instructions: Review the underlined text. If it makes the statement correct, select ג€No change is neededג€. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Is found in each country where Microsoft has a subsidiary office.
+- [ ] Can be found in every country in Europe and the Americas only.
+- [ ] Contains one or more data centers that are connected by using a high-latency network.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### To use Azure Active Directory (Azure AD) credentials to sign in to a computer that runs Windows 10, the computer must be joined to Azure AD
+
+- [x] Yes.
+- [ ] No.
+
+#### Users in Azure Active Directory (Azure AD) are organized by using resource groups
+
+- [ ] Yes.
+- [x] No.
+
+#### Azure Active Directory (Azure AD) groups support dynamic membership rules
+
+- [x] Yes.
+- [ ] No.
+
+### You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines remain available if a single data center fails. What are two possible solutions? Each correct answer presents a complete solution
+
+- [x] Deploy the virtual machines to two or more availability zones.
+- [ ] Deploy the virtual machines to two or more resource groups.
+- [ ] Deploy the virtual machines to a scale set.
+- [x] Deploy the virtual machines to two or more regions.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys You need to create VM1 in Subscription1 by using the command. Solution: From the Azure portal, launch Azure Cloud Shell and select Bash. Run the command in Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. Solution: You use PowerShell in Azure Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area:
+
+- [x] Azure Databricks.
+- [ ] Azure Data Factory.
+- [ ] Azure DevOps.
+- [ ] Azure HDInsight.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Azure Monitor can monitor the performance of on-premises computers
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure Monitor can send alerts to Azure Active Directory security groups
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure Monitor can trigger alerts based on data in an Azure Log Analytics workspace
+
+- [x] Yes.
+- [ ] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Solution: Run the script from a computer that runs Chrome OS and uses Azure Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### From Azure Service Health, an administrator can view the health of all the services in an Azure environment
+
+- [x] Yes.
+- [ ] No.
+
+#### From Azure Service Health, an administrator can create a rule to be alerted if an Azure service fails
+
+- [x] Yes.
+- [ ] No.
+
+#### From Azure Service Health, an administrator can prevent a service failure
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Solution: Run the script from a computer that runs macOS and has PowerShell Core 6.0 installed. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You need to identify which blades in the Azure portal must be used to perform the following tasks: View security recommendations. Monitor the health of Azure services. Browse available virtual machine images. Which blade should you identify for each task? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Monitor the health of Azure services
+
+- [x] Monitor.
+- [ ] Subscriptions.
+- [ ] Marketplace.
+- [ ] Advisor.
+
+#### Browse available virtual machine images
+
+- [ ] Monitor.
+- [ ] Subscriptions.
+- [x] Marketplace.
+- [ ] Advisor.
+
+#### View security recommendations
+
+- [ ] Monitor.
+- [ ] Subscriptions.
+- [ ] Marketplace.
+- [x] Advisor.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. Solution: You use Bash in Azure Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Azure Advisor can generate a list of Azure virtual machines that are protected by Azure Backup
+
+- [ ] Yes.
+- [x] No.
+
+#### If you implement the security recommendations provided by Azure Advisor, your company's secure score will decrease
+
+- [ ] Yes.
+- [x] No.
+
+#### To maintain Microsoft support, you must implement the security recommendations provided by Azure Advisor within a period of 30 days
+
+- [ ] Yes.
+- [x] No.
+
+### What can you use to automatically send an alert if an administrator stops an Azure virtual machine?
+
+- [ ] Azure Advisor.
+- [ ] Azure Service Health.
+- [x] Azure Monitor.
+- [ ] Azure Network Watcher.
+
+### You have an Azure environment. You need to create a new Azure virtual machine from a tablet that runs the Android operating system. What are three possible solutions? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [x] Use Bash in Azure Cloud Shell.
+- [x] Use PowerShell in Azure Cloud Shell.
+- [ ] Use the PowerApps portal.
+- [ ] Use the Security & Compliance admin center.
+- [x] Use the Azure portal.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Azure Advisor provides recommendations on how to improve the security of an Azure Active Directory (Azure AD) environment
+
+- [ ] Yes.
+- [x] No.
+
+#### Azure Advisor provides recommendations on how to reduce the cost of running Azure virtual machines
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure Advisor provides recommendations on how to configure the network settings on Azure virtual machines
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys You need to create VM1 in Subscription1 by using the command. Solution: From the Azure portal, launch Azure Cloud Shell and select PowerShell. Run the command in Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys You need to create VM1 in Subscription1 by using the command. Solution: From a computer that runs Windows 10, install Azure CLI. From PowerShell, sign in to Azure and then run the command. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create --resource-group RG1 --name VM1 --image UbuntuLTS --generate-ssh-keys You need to create VM1 in Subscription1 by using the command. Solution: From a computer that runs Windows 10, install Azure CLI. From a command prompt, sign in to Azure and then run the command. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Several support engineers plan to manage Azure by using the computers shown in the following table: Computer1-Windows 10; Computer2-Ubuntu; Computer3 MacOS Mojave. You need to identify which Azure management tools can be used from each computer. What should you identify for each computer? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Computer1
+
+- [ ] The Azure CLI and the Azure portal.
+- [ ] The Azure portal and Azure PowerShell.
+- [ ] The Azure CLI and Azure PowerShell.
+- [x] The Azure CLI, the Azure portal, and Azure PowerShell.
+
+#### Computer2
+
+- [ ] The Azure CLI and the Azure portal.
+- [ ] The Azure portal and Azure PowerShell.
+- [ ] The Azure CLI and Azure PowerShell.
+- [x] The Azure CLI, the Azure portal, and Azure PowerShell.
+
+#### c) Computer3
+
+- [ ] The Azure CLI and the Azure portal.
+- [ ] The Azure portal and Azure PowerShell.
+- [ ] The Azure CLI and Azure PowerShell.
+- [x] The Azure CLI, the Azure portal, and Azure PowerShell.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: You can access Compliance Manager from the
+
+- [ ] Azure Active Directory admin center.
+- [x] Azure portal.
+- [ ] Microsoft 365 admin center.
+- [ ] Microsoft Service Trust Portal.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area:
+
+- [ ] Azure policies provide.
+- [ ] Resource groups provide.
+- [x] Azure Resource Manager templates provide.
+- [ ] Management groups provide.
+
+### An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Which three computers can run the script? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [x] A computer that runs macOS and has PowerShell Core 6.0 installed.
+- [x] A computer that runs Windows 10 and has the Azure PowerShell module installed.
+- [ ] A computer that runs Linux and has the Azure PowerShell module installed.
+- [ ] A computer that runs Linux and has the Azure CLI tools installed.
+- [x] A computer that runs Chrome OS and uses Azure Cloud Shell.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Azure Firewall will encrypt all the network traffic sent from Azure the Internet
+
+- [ ] Yes.
+- [x] No.
+
+#### A network security group (NSG) will encrypt all the network traffic sent from Azure to the Internet
+
+- [ ] Yes.
+- [x] No.
+
+#### Azure virtual machines that run Windows Server 2016 can encrypt network traffic sent to the Internet
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Azure Security Center can monitor Azure resources and on- premises resources
+
+- [x] Yes.
+- [ ] No.
+
+#### All Azure Security Center features are free
+
+- [ ] Yes.
+- [x] No.
+
+#### From Azure Security Center, you can download a Regulatory Compliance report.
+
+- [x] Yes.
+- [ ] No.
+
+### You need to configure an Azure solution that meets the following requirements: Secures websites from attacks - ✑ Generates reports that contain details of attempted attacks What should you include in the solution?
+
+- [ ] Azure Firewall.
+- [ ] A network security group (NSG).
+- [ ] Azure Information Protection.
+- [x] DDoS protection.
+
+### You plan to implement several security services for an Azure environment. You need to identify which Azure services must be used to meet the following security requirements: ✑ Monitor threats by using sensors ✑ Enforce Azure Multi-Factor Authentication (MFA) based on a condition Which Azure service should you identify for each requirement? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Monitor threats by using sensors:
+
+- [ ] Azure Monitor.
+- [ ] Azure Security Center.
+- [ ] Azure Active Directory (Azure AD) Identity Protection.
+- [x] Azure Advanced Threat Protection (ATP).
+
+####
+
+- [ ] Azure Monitor.
+- [ ] Azure Security Center.
+- [x] Azure Active Directory (Azure AD) Identity Protection.
+- [ ] Azure Advanced Threat Protection (ATP).
+
+### Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. What are two possible solutions? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [ ] Modify an Azure Traffic Manager profile.
+- [x] Modify a network security group (NSG).
+- [ ] Modify a DDoS protection plan.
+- [ ] Modify an Azure firewall.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: You can enable just in time (JIT) VM access by using
+
+- [ ] Azure Bastion.
+- [ ] Azure Firewall.
+- [ ] Azure Front Door.
+- [x] Azure Security Center.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### You can associate a network security group (NSG) to a virtual network subnet
+
+- [x] Yes.
+- [ ] No.
+
+#### You can associate a network security group (NSG) to a virtual network
+
+- [ ] Yes.
+- [x] No.
+
+#### You can associate a network security group (NSG) to a network interface
+
+- [x] Yes.
+- [ ] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. Azure Key Vault is used to store secrets for Azure Active Directory (Azure AD) user accounts. Instructions: Review the underlined text. If it makes the statement correct, select ג€No change is neededג€. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Azure Active Directory (Azure AD) administrative accounts.
+- [ ] Personally Identifiable Information (PII).
+- [x] Server applications.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: After you create a virtual machine, you need to modify to allow connections to TCP port 8080 on the virtual machine
+
+- [x] Network security group (NSG).
+- [ ] Virtual network gateway.
+- [ ] Virtual network.
+- [ ] Eoute table.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### You can create custom Azure roles to control access to resources
+
+- [x] Yes.
+- [ ] No.
+
+#### A user account can be assigned to multiple Azure roles
+
+- [x] Yes.
+- [ ] No.
+
+#### A resource group can have the Owner role assigned to multiple users
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. Solution: You modify a network security group (NSG). Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. Solution: You modify a DDoS protection plan. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You need to collect and automatically analyze security events from Azure Active Directory (Azure AD). What should you use?
+
+- [x] Azure Sentinel.
+- [ ] Azure Synapse Analytics.
+- [ ] Azure AD Connect.
+- [ ] Azure Key Vault.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. Solution: You modify an Azure firewall. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: From you can view which user turned off a specific virtual machine during the last 14 days
+
+- [ ] Azure Access Control IAM.
+- [ ] Azure Event Hubs.
+- [x] Azure Activity Log.
+- [ ] Azure Service Health.
+
+### Which Azure service can you use as a security information and event management (SIEM) solution?
+
+- [ ] Azure Analysis Services.
+- [x] Azure Sentinel.
+- [ ] Azure Information Protection.
+- [ ] Azure Cognitive Services.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: Your company implements automatically add a watermark to Microsoft Word documents that contain credit card information
+
+- [ ] Azure policies.
+- [ ] DDoS protection.
+- [x] Azure Information Protection.
+- [ ] Azure Active Directory (Azure AD) Identity Protection.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: You have an Azure virtual network named VNET1 in a resource group named RG1. You assign the Azure Policy definition of Not Allowed Resource Type and specify that virtual networks are not an allowed resource type in RG1. VNET1
+
+- [ ] Is deleted automatically.
+- [ ] Is moved automatically to another resource group.
+- [x] Continues to function normally.
+- [ ] Is now a read-only object.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. From Azure Cloud Shell, you can track your companyג€™s regulatory standards and regulations, such as ISO 27001. Instructions: Review the underlined text. If it makes the statement correct, select ג€No change is needed.ג€ If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] The Microsoft Cloud Partner Portal.
+- [x] Compliance Manager.
+- [ ] The Trust Center.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### You can create Group Polices in Azure Active Directory (Azure AD)
+
+- [x] Yes.
+- [ ] No.
+
+#### You can join Windows 10 devices to Azure Active Directory (Azure AD)
+
+- [x] Yes.
+- [ ] No.
+
+#### You can join Android devices to Azure Active Directory (Azure AD)
+
+- [ ] Yes.
+- [x] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: The explains what data Microsoft processes, how Microsoft processes the data, and the purpose of processing the data.
+
+- [x] The Microsoft Online Services Privacy Statement.
+- [ ] Microsoft Online Services Terms.
+- [ ] Microsoft Online Service Level Agreement.
+- [ ] Online Subscription Agreement for Microsoft Azure.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: Is the process of verifying a user's credentials
+
+- [ ] Authorization.
+- [x] Authentication.
+- [ ] Federation.
+- [ ] Ticketing.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: An Azure Policy initiative definition is a
+
+- [x] Collection of policy definitions.
+- [ ] Collection of Azure Policy definition assignments.
+- [ ] Group of Azure Blueprints definitions.
+- [ ] Group of role-based access control (RBAC) role assignments.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: Provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions
+
+- [ ] Resource groups.
+- [ ] Management groups.
+- [x] Azure policies.
+- [ ] Azure App Service plans.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### General Data Protection Regulation (GDPR) defines data protection and privacy rules
+
+- [x] Yes.
+- [ ] No.
+
+#### General Data Protection Regulation (GDPR) applies to companies that offer goods or services to individuals in the EU
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure can be used to build a General Data Protection Requlation (GDPR)-compliant infrastructure
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### You can add an Azure Resource Manager template to an Azure blueprint
+
+- [x] Yes.
+- [ ] No.
+
+#### You can assign an Azure blueprint to a resource group
+
+- [ ] Yes.
+- [x] No.
+
+#### You can use Azure Blueprints to grant permissions to a resource
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Azure China is operated by Microsoft
+
+- [ ] Yes.
+- [x] No.
+
+#### Azure Government is operated by Microsoft
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure Government is available only to US government agencies and their partners
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### An Azure resource can have multiple Delete locks
+
+- [x] Yes.
+- [ ] No.
+
+#### An Azure resource inherits locks from its resource group
+
+- [x] Yes.
+- [ ] No.
+
+#### If an Azure resource has a Read-only lock, you can add a Delete lock to the resource
+
+- [x] Yes.
+- [ ] No.
+
+### Your company plans to migrate all on-premises data to Azure. You need to identify whether Azure complies with the companyג€™s regional requirements. What should you use?
+
+- [ ] The Knowledge Center.
+- [ ] Azure Marketplace.
+- [ ] The MyApps portal.
+- [x] The Trust Center.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Authorization to access Azure resources can be provided only to Azure Active Directory (Azure AD) users
+
+- [ ] Yes.
+- [x] No.
+
+#### Identities stored in Azure Active Directory (Azure AD), third-party cloud services, and on- premises Active Directory can be used to access Azure resources
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure has built-in authentication and authorization services that provide secure access to Azure resources
+
+- [x] Yes.
+- [ ] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: If a resource group named RG1 has a delete lock, can delete RG1
+
+- [ ] Only a member of the global administrators group.
+- [x] The delete lock must be removed before an administrator.
+- [ ] An Azure policy must be modified before an administrator.
+- [ ] An Azure tag must be added before an administrator.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Identities stored in an on-premises Active Directory can be synchronized to Azure Active Directory (Azure AD)
+
+- [x] Yes.
+- [ ] No.
+
+#### Identities stored in Azure Active Directory (Azure AD), third-party cloud services, and on-premises Active Directory can be used to access Azure resources
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure has built-in authentication and authorization services that provide secure access to Azure resources
+
+- [x] Yes.
+- [ ] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: You can view your company's regulatory compliance report from
+
+- [ ] Azure Advisor.
+- [ ] Azure Analysis Services.
+- [ ] Azure Monitor.
+- [x] Azure Security Center.
+
+### What should you use to evaluate whether your companyג€™s Azure environment meets regulatory requirements?
+
+- [ ] Azure Service Health.
+- [ ] Azure Knowledge Center.
+- [x] Azure Security Center.
+- [ ] Azure Advisor.
+
+### Your company has an Azure subscription that contains resources in several regions. You need to ensure that administrators can only create resources in those regions. What should you use?
+
+- [ ] A read-only lock.
+- [x] An Azure policy.
+- [ ] A management group.
+- [ ] A reservation.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Azure Active Directory (Azure AD) requires the implementation of domain controllers on Azure virtual machines
+
+- [ ] Yes.
+- [x] No.
+
+#### Azure Active Directory (Azure AD) provides authentication services for resources hosted in Azure and Microsoft 365
+
+- [x] Yes.
+- [ ] No.
+
+#### Each user account in Azure Active Directory (Azure AD) can be assigned only one license
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### To implement an Azure Multi-Factor Authentication (MFA) solution, you must sync on-premises identities to the cloud
+
+- [ ] Yes.
+- [x] No.
+
+#### Two valid methods for Azure Multi-Factor Authentication (MFA) are picture identification and a passport number
+
+- [ ] Yes.
+- [x] No.
+
+#### Azure Multi-Factor Authentication (MFA) can be required for administrative and non- administrative user accounts
+
+- [x] Yes.
+- [ ] No.
+
+### Your network contains an Active Directory forest. The forest contains 5,000 user accounts. Your company plans to migrate all network resources to Azure and to decommission the on-premises data center. You need to recommend a solution to minimize the impact on users after the planned migration. What should you recommend?
+
+- [ ] Implement Azure Multi-Factor Authentication (MFA).
+- [x] Sync all the Active Directory user accounts to Azure Active Directory (Azure AD).
+- [ ] Instruct all users to change their password.
+- [ ] Create a guest user account in Azure Active Directory (Azure AD) for each user.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### You can configure the Azure Active Directory (Azure AD) activity logs to appear in Azure Monitor
+
+- [x] Yes.
+- [ ] No.
+
+#### From Azure Monitor, you can monitor resources across multiple Azure subscriptions
+
+- [x] Yes.
+- [ ] No.
+
+#### From Azure Monitor, you can create alerts
+
+- [x] Yes.
+- [ ] No.
+
+### You create a resource group named RG1 in Azure Resource Manager. You need to prevent the accidental deletion of the resources in RG1. Which setting should you use? To answer, select the appropriate setting in the answer area. Hot Area:
+
+- [ ] Quickstart.
+- [ ] Resource costs.
+- [ ] Deployments.
+- [ ] Policies.
+- [ ] Properties.
+- [x] Locks.
+- [ ] Automation script.
+
+### You have a resource group named RG1. You need to prevent the creation of virtual machines only in RG1. The solution must ensure that other objects can be created in RG1. What should you use?
+
+- [ ] A lock.
+- [ ] An Azure role.
+- [ ] A tag.
+- [x] An Azure policy.
+
+### You have an Azure subscription and 100 Windows 10 devices. You need to ensure that only users whose devices have the latest security patches installed can access Azure Active Directory (Azure AD)-integrated applications. What should you implement?
+
+- [x] A conditional access policy.
+- [ ] Azure Bastion.
+- [ ] Azure Firewall.
+- [ ] Azure Policy.
+
+### What should you use to evaluate whether your companyג€™s Azure environment meets regulatory requirements?
+
+- [ ] The Knowledge Center website.
+- [ ] The Advisor blade from the Azure portal.
+- [x] Compliance Manager from the Service Trust Portal.
+- [ ] Compliance Manager from the Service Trust Portal.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: enables users to authenticate to multiple applications by using single sign-on (SSO)
+
+- [ ] Application security groups in Azure Azure.
+- [x] Active Directory (Azure AD).
+- [ ] Azure Key Vault.
+- [ ] Azure Security Center.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: You deploy an Azure resource. The resource becomes unavailable for an extended period due to a service outage. Microsoft will
+
+- [ ] Refund your bank account.
+- [ ] Migrate the resource to another subscription.
+- [x] Credit your Azure account.
+- [ ] Send you a coupon code that you can redeem for Azure credits.
+
+### Which task can you perform by using Azure Advisor?
+
+- [ ] Integrate Active Directory and Azure Active Directory (Azure AD).
+- [x] Estimate the costs of an Azure solution.
+- [ ] Confirm that Azure subscription security follows best practices.
+- [ ] Evaluate which on-premises resources can be migrated to Azure.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### If your company uses an Azure free account, you will only be able to use a subset of Azure services
+
+- [ ] Yes.
+- [x] No.
+
+#### All Azure free accounts expire after a specific period
+
+- [x] Yes.
+- [ ] No.
+
+#### You can create up to 10 Azure free accounts by using the same Microsoft account
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### All Azure services in private preview must be accessed by using a separate Azure portal
+
+- [ ] Yes.
+- [x] No.
+
+#### Azure services in public preview can be used in production environments
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure services in public preview are subject to a Service Level Agreement (SLA)
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### A Standard support plan is included in an Azure free account
+
+- [ ] Yes.
+- [x] No.
+
+#### A Premier support plan can only be purchased by companies that have an Enterprise Agreement (EA)
+
+- [x] Yes.
+- [ ] No.
+
+#### Support from MSDN forums is only provided to companies that have a pay-as-you-go subscription
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. If Microsoft plans to end support for an Azure service that does NOT have a successor service, Microsoft will provide notification at least 12 months before. Instructions: Review the underlined text. If it makes the statement correct, select ג€No change is neededג€. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] 6 months.
+- [ ] 90 days.
+- [ ] 30 days.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### A user who is assigned the Owner role can transfer ownership of an Azure subscription
+
+- [ ] Yes.
+- [x] No.
+
+#### You can convert the Azure subscription of your company from Free Trial to Pay-As-You-Go
+
+- [x] Yes.
+- [ ] No.
+
+#### You can convert the Azure subscription of your company from Free Trial to Pay-As-You-Go
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Statements With Azure Reservations, you pay less fer virtual machines than with pay as-you-go pricing
+
+- [x] Yes.
+- [ ] No.
+
+#### Two Azure virtual machines that use the B25 size have the same monthly costs
+
+- [ ] Yes.
+- [x] No.
+
+#### When an Azure virtual machine is stopped, you continue to pay storage costs for the virtual machine
+
+- [x] Yes.
+- [ ] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources: ✑ 20 user accounts in Azure Active Directory (Azure AD) ✑ Five groups in Azure AD ✑ 10 public IP addresses ✑ 10 network interfaces You need to reduce the Azure costs for the company. Solution: You remove the unused network interfaces. Does this meet the goal
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources: ✑ 20 user accounts in Azure Active Directory (Azure AD) Five groups in Azure AD - ✑ 10 public IP addresses ✑ 10 network interfaces You need to reduce the Azure costs for the company. Solution: You remove the unused public IP addresses. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources: ✑ 20 user accounts in Azure Active Directory (Azure AD) ✑ Five groups in Azure AD ✑ 10 public IP addresses ✑ 10 network interfaces You need to reduce the Azure costs for the company Solution: You remove the unused user accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### How should you calculate the monthly uptime percentage? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### a)
+
+- [ ] Downtime in Minutes.
+- [ ] Maximum Available Minutes.
+- [x] (Maximum Available Minutes-Downtime in Minutes).
+
+  #### b)
+
+- [ ] 60.
+- [ ] 1,440.
+- [x] Maximum Available Minutes.
+
+#### c)
+
+- [x] 100.
+- [ ] 99.99.
+- [ ] 1.440.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### By creating additional resource groups in an Azure subscription, additional costs are incurred
+
+- [ ] Yes.
+- [x] No.
+
+#### By copying several gigabits of data to Azure from an on-premises network over a VPN, additional data transfer costs are incurred
+
+- [ ] Yes.
+- [x] No.
+
+#### By copying several gigabits of data to Azure from an on-premises network over a VPN, additional data transfer costs are incurred
+
+- [x] Yes.
+- [ ] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. A support plan solution that gives you best practice information, health status and notifications, and 24/7 access to billing information at the lowest possible cost is a Standard support plan. Instructions: Review the underlined text. If it makes the statement correct, select ג€No change is neededג€. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Developer.
+- [x] Basic.
+- [ ] Premier.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. You can create an Azure support request from support.microsoft.com. Instructions: Review the underlined text. If it makes the statement correct, select ג€No change is needed.ג€ If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [x] The Azure portal.
+- [ ] The Knowledge Center.
+- [ ] The Security & Compliance admin center.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources: ✑ 20 user accounts in Azure Active Directory (Azure AD) ✑ Five groups in Azure AD ✑ 10 public IP addresses ✑ 10 network interfaces You need to reduce the Azure costs for the company. Solution: You remove the unused groups. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. The Azure Standard support plan is the lowest cost option to receive 24x7 access to support engineers by phone. Instructions: Review the underlined text. If it makes the statement correct, select ג€No change is neededג€. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Developer.
+- [ ] Basic.
+- [ ] Professional Direct.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: All Azure services that are in public preview are
+
+- [ ] Provided without any documentation.
+- [ ] Only configurable from Azure CLI.
+- [x] Excluded from the Service Level Agreements.
+- [ ] Only configurable from the Azure portal.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: An Azure service is available to all Azure customers when it is in
+
+- [x] Public preview.
+- [ ] Private preview.
+- [ ] Development.
+- [ ] Development an Enterprise Agreement (EA) subscription.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase an Azure subscription. The companyג€™s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Basic support plan. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase an Azure subscription. The companyג€™s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Standard support plan. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Most Azure services are introduced in private preview before being introduced in public preview, and then in general availability
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure services in public preview can be managed only by using the Azure CLI
+
+- [ ] Yes.
+- [x] No.
+
+#### The cost of an Azure service in private preview decreases when the service becomes generally available
+
+- [ ] Yes.
+- [x] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: Your Azure trial account expired last week. You are now unable to
+
+- [ ] Create additional Azure Active Directory (Azure AD) user accounts.
+- [x] Start an existing Azure virtual machine.
+- [ ] Access your data stored in Azure.
+- [ ] Access the Azure portal.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase an Azure subscription. The companyג€™s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Professional Direct support plan. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Your company has 10 departments. The company plans to implement an Azure environment. You need to ensure that each department can use a different payment option for the Azure services it consumes. What should you create for each department?
+
+- [ ] A reservation.
+- [x] A subscription.
+- [ ] A resource group.
+- [ ] A container instance.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### An Azure free account has a spending limit
+
+- [x] Yes.
+- [ ] No.
+
+#### An Azure free account has a limit of 2TB of data that can be uploaded to Azure
+
+- [ ] Yes.
+- [x] No.
+
+#### An Azure free account can contain an unlimited number of web apps
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### An Azure service in private preview is released to all Azure customers
+
+- [ ] Yes.
+- [x] No.
+
+#### An Azure service in public preview is released to all Azure customers
+
+- [x] Yes.
+- [ ] No.
+
+#### An Azure service in general availability is released to a subset of Azure customers
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### With a consumption-based plan, you pay a fixed rate for all data sent to or from virtual machines hosted in the cloud
+
+- [ ] Yes.
+- [x] No.
+
+#### With a consumption-based plan, you reduce overall costs by paying only for extra capacity when it is required
+
+- [x] Yes.
+- [ ] No.
+
+#### Serverless computing is an example of a consumption-based plan
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### The cost of Azure resources can vary between regions
+
+- [x] Yes.
+- [ ] No.
+
+#### An Azure reservation is used to reserve server capacity at a specific data center
+
+- [x] Yes.
+- [ ] No.
+
+#### You can stop an Azure SQL Database instance to decrease costs
+
+- [ ] Yes.
+- [x] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: You have an application that is comprised of an Azure web app that has a Service Level Agreement (SLA) of 99.95 percent and an Azure SQL database that has an SLA of 99.99 percent. The composite SLA for the application is
+
+- [x] The product of both SLAS, which equals 99.94 percent.
+- [ ] The lowest SLA associated to the application, which is 99.95 percent.
+- [ ] The highest SLA associated to the application, which is 99.99 percent.
+- [ ] The difference between the two SLAS, which is 0.05 percent.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### The Service Level Agreement (SLA) guaranteed uptime for paid Azure services is at least 99.9 percent
+
+- [ ] Yes.
+- [ ] No.
+
+#### Companies can increase the Service Level Agreement (SLA) guaranteed uptime by adding Azure resources to multiple regions
+
+- [ ] Yes.
+- [ ] No.
+
+#### Companies can increase the Service Level Agreement (SLA) guaranteed uptime by purchasing multiple subscriptions
+
+- [ ] Yes.
+- [ ] No.
+
+### Which statement accurately describes the Modern Lifecycle Policy for Azure services?
+
+- [ ] Microsoft provides mainstream support for a service for five years.
+- [x] Microsoft provides a minimum of 12 monthsג€™ notice before ending support for a service.
+- [ ] After a service is made generally available, Microsoft provides support for the service for a minimum of four years.
+- [ ] When a service is retired, you can purchase extended support for the service for up to five years.
+
+### You need to request that Microsoft increase a subscription quota limit for your company. Which blade should you use from the Azure portal? To answer, select the appropriate blade in the answer area. Hot Area:
+
+- [ ] Create a resource.
+- [ ] All services.
+- [ ] Favorites.
+- [ ] Dashboard.
+- [ ] All resources.
+- [ ] Resource groups.
+- [ ] App Services.
+- [ ] Function Apps.
+- [ ] SQL databases.
+- [ ] Azure Cosmos DB.
+- [ ] Virtual machines.
+- [ ] Load balancers.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: You can use in Azure to send email alerts when the cost of the current billing period for an Azure subscription exceeds a specified limit
+
+- [ ] Advisor recommendations.
+- [ ] Access control (IAM).
+- [x] Budget alerts.
+- [ ] Compliance.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### From the Azure portal, you can distinguish between services that are generally available and services that are in public preview
+
+- [x] Yes.
+- [ ] No.
+
+#### After an Azure service becomes generally available, the service is no longer updated with new features
+
+- [ ] Yes.
+- [x] No.
+
+#### When you create Azure resources for a service in public preview, you must recreate the resources once the service becomes generally available
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+### When using an Azure ExpressRoute connection, inbound data traffic from an on-premises network to Azure is always free
+
+- [x] Yes.
+- [ ] No.
+
+#### Outbound data traffic from Azure to an on-premises network is always free
+
+- [ ] Yes.
+- [x] No.
+
+#### Data traffic between Azure services within the same Azure region is always free
+
+- [x] Yes.
+- [ ] No.
+
+### Your company has an Azure subscription that contains the following unused resources: ✑ 20 user accounts in Azure Active Directory (Azure AD) ✑ Five groups in Azure AD ✑ 10 public IP addresses ✑ 10 network interfaces You need to reduce the Azure costs for the company. Which unused resources should you remove?
+
+- [ ] The network interfaces.
+- [x] The public IP addresses.
+- [ ] The groups.
+- [ ] The user accounts.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: If an Azure virtual machine has a status of Stopped (deallocated), you will continue to pay for
+
+- [ ] Compute capacity.
+- [ ] I/O operations.
+- [ ] Networking.
+- [x] Storage.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Storing 1 TB of data in Azure Blob storage will always cost the same, regardless of the Azure region in which the data is located
+
+- [ ] Yes.
+- [x] No.
+
+#### When you use a general-purpose v2 Azure Storage account, you are only charged for the amount of data that is stored. All read and write operations are free
+
+- [ ] Yes.
+- [x] No.
+
+#### Transferring data between Azure Storage accounts In different Azure regions is free
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### In Azure Active Directory Premium P2, at least 99.9 percent availability is guaranteed
+
+- [x] Yes.
+- [ ] No.
+
+#### The Service Level Agreement (SLA) for Azure Active Directory Premium P2 is the same as the SLA for Azure Active Directory Free
+
+- [ ] Yes.
+- [x] No.
+
+#### All paying Azure customers receive a credit if their monthly uptime percentage is below the guaranteed amount in the Service Level Agreement (SLA)
+
+- [x] Yes.
+- [ ] No.
+
+### All paying Azure customers receive a credit if their monthly uptime percentage is below the guaranteed amount in the Service Level Agreement (SLA)
+
+#### Adding resource groups in an Azure subscription generates additional costs
+
+- [ ] Yes.
+- [x] No.
+
+#### Copying 10 GB of data to Azure from an on- premises network over a VPN generates additional Azure data transfer costs
+
+- [ ] Yes.
+- [x] No.
+
+#### Copying 10 GB of data from Azure to an on- premises network over a VPN generates additional Azure data transfer costs
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+#### Each Azure subscription can contain multiple account administrators
+
+- [ ] Yes.
+- [x] No.
+
+#### Each Azure subscription can be managed by using a Microsoft account only
+
+- [ ] Yes.
+- [x] No.
+
+#### An Azure resource group contains multiple Azure subscriptions
+
+- [ ] Yes.
+- [x] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Hot Area: Data that is stored in the Archive access tier of an Azure Storage account
+
+- [ ] Can be accessed at any time by using azcopy.exe.
+- [ ] Can only be read by using Azure Backup.
+- [ ] Must be restored before the data can be accessed.
+- [x] Must be rehydrated before the data can be accessed.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. You deploy an Azure resource. The resource becomes unavailable for an extended period due to a service outage. Microsoft will automatically refund your bank account. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Automatically migrate the resource to another subscription.
+- [x] Automatically credit your account.
+- [ ] Send you a coupon code that you can redeem for Azure credits.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### Azure Active Directory Premium P2 guarantees at least 99.9 percent availability
+
+- [x] Yes.
+- [ ] No.
+
+#### The Service Level Agreement (SLA) for Azure Active Directory Premium P2 s the same as the SLA for Azure Active Directory Free
+
+- [x] Yes.
+- [ ] No.
+
+#### All paying Azure customers receive a credit if their monthly uptime percentage s below the guaranteed amount in the Service Level Agreement (SLA)
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. When you need to delegate permissions to several Azure virtual machines simultaneously, you must deploy the Azure virtual machines to the same Azure region Instructions: Review the underlined text If it makes the statement correct, select "No change is needed." If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] By using the same Azure Resource Manager template.
+- [x] To the same resource group.
+- [ ] To the same availability zone.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only platform as a service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that supports the planned migration. Solution: You create an Azure App Service and Azure virtual machines that have Microsoft SQL Server. installed. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. Azure Databricks is an Apache Spark-based analytics service. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Azure Data Factory.
+- [ ] Azure DevOps.
+- [ ] Azure HDInsight.
+
+### To complete the sentence, select the appropriate option in the answer area. All Azure services that are in public preview are
+
+- [ ] Provided without any documentation.
+- [ ] Only configurable from Azure CLI.
+- [x] Excluded from the Service Level Agreements.
+- [ ] Only configurable from the Azure portal.
+
+### To complete the sentence, select the appropriate option in the answer area. An Availability Zone in Azure has physically separate locations
+
+- [ ] Across two continents.
+- [x] Within a single Azure region.
+- [ ] Within multiple Azure regions.
+- [ ] Within a single Azure datacenter.
+
+### To complete the sentence, select the appropriate option in the answer area. Azure Cosmos DB is an example of a - offering
+
+- [x] Platform as a service (PaaS).
+- [ ] Infrastructure as a service (IaaS).
+- [ ] Serverless.
+- [ ] Software as a service (SaaS).
+
+### To complete the sentence, select the appropriate option in the answer area. If a resource group named RG1 has a delete lock can delete RG1
+
+- [ ] Only a member of the global administrators group.
+- [x] The delete lock must be removed before an administrator.
+- [ ] An Azure policy must be modified before an administrator.
+- [ ] An Azure tag must be added before an administrator can delete RG1.
+
+### Your company plans to move several servers to Azure. The company’s compliance policy states that a server named FinServer must be on a separate network segment You are evaluating which Azure services can be used to meet the compliance policy requirements. Which Azure solution should you recommend?
+
+- [ ] A resource group for FinServer and another resource group for all the other servers.
+- [x] A virtual network for FinServer and another virtual network for all the other servers.
+- [ ] A VPN for FinServer and a virtual network gateway for each other server.
+- [ ] One resource group for all the servers and a resource lock for FinServer.
+
+### For each of the following statements, select Yes if the statement is true, Otherwise, select No. NOTE: Each correct match is worth one point.
+
+#### The Microsoft Service Trust Portal can be accessed by using a Microsoft cloud services account
+
+- [x] Yes.
+- [ ] No.
+
+#### Compliance Manager can be used to track your company's regulatory compliance activities related to Microsoft cloud services
+
+- [x] Yes.
+- [ ] No.
+
+#### The My Library feature can be used to save Microsoft Service Trust Portal documents and resources in a single location
+
+- [x] Yes.
+- [ ] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. From Azure Monitor, you can view which user turned off a specific virtual machine during the last 14 days. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Azure Event Hubs.
+- [x] Azure Activity Log.
+- [ ] Azure Service Health.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only platform as a service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that supports the planned migration. Solution: You create an Azure App Service and Azure Storage accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the BOLD text to determine if it is correct. Data that is stored in the Archive access tier of an Azure Storage account can be access at any time by using azcopy.exe Instructions: Review the bold text. If it makes the statement correct, select "No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Can only be read by using Azure Backup.
+- [ ] Must be restored before the data can be accessed.
+- [ ] Must be restored before the data can be accessed.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### To implement a hybnid cloud model, a company must always migrate from a private cloud model
+
+- [ ] Yes.
+- [x] No
+
+#### A company can extend the computing resources of its internal network by using the public cloud
+
+- [x] Yes.
+- [ ] No.
+
+#### In a public cloud model, only guest users at your company can access the resources in the cloud
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct match is worth one point.
+
+#### Azure DevOps Services allows developers to deploy or update applications to Azure using Continuous Integration/Continuous Delivery (CI/CD) pipelines
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure DevOps Services includes a Git repository for developers to store code
+
+- [x] Yes.
+- [ ] No.
+
+#### Azure DevOps Services can be used to build and host web apps
+
+- [x] Yes.
+- [ ] No.
+
+### Your company has an on-premises network that contains multiple servers. The company plans to reduce the following administrative responsibilities of network administrators: • Backing up application data • Replacing failed server hardware • Managing physical server security • Updating server operating systems • Managing permissions to shared documents The company plans to migrate several servers to Azure virtual machines. You need to identify which administrative responsibilities will be reduced after the planned migration. Which two responsibilities should you identify? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [x] Replacing failed server hardware.
+- [ ] Backing up application data.
+- [x] Managing physical server security.
+- [ ] Updating server operating systems.
+- [ ] Managing permissions to shared documents.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. One of the benefits of Azure SQL Data Warehouse is that high availability is built into the platform. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Automatic scaling.
+- [ ] Data compression.
+- [ ] Versioning.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. The Microsoft Online Services Privacy Statement explains what data Microsoft processes, how Microsoft processes the data, and the purpose of processing the data. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Microsoft Online Services Terms.
+- [ ] Microsoft Online Service Level Agreement.
+- [ ] Online Subscription Agreement for Microsoft Azure.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. You plan to deploy 20 virtual machines to an Azure environment. To ensure that a virtual machine named VM1 cannot connect to the other virtual machines, VM1 must be deployed to a separate virtual network. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Run a different operating system than the other virtual machines.
+- [ ] Be deployed to a separate resource group.
+- [ ] Have two network interfaces.
+
+### You plan to extend your company’s network to Azure. The network contains a VPN appliance that uses an IP address of 131.107.200.1. You need to create an Azure resource that identifies the VPN appliance. Which Azure resource should you create? To answer, select the appropriate resource in the answer area.
+
+- [ ] Virtual networks.
+- [ ] Load balancers.
+- [ ] Virtual networks gateways.
+- [ ] DNS zones.
+- [ ] Traffic Manager profiles.
+- [ ] Network Watcher.
+- [ ] Virtual networks (classic).
+- [ ] Application gateways.
+- [x] Local network gateways.
+- [ ] CDN profiles.
+- [ ] ExpressRoute ciruits.
+- [ ] Network security groups.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. You have several virtual machines in an Azure subscription. You create a new subscription. The virtual machines cannot be moved to the new subscription. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [x] The virtual machines can be moved to the new subscription.
+- [ ] The virtual machines can be moved to the new subscription only if they are all in the same resource group.
+- [ ] The virtual machines can be moved to the new subscription only if they run Windows Server 2016.
+
+  \*[⬆ Back to Top](#table-of-contents)
+
+### To complete the sentence, select the appropriate option in the answer area. ... is the process of verifying a user's credentials
+
+- [ ] Authorization.
+- [x] Authentication.
+- [ ] Federation.
+- [ ] Ticketing.
+
+### To complete the sentence, select the appropriate option in the answer area. If a resource group named RG1 has a delete lock, ... can delete RG1
+
+- [ ] Only a member of the global administrators group.
+- [x] The delete lock must be removed before an administrator.
+- [ ] An Azure policy must be modified before an administrator.
+- [ ] An Azure tag must be added before an administrator.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### A platform as a service (PaaS) solution that hosts web apps in Azure provides full control of the operating systems that host applications
+
+- [ ] Yes.
+- [x] No.
+
+#### A Platform as a Service (PaaS) solution that hosts web apps in Azure can be provided with additional memory by changing the pricing tier
+
+- [x] Yes.
+- [ ] No.
+
+#### A Platform as a Service (PaaS) solution that hosts web apps in Azure can be configured to automatically scale the number of instances based on demand
+
+- [x] Yes.
+- [ ] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure environment. You need to create a new Azure virtual machine from an Android laptop. Solution: You use PowerShell in Azure Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### QueNote: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription! You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create –resource-group RG1 –name VM1 –image UbuntuLTS –generate-ssh-keys You need to create VM1 in Subscription! by using the command. Solution: From the Azure portal, launch Azure Cloud Shell and select Bash. Run the command in Cloud Shell. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have an Azure web app. You need to manage the settings of the web app from an iPhone. What are two Azure management tools that you can use? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point
+
+- [ ] Azure CLI.
+- [x] the Azure portal.
+- [x] Azure Cloud Shell.
+- [ ] Windows PowerShell.
+- [ ] Azure Storage Explorer.
+
+### To complete the sentence, select the appropriate option in the answer area. You plan to deploy 20 virtual machines to an Azure environment. To ensure that a virtual machine named VM1 cannot connect to the other virtual machines, VM1 must
+
+- [x] be deployed to a separate virtual network.
+- [ ] run a different operating system than the other virtual machines.
+- [ ] be deployed to a separate resource group.
+- [ ] have two network interfaces.
+
+### To complete the sentence, select the appropriate option in the answer area. From ... you can view which user turned off a specific virtual machine during the last 14 days. Azure Control IAM, Azure Event Hubs, Azure Activity Log, Azure Service Health
+
+- [ ] Azure Control IAM.
+- [ ] Azure Event Hubs.
+- [ ] Azure Activity Log.
+- [ ] Azure Service Health.
+
+### This question requires that you evaluate the underlined BOLD text to determine if it is correct. Azure Site Recovery provides fault tolerance for virtual machines. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Disaster recovery.
+- [ ] Elasticity.
+- [ ] High availability.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. You have an application that is comprised of an Azure web app that has a Service Level Agreement (SLA) of 99.95 percent and an Azure SQL database that has an SLA of 99.99 percent. The composite SLA for the application is the product of both SLAs. which equals 99.94 percent. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed." If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] The lowest SLA associated to the application, which is 99.95 percent.
+- [ ] The highest SLA associated to the application, which is 99.99 percent.
+- [ ] The difference between the two SLAs, which is 0.05 percent.
+
+### To complete the sentence, select the appropriate option in the answer area. You have an Azure virtual network named VNĚT1 in a resource group named RG1. You assign the Azure Policy definition of Not Allowed Resource Type and specify that virtual networks are not an allowed resource type in RG1. VNET1
+
+- [ ] is deleted automatically.
+- [ ] is moved automatically to another resource group.
+- [x] continues to function normally.
+- [ ] is now a read-only object.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### From Azure Service Health, an administrator can view the health of all the services deployed to an Azure environment and all the other services available in Azure
+
+- [x] Yes.
+- [ ] No.
+
+#### From Azure Service Health, an administrator can create a rule to be alerted if an Azure service fails
+
+- [x] Yes.
+- [ ] No.
+
+#### From Azure Service Health, an administrator can prevent a service failure from affecting a specific virtual machine
+
+- [ ] Yes.
+- [x] No.
+
+### You need to configure an Azure solution that meets the following requirements: ✑ Secures websites from attacks ✑ Generates reports that contain details of attempted attacks. What should you include in the solution?
+
+- [ ] Azure Firewall.
+- [ ] A network security group (NSG).
+- [ ] Azure Information Protection.
+- [x] DDoS protection.
+
+### This question requires that you evaluate the underlined BOLD text to determine if it is correct. Your company implements Azure policies to automatically add a watermark to Microsoft Word documents that contain credit card information. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] DDoS protection.
+- [ ] Azure Information Protection.
+- [ ] Azure Active Directory (Azure AD) Identity Protection.
+
+### This question requires that you evaluate the BOLD text to determine if it is correct. The Azure Standard support plan is the lowest cost option to receive 24×7 access to support engineers by phone. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Developer.
+- [ ] Basic.
+- [ ] Professional Direct.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### Azure Active Directory Premium P2 guarantees at least 999 percent availability
+
+- [x] Yes.
+- [ ] No.
+
+#### The Service Level Agreement (SLA) for Azure Active Crectory Premum P2 is the same as the SLA for Azure Active Directory Free
+
+- [x] Yes.
+- [ ] No.
+
+#### All paying Azure customers receive a creoit if their monthly uptime percentage is below the guaranteed amount in the Service Level Agreement (SLA)
+
+- [ ] Yes.
+- [x] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Your company implements to ... automatically add a watermark to Microsoft Word documents that contain credit card information.
+
+- [ ] Azure policies.
+- [ ] DDOS protection.
+- [x] Azure Information Protection.
+- [ ] Azure Active Directory (Azure AD) Identity Protection.
+
+### This question requires that you evaluate the Bold text to determine if it is correct. If Microsoft plans to end support for an Azure service that does NOT have a successor service, Microsoft will provide notification at least 12 months before. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] 6 months.
+- [ ] 90 days.
+- [ ] 30 days.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. An Azure service is available to all Azure customers when it is in public preview Instructions: Review the underlined text If it makes the statement correct, select "No change is needed." If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Private preview.
+- [ ] Development.
+- [ ] An Enterprise Agreement (EA) subscription.
+
+### This question requires that you evaluate the Bold text to determine if it is correct. Azure policies provide a common platform for deploying objects to a cloud infrastructure and for implementing consistency across the Azure environment. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Resource groups provide.
+- [x] Azure Resource Manager provides.
+- [ ] Management groups provide.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### All the Azure resources deployed to a single resource group must share the same Azure region
+
+- [ ] Yes.
+- [x] No.
+
+#### If you assign a tag to a resource group, all the Azure resources in that resource group are assigned to the same tag
+
+- [ ] Yes.
+- [x] No.
+
+#### If you set permissions to a resource group, all the Azure resources in that resource group inherit the permissions
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### With Azure Reservations, you play less for virtual machines that with pay- as-you-go pricing
+
+- [x] Yes.
+- [ ] No.
+
+#### If you create two Azure virtual machines that use the B2S size, each virtual machine will always generate the same monthly costs
+
+- [ ] Yes.
+- [x] No.
+
+#### When an Azure virtual machine is stopped, you continue to pay storage costs associated to the virtual machine
+
+- [x] Yes.
+- [ ] No.
+
+### To complete the sentence, select the appropriate option in the answer area. Your Azure trial account expired last week. You are now unable to
+
+- [ ] Create additional Azure Active Directory (Azure AD) user accounts.
+- [x] Start an existing Azure virtual machine.
+- [ ] Access your data stored in Azure.
+- [ ] Access the Azure portal.
+
+### To complete the sentence, select the appropriate option in the answer area. An Azure Policy initiative is a
+
+- [x] Collection of policy definitions.
+- [ ] Collection of Azure Policy definition assignments.
+- [ ] Group of Azure Blueprints definitions.
+- [ ] Group of role-based access control (RBAC) role assignments.
+
+### Your company has an Azure subscription that contains the following unused resources:_ 20 user accounts in Azure Active Directory (Azure AD) _ Five groups in Azure AD _ 10 public IP addresses _ 10 network interfaces. You need to reduce the Azure costs for the company. Which unused resources should you remove?
+
+- [ ] the user accounts.
+- [ ] the network interfaces.
+- [x] the public IP addresses.
+- [ ] the groups.
+
+### This question requires that you evaluate the bold text to determine if it is correct. All Azure services that are in public preview are provided without any documentation. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed." If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Only configurable from Azure CLI.
+- [x] Excluded from the Service Level Agreements.
+- [ ] Only configurable from the Azure portal.
+
+### To complete the sentence, select the appropriate option in the answer area. You can enable just in time (IT) M access by using
+
+- [ ] Azure Bastion.
+- [ ] Azure Firewall.
+- [ ] Azure Front Door.
+- [x] Azure Security Center.
+
+### To complete the sentence, select the appropriate option in the answer area. Azure Cosmos DB is an example of a ... offering
+
+- [x] Platform as a service (PaaS).
+- [ ] Infrastructure as a service (IaaS).
+- [ ] Serverless.
+- [ ] Software as a service (SaaS).
+
+### Your company has a Software Assurance agreement that includes Microsoft SQL Server licenses. You plan to deploy SQL Server on Azure virtual machines. What should you do to minimize licensing costs for the deployment?
+
+- [ ] Use Azure reservations.
+- [ ] Use Azure Hybrid Benefit.
+- [x] Deallocate the virtual machines during off hours.
+- [ ] Configure Azure Cost Management budgets.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE Each correct selection is worth one point.
+
+#### If your company Uses an Azure free account you can only deploy Azure virtual machines and Azure storage accounts
+
+- [ ] Yes.
+- [x] No.
+
+#### All Azure free accounts expire after a specific period
+
+- [x] Yes.
+- [ ] No.
+
+#### You can create up to 10 Azure free accounts by using the same Microsoft account.
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, white others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure environment. You need to create a new Azure virtual machine from an Android laptop. Solution: You use the Azure portal. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### From Azure Service Health, an administrator can view the health of all the services in an Azure environmient
+
+- [x] Yes.
+- [ ] No.
+
+#### From Azure Senvice Health, an administrator can create arule to be alerted if an Azure service fails
+
+- [x] Yes.
+- [ ] No.
+
+#### From Azure Service Health, an administrator can prevent a service failure
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. Your Azure trial account expired last week. You are now unable to create additional Azure Active Directory (Azure AD) user accounts. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [x] Start an existing Azure virtual machine.
+- [ ] Access your data stored in Azure.
+- [ ] Access the Azure portal.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### Storing 1 TB of data in Azure Blob storage will always cost the same, regardless the Azure region in which the data is located
+
+- [ ] Yes.
+- [x] No.
+
+#### When you use a general-purpose v2 Azure Storage account, you are only charged for the amount of data that is stored. All read and write operations are free
+
+- [ ] Yes.
+- [x] No.
+
+#### Transferring data between Azure Storage accounts in different Azure regions is free
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. An Azure administrator plans to run a PowerShell script that creates Azure resources. You need to recommend which computer configuration to use to run the script. Solution: Run the script from a computer that runs Linux and has the Azure CLI tools installed. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. Resource groups provide organizations with the ability to manage the compliance of Azure resources across multiple subscriptions. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Management groups.
+- [x] Azure policies.
+- [ ] Azure App Service plans.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase Azure. The company’s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Premier support plan. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure environment. You need to create a new Azure virtual machine from an Android laptop. Solution: You use Bash in Azure Cloud Shell. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Which Azure service should you use to correlate events from multiple resources into a centralized repository?
+
+- [x] Azure Event Hubs.
+- [ ] Azure Analysis Services.
+- [ ] Azure Monitor.
+- [ ] Azure Log Analytics.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. When planning to migrate a public website to Azure, you must plan to pay monthly usage costs. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Deploy a VPN.
+- [ ] Pay to transfer all the website data to Azure.
+- [ ] Reduce the number of connections to the website.
+
+### Your company plans to deploy several web servers and several database servers to Azure. You need to recommend an Azure solution to limit the types of connections from the web servers to the database servers. What should you include in the recommendation?
+
+- [x] Network security groups (NSGs).
+- [ ] Azure Service Bus.
+- [ ] A local network gateway.
+- [ ] A route filter.
+
+### What are two characteristics of the public cloud? Each correct answer presents a complete solution . NOTE: Each correct selection is worth one point.
+
+- [ ] Dedicated hardware.
+- [ ] Unsecured connections.
+- [ ] Limited storage.
+- [x] Metered pricing.
+- [x] Self-service management.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. When you are implementing a software as a service (SaaS) solution, you are responsible for configuring high availability. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Defining scalability rules.
+- [ ] Installing the SaaS solution.
+- [x] Nonfiguring the SaaS solution.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources:_ 20 user accounts in Azure Active Directory (Azure AD) _ Five groups in Azure AD _ 10 public [P addresses _ 10 network interfaces. You need to reduce the Azure costs for the company. Solution: You remove the unused groups. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. An organization that hosts its infrastructure in a private cloud can decommission its data center. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] In a hybrid cloud.
+- [x] In the public cloud.
+- [ ] On a Hyper-V host.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No . NOTE: Each correct selection is worth one point.
+
+#### Azure provides flexibility between capital expenditure (CapEx) and operational exponditure (OpEx)
+
+- [x] Yes.
+- [ ] No.
+
+#### If you create two Azure virtual machines that use the B2S size, each virtual machine will always generate the same monthly costs
+
+- [ ] Yes.
+- [x] No.
+
+#### When an Azure virtual machine is stopped, you continue to pay storage costs associated to the virtual machine.
+
+- [x] Yes.
+- [ ] No.
+
+### Your company plans to deploy an Artificial Intelligence (AI) solution in Azure. What should the company use to build, test, and deploy predictive analytics solutions?
+
+- [ ] Azure Logic Apps.
+- [x] Azure Machine Learning designer.
+- [ ] Azure Batch.
+- [ ] Azure Cosmos DB.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, white others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources:_ 20 user accounts in Azure Active Directory (Azure AD) _ Five groups in Azure AD _ 10 public [P addresses] _ 10 network interfaces \* You need to reduce the Azure costs for the company. Solution: You remove the unused user accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase Azure. The company’s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Standard support plan. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### You have an Azure environment that contains 10 web apps.To which URL should you connect to manage all the Azure resources? To answer, select the appropriate options in the answer area . NOTE: Each correct selection is worth one point. https://**_._**.com
+
+#### 1.
+
+- [ ] admin.
+- [x] portal.
+- [ ] www.
+
+#### 2.
+
+- [x] azure.
+- [ ] azurewebsites.
+- [ ] microsoft.
+
+### You plan to create an Azure virtual machine. You need to identify which storage service must be used to store the data disks of the virtual machine. What should you identify? To answer, select the appropriate service in the answer area.
+
+- [x] Blobs (REST-based object storage for unstructured data).
+- [ ] Files (File shares that use the standard rd SMB 3.0 protocol).
+- [ ] Tables (Tabular data storage).
+- [ ] Queues (Effectively scale apps according to traffic).
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, white others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure environment. You need to create a new Azure virtual machine from an Android laptop. Solution: You use the PowerApps portal. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You plan to store 20 TB of data in Azure. The data will be accessed infrequently and visualized by using Microsoft Power BI. You need to recommend a storage solution for the data. Which two solutions should you recommend? Each correct answer presents a complete solution . NOTE: Each correct selection is worth one point.
+
+- [ ] Azure SQL Database.
+- [ ] Azure Cosmos DB.
+- [x] Azure SQL Data Warehouse.
+- [ ] Azure Database for PostgreSQL.
+- [x] Azure Data Lake.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase Azure. The company’s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Basic support plan. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No . NOTE: Each correct selection is worth one point
+
+#### To implement an Azure Multi-Factor Authentication (MFA) solution, you must deploy a federation solution or sync on-premises identities to the cloud
+
+- [ ] Yes.
+- [x] No.
+
+#### Two valid methods for Azure Multi-Factor Authentication (MFA) are picture identification and a passport number
+
+- [ ] Yes.
+- [x] No.
+
+#### Azure Multi-Factor Authentication (MFA) can be required for administrative and non administrative user accounts
+
+- [x] Yes.
+- [ ] No.
+
+### You need to view a list of planned maintenance events that can affect the availability of an Azure subscription. Which blade should you use from the Azure portal? To answer, select the appropriate blade in the answer area.
+
+- [ ] Dashboard.
+- [ ] All resources.
+- [ ] Resource groups.
+- [ ] App Services.
+- [ ] Function Apps.
+- [ ] SQL databases.
+- [ ] Azure Cosmos DB.
+- [ ] Virtual machines.
+- [ ] Load balancers.
+- [ ] Storage accounts.
+- [ ] Virtual networks.
+- [ ] Azure Active Directory.
+- [ ] Monitor.
+- [ ] Advisor.
+- [ ] Security Center.
+- [x] Help + support.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. Azure policies provide a common platform for deploying objects to a cloud infrastructure and for implementing consistency across the Azure environment. Instructions: Review the undefined text If it makes the statement correct, select "No change is needed.” If the statement is incorrect select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] Resource groups provide.
+- [x] Azure Resource Manager provides.
+- [ ] Management groups provide.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. Solution: You modify an Azure Traffic Manager profile. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. You have an application that is comprised of an Azure web app that has a Service Level Agreement (SLA) of 99.95 percent and an Azure SQL database that has an SLA of 99.99 percent. The composite SLA for the application is the product of both SLAs, which equals 99.94 percent. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] The lowest SLA associated to the application, which is 99.95 percent.
+- [ ] The highest SLA associated to the application, which is 99.99 percent.
+- [ ] The difference between the two SLAs, which is 0.05 percent.
+
+### You need to identify which blades in the Azure portal must be used to perform the following tasks:– View security recommendations. – Monitor the health of Azure services. – Browse available virtual machine images. Which blade should you identify for each task? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
+
+#### Monitor the health of Azure services:
+
+- [x] Monitor.
+- [ ] Subscriptions.
+- [ ] Marketplace.
+- [ ] Advisor.
+
+#### Browse available virtual machine images:
+
+- [ ] Monitor.
+- [ ] Subscriptions.
+- [x] Marketplace.
+- [ ] Advisor.
+
+#### View security recommendations:
+
+- [ ] Advisor.
+- [ ] Subscriptions.
+- [ ] Marketplace.
+- [x] Advisor.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### To achieve a hybrid cloud model, a company must always migrate from a private cloud model
+
+- [ ] Yes.
+- [x] No.
+
+#### A company can extend the capacity of its internal network by using the public cloud
+
+- [x] Yes.
+- [ ] No.
+
+#### In a public cloud model, only guest users at your company can access the resources in the cloud
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more resource groups. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### To complete the sentence, select the appropriate option in the answer area. ... a common platform for deploying objects to a cloud infrastructure and for implementing consistency across the Azure environment
+
+- [ ] Azure policies provide.
+- [ ] Resource groups provide.
+- [x] Azure Resource Manager templates provide.
+- [ ] Management groups provide.
+
+### A support engineer plans to perform several Azure management tasks by using the Azure CLI. You install the CLI on a computer. You need to tell the support engineer which tools to use to run the CLI. Which two tools should you instruct the support engineer to use? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [x] Command Prompt.
+- [ ] Azure Resource Explorer.
+- [x] Windows PowerShell.
+- [ ] Windows Defender Firewall.
+- [ ] Network and Sharing Center.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure virtual machines, Azure SQL databases, and Azure Storage accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure Storage accounts. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Which cloud deployment solution is used for Azure virtual machines and Azure SQL databases? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
+
+#### Azure virtual machines:
+
+- [x] Infrastructure as a service (laaS).
+- [ ] Platform as a service (PaaS).
+- [ ] Software as a service (SaaS).
+
+#### Azure SQL databases
+
+- [ ] Infrastructure as a service (laaS).
+- [x] Platform as a service (PaaS).
+- [ ] Software as a service (SaaS).
+
+### Your company has an on-premises network that contains multiple servers. The company plans to reduce the following administrative responsibilities of network administrators: – Backing up application data – Replacing failed server hardware – Managing physical server security – Updating server operating systems – Managing permissions to shared documents. The company plans to migrate several servers to Azure virtual machines. You need to identify which administrative responsibilities will be eliminated after the planned migration. Which two responsibilities should you identify? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [x] Replacing failed server hardware.
+- [ ] Backing up application data.
+- [x] Managing physical server security.
+- [ ] Updating server operating systems.
+- [ ] Managing permissions to shared documents.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. An Azure region contains one or more data centers that are connected by using a low-latency network. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Is found in each country where Microsoft has a subsidiary office.
+- [ ] Can be found in every country in Europe and the Americas only.
+- [ ] Contains one or more data centers that are connected by using a high-latency network.
+
+### To complete the sentence, select the appropriate option in the answer area. When planning to migrate a public website to Azure, you must plan to
+
+- [ ] Deploy a VPN.
+- [x] Pay monthly usage costs.
+- [ ] Pay to transfer all the website data to Azure.
+- [ ] Reduce the number of connections to the website.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### Azure Pay-As-You-Go pricing is an example of CapEx
+
+- [ ] Yes.
+- [x] No.
+
+#### Azure Reserved VM Instances are an example of OpEx
+
+- [ ] Yes.
+- [x] No.
+
+#### Deploying your own datacenter is an example of CapEx
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### A company can extend a private cloud by adding its physical servers to the public cloud
+
+- [ ] Yes.
+- [x] No.
+
+#### To build a hybrid cloud, you must deploy resources to the public cloud
+
+- [x] Yes.
+- [ ] No.
+
+#### A private cloud must be disconnected from the internet
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure virtual machines that have Microsoft SQL Server installed. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. An organization that hosts its infrastructure in a private cloud can close its data center. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [ ] In a hybrid cloud.
+- [x] In the public cloud.
+- [ ] On a Hyper-V host.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need
+
+to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to a scale set. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need
+
+to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more availability zones. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### To complete the sentence, select the appropriate option in the answer area. When you need to delegate permissions to several Azure virtual machines simultaneously, you must deploy the Azure virtual machines
+
+- [ ] To the same Azure region.
+- [ ] By using the same Azure Resource Manager template.
+- [x] To the same resource group.
+- [ ] To the same availability zone.
+
+### Your company plans to deploy several million sensors that will upload data to Azure. You need to identify which Azure resources must be created to support the planned solution. Which two Azure resources should you identify? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.
+
+- [x] Azure Data Lake.
+- [ ] Azure Queue storage.
+- [ ] Azure File Storage.
+- [x] Azure IoT Hub.
+- [ ] Azure Notification Hubs.
+
+### After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create –resource-group RG1 –name VM1 –image UbuntuLTS–generate-ssh-keys You need to create VM1 in Subscription1 by using the command. Solution: From a computer that runs Windows 10, install Azure CLI. From PowerShell, sign in to Azure and then run the command. Does this meet the goal?
+
+- [ ] Yes.
+- [x] No.
+
+### To complete the sentence, select the appropriate option in the answer area. When you are implementing a Software as a Service (SaaS) solution, you are responsible for
+
+- [ ] Configuring high availability.
+- [ ] Defining scalability rules.
+- [ ] Installing the Saas solution.
+- [x] Configuring the SaaS solution.
+
+### After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure SQL databases. Does this meet the goal?
+
+- [ ] Yes.
+- [ ] No.
+
+### After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more regions. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### Azure resources can only access other resources in the same resource group
+
+- [ ] Yes.
+- [x] No.
+
+#### If you delete a resource group, all the resources in the resource group will be deleted
+
+- [x] Yes.
+- [ ] No.
+
+#### A resource group can contain resources from multiple Azure regions
+
+- [x] Yes.
+- [ ] No.
+
+### You need to identify the type of failure for which an Azure Availability Zone can be used to protect access to Azure services. What should you identify?
+
+- [ ] a physical server failure.
+- [ ] an Azure region failure.
+- [ ] a storage failure.
+- [ ] an Azure data center failure.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create –resource-group RG1 –name VM1 –image UbuntuLTS –generate-ssh­keys You need to create VM1 in Subscription1 by using the command. Solution: From the Azure portal, launch Azure Cloud Shell and select PowerShell. Run the command in Cloud Shell. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure SQL databases. Does this meet the goal?
+
+- [x] Yes.
+- [ ] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
+
+#### Data that is copied to an Azure Storage account is maintained automatically in at least three copies
+
+- [x] Yes.
+- [ ] No.
+
+#### All data that is copied to an Azure Storage account is backed up automatically to another Azure data center
+
+- [ ] Yes.
+- [x] No.
+
+#### An Azure Storage account can contain up to 2 TB of data and up to one million files
+
+- [ ] Yes.
+- [x] No.
+
+### Your company has an on-premises network that contains multiple servers. The company plans to reduce the following administrative responsibilities of network administrators: – Backing up application data – Replacing failed server hardware – Managing physical server security – Updating server operating systems – Managing permissions to shared documents. The company plans to migrate several servers to Azure virtual machines. You need to identify which administrative responsibilities will be eliminated after the planned migration.Which two responsibilities should you identify? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [x] Replacing failed server hardware.
+- [ ] Backing up application data.
+- [x] Managing physical server security.
+- [ ] Updating server operating systems.
+- [ ] Managing permissions to shared documents.
+
+### This question requires that you evaluate the underlined text to determine if it is correct. Azure Cosmos DB is an example of a platform as a service (PaaS) offering. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [x] No change is needed.
+- [ ] Infrastructure as a service (IaaS).
+- [ ] Serverless.
+- [ ] Software as a service (SaaS).
+
+### This question requires that you evaluate the underlined text to determine if it is correct. Authorization is the process of verifying a user’s credentials. Instructions: Review the underlined text If it makes the statement correct, select "No change is needed." If the statement is incorrect, select the answer choice that makes the statement correct.
+
+- [ ] No change is needed.
+- [x] Authentication.
+- [ ] Federation.
+- [ ] Ticketing.
+
+### You plan to migrate several servers from an on-premises network to Azure. You need to identify the primary benefit of using a public cloud service for the servers. What should you identify?
+
+- [ ] The public cloud is owned by the public, NOT a private corporation.
+- [ ] All public cloud resources can be freely accessed by every member of the public.
+- [ ] The public cloud is a crowd-sourcing solution that provides corporations with the ability to enhance the cloud.
+- [x] The public cloud is a shared entity whereby multiple corporations each use a portion of the resources in the cloud.
