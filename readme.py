@@ -22,4 +22,4 @@ for line in file.readlines():
 print(data)
 
 df = pd.DataFrame(data=data)
-df.to_csv('generated.csv')
+df.to_csv('generated.csv', index=False)
