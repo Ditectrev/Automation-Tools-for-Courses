@@ -1,16 +1,18 @@
 import pandas as pd
 
 file = open('Test_README.md')
-data = []
-
 for line in file.readlines():
-   if ('###' in line) or ('- [x]' in line) or ('- [ ]' in line):
-      if '###' in line:
-         data.append('question: ' + line.replace("###", "").replace("\n", ""))
-      elif '- [x]' in line:
-         data.append('correct answer: ' + line.replace("- [x]", "").replace("\n", ""))
-      elif '- [ ]' in line:
-         data.append('not correct answer: ' + line.replace("- [ ]", "").replace("\n", ""))
+   with open("test.csv","a") as f:
+      if ('###' in line) or ('- [x]' in line) or ('- [ ]' in line):
+         if '###' in line:
+            f.write("\n" + line.replace("### ", "").replace("\n", "") + ',')
+         if '- [x]' in line:
+            f.write(line.replace("- [x]", "").replace("\n", "") + ',')
+         if '- [ ]' in line:
+            f.write(line.replace("- [ ]", "").replace("\n", "") + ',')
 
-df = pd.DataFrame(data=data)
-df.to_csv('generated.csv', index=False)
+
+# if line.count('- [x]') > 1:
+#             f.write('multi-select,')
+#          if line.count('- [x]') == 1:
+#             f.write('multiple-choice,')
