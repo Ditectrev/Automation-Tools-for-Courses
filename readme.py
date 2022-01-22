@@ -1,17 +1,30 @@
-import pandas as pd
-
 file = open('Test_README.md')
-for line in file.readlines():
-   with open("test.csv","a") as f:
-      if '###' in line:
-         f.write("\n" + line.replace("### ", "").replace("\n", "") + ',')
-      if '- [x]' in line:
-         f.write(line.replace("- [x]", "").replace("\n", "") + ',')
-      if '- [ ]' in line:
-         f.write(line.replace("- [ ]", "").replace("\n", "") + ',')
+
+def generate_answer_string(answers):
+   answer_arr = []
+   raw_arr = []
+   for i, answer in enumerate(answers):
+      if "- [x]" in answer:
+         formatted_answer = answer.strip("- [x] ")
+         answer_arr.append(str(i))
+      else:
+         formatted_answer = answer.strip("- [ ] ")
+      raw_arr.append(formatted_answer.replace("\n", ""))
+   return raw_arr, answer_arr, len(answer_arr) > 1
 
 
-# if line.count('- [x]') > 1:
-#             f.write('multi-select,')
-#          if line.count('- [x]') == 1:
-#             f.write('multiple-choice,')
+def generate_questions(lines):
+   indexes = [i for i in range(len(lines)) if lines[i].startswith("###")]
+   questions = [lines[indexes[i] : indexes[i + 1]] for i in range(len(indexes) - 1)]
+   for question in questions:
+      buffer = ""
+      buffer += question[0].strip("### ").replace("\n", "")
+      buffer += ","
+      answers, correct_idxs, is_ma = generate_answer_string(question[2:-1])
+      buffer += "multi-select," if is_ma else "multiple-choice,"
+      buffer += ",".join(answers)
+      buffer += ',' + ",".join(correct_idxs) + ',\n' # TODO: correct_idxs+1 has to be
+      with open("test.csv","a") as f:
+         f.write(buffer)
+
+generate_questions(file.readlines())
