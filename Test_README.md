@@ -1695,17 +1695,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### An Azure subscription can be associated to multiple Azure Active Directory (Azure AD) tenants.
+### An Azure subscription can be associated to multiple Azure Active Directory (Azure AD) tenants.
 
 - [ ] Yes.
 - [x] No.
 
-#### You can change the Azure Active Directory (Azure AD) tenant to which an Azure subscription is associated
+### You can change the Azure Active Directory (Azure AD) tenant to which an Azure subscription is associated
 
 - [x] Yes.
 - [ ] No.
 
-#### When an Azure subscription expires, the associated Azure Active Directory (Azure AD) tenant is deleted automatically
+### When an Azure subscription expires, the associated Azure Active Directory (Azure AD) tenant is deleted automatically
 
 - [ ] Yes.
 - [x] No.
@@ -1719,34 +1719,34 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### A single Microsoft account can be used to manage multiple Azure subscriptions
+### A single Microsoft account can be used to manage multiple Azure subscriptions
 
 - [x] Yes.
 - [ ] No.
 
-#### Two Azure subscriptions can be merged into a single subscription
+### Two Azure subscriptions can be merged into a single subscription
 
 - [ ] Yes.
 - [x] No.
 
-#### A company can use resources from multiple subscriptions
+### A company can use resources from multiple subscriptions
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Availability zones can be implemented in all Azure regions
+### Availability zones can be implemented in all Azure regions
 
 - [ ] Yes.
 - [x] No.
 
-#### Only virtual machines that run Windows Server can be created in availability zones
+### Only virtual machines that run Windows Server can be created in availability zones
 
 - [ ] Yes.
 - [x] No.
 
-#### Availability zones are used to replicate data and applications to multiple regions
+### Availability zones are used to replicate data and applications to multiple regions
 
 - [ ] Yes.
 - [x] No.
@@ -1786,30 +1786,30 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### All the Azure resources deployed to a resource group must use the same Azure region
+### All the Azure resources deployed to a resource group must use the same Azure region
 
 - [ ] Yes.
 - [x] No.
 
-#### If you assign a tag to a resource group, all the Azure resources in that resource group are assigned to the same tag
+### If you assign a tag to a resource group, all the Azure resources in that resource group are assigned to the same tag
 
 - [ ] Yes.
 - [x] No.
 
-#### If you assign permissions for a user to manage a resource group, the user can manage all the Azure resources in that resource group
+### If you assign permissions for a user to manage a resource group, the user can manage all the Azure resources in that resource group
 
 - [x] Yes.
 - [ ] No.
 
 ### You plan to deploy a critical line-of-business application to Azure. The application will run on an Azure virtual machine. You need to recommend a deployment solution for the application. The solution must provide a guaranteed availability of 99.99 percent. What is the minimum number of virtual machines and the minimum number of availability zones you should recommend for the deployment? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Minimum number of virtual machines:
+### Minimum number of virtual machines:
 
 - [ ] 1.
 - [x] 2.
 - [ ] 3.
 
-#### Minimum number of availability zones:
+### Minimum number of availability zones:
 
 - [ ] 1.
 - [x] 2.
@@ -1824,51 +1824,51 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Data that is stored in an Azure Storage account automatically has at least three copies
+### Data that is stored in an Azure Storage account automatically has at least three copies
 
 - [x] Yes.
 - [ ] No.
 
-#### All data that is copied to an Azure Storage account is backed up automatically to another Azure data center
+### All data that is copied to an Azure Storage account is backed up automatically to another Azure data center
 
 - [ ] Yes.
 - [x] No.
 
-#### An Azure Storage account can contain up to 2 TB of data and up to one million files
+### An Azure Storage account can contain up to 2 TB of data and up to one million files
 
 - [ ] Yes.
 - [x] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### If you have Azure resources deployed to every region, you can implement availability zones in all the regions
+### If you have Azure resources deployed to every region, you can implement availability zones in all the regions
 
 - [ ] Yes.
 - [x] No.
 
-#### Only virtual machines that run Windows Server can be created in availability zones
+### Only virtual machines that run Windows Server can be created in availability zones
 
 - [ ] Yes.
 - [x] No.
 
-#### Availability zones are used to replicate data and applications to multiple regions
+### Availability zones are used to replicate data and applications to multiple regions
 
 - [ ] Yes.
 - [x] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### North America is represented by a single Azure region
+### North America is represented by a single Azure region
 
 - [ ] Yes.
 - [x] No.
 
-#### Every Azure region has multiple datacenters
+### Every Azure region has multiple datacenters
 
 - [x] Yes.
 - [ ] No.
 
-#### Data transfers between Azure services located in different Azure regions are always free
+### Data transfers between Azure services located in different Azure regions are always free
 
 - [ ] Yes.
 - [x] No.
@@ -1887,17 +1887,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### A Windows Virtual Desktop session host can run Windows 10 only
+### A Windows Virtual Desktop session host can run Windows 10 only
 
 - [ ] Yes.
 - [x] No.
 
-#### A Windows Virtual Desktop host pool that includes 20 session hosts supports a maximum of 20 simultaneous user connections
+### A Windows Virtual Desktop host pool that includes 20 session hosts supports a maximum of 20 simultaneous user connections
 
 - [ ] Yes.
 - [x] No.
 
-#### Windows Virtual Desktop supports desktop and app virtualization
+### Windows Virtual Desktop supports desktop and app virtualization
 
 - [x] Yes.
 - [ ] No.
@@ -1909,34 +1909,34 @@
 - [ ] The Database Migration Assistant.
 - [ ] The pricing calculator in Azure.
 
-#### You can use Availability Zones in Azure to protect Azure virtual machines from a datacenter failure
+### You can use Availability Zones in Azure to protect Azure virtual machines from a datacenter failure
 
 - [x] Yes.
 - [ ] No.
 
-#### You can use Availability Zones in Azure to protect Azure virtual machines from a region failure
+### You can use Availability Zones in Azure to protect Azure virtual machines from a region failure
 
 - [ ] Yes.
 - [x] No.
 
-#### c) You can use Availability Zones in Azure to protect Azure managed disks from a datacenter failure
+### c) You can use Availability Zones in Azure to protect Azure managed disks from a datacenter failure
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### An Azure subscription can have multiple account administrators
+### An Azure subscription can have multiple account administrators
 
 - [ ] Yes.
 - [x] No.
 
-#### An Azure subscription can be managed by using a Microsoft account only
+### An Azure subscription can be managed by using a Microsoft account only
 
 - [x] Yes.
 - [ ] No.
 
-#### c) An Azure resource group can contain multiple Azure subscriptions
+### c) An Azure resource group can contain multiple Azure subscriptions
 
 - [ ] Yes.
 - [x] No.
@@ -1950,17 +1950,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### To use Azure Active Directory (Azure AD) credentials to sign in to a computer that runs Windows 10, the computer must be joined to Azure AD
+### To use Azure Active Directory (Azure AD) credentials to sign in to a computer that runs Windows 10, the computer must be joined to Azure AD
 
 - [x] Yes.
 - [ ] No.
 
-#### Users in Azure Active Directory (Azure AD) are organized by using resource groups
+### Users in Azure Active Directory (Azure AD) are organized by using resource groups
 
 - [ ] Yes.
 - [x] No.
 
-#### Azure Active Directory (Azure AD) groups support dynamic membership rules
+### Azure Active Directory (Azure AD) groups support dynamic membership rules
 
 - [x] Yes.
 - [ ] No.
@@ -1991,17 +1991,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Azure Monitor can monitor the performance of on-premises computers
+### Azure Monitor can monitor the performance of on-premises computers
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure Monitor can send alerts to Azure Active Directory security groups
+### Azure Monitor can send alerts to Azure Active Directory security groups
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure Monitor can trigger alerts based on data in an Azure Log Analytics workspace
+### Azure Monitor can trigger alerts based on data in an Azure Log Analytics workspace
 
 - [x] Yes.
 - [ ] No.
@@ -2013,17 +2013,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### From Azure Service Health, an administrator can view the health of all the services in an Azure environment
+### From Azure Service Health, an administrator can view the health of all the services in an Azure environment
 
 - [x] Yes.
 - [ ] No.
 
-#### From Azure Service Health, an administrator can create a rule to be alerted if an Azure service fails
+### From Azure Service Health, an administrator can create a rule to be alerted if an Azure service fails
 
 - [x] Yes.
 - [ ] No.
 
-#### From Azure Service Health, an administrator can prevent a service failure
+### From Azure Service Health, an administrator can prevent a service failure
 
 - [ ] Yes.
 - [x] No.
@@ -2035,21 +2035,21 @@
 
 ### You need to identify which blades in the Azure portal must be used to perform the following tasks: View security recommendations. Monitor the health of Azure services. Browse available virtual machine images. Which blade should you identify for each task? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Monitor the health of Azure services
+### Monitor the health of Azure services
 
 - [x] Monitor.
 - [ ] Subscriptions.
 - [ ] Marketplace.
 - [ ] Advisor.
 
-#### Browse available virtual machine images
+### Browse available virtual machine images
 
 - [ ] Monitor.
 - [ ] Subscriptions.
 - [x] Marketplace.
 - [ ] Advisor.
 
-#### View security recommendations
+### View security recommendations
 
 - [ ] Monitor.
 - [ ] Subscriptions.
@@ -2063,17 +2063,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Azure Advisor can generate a list of Azure virtual machines that are protected by Azure Backup
+### Azure Advisor can generate a list of Azure virtual machines that are protected by Azure Backup
 
 - [ ] Yes.
 - [x] No.
 
-#### If you implement the security recommendations provided by Azure Advisor, your company's secure score will decrease
+### If you implement the security recommendations provided by Azure Advisor, your company's secure score will decrease
 
 - [ ] Yes.
 - [x] No.
 
-#### To maintain Microsoft support, you must implement the security recommendations provided by Azure Advisor within a period of 30 days
+### To maintain Microsoft support, you must implement the security recommendations provided by Azure Advisor within a period of 30 days
 
 - [ ] Yes.
 - [x] No.
@@ -2095,17 +2095,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Azure Advisor provides recommendations on how to improve the security of an Azure Active Directory (Azure AD) environment
+### Azure Advisor provides recommendations on how to improve the security of an Azure Active Directory (Azure AD) environment
 
 - [ ] Yes.
 - [x] No.
 
-#### Azure Advisor provides recommendations on how to reduce the cost of running Azure virtual machines
+### Azure Advisor provides recommendations on how to reduce the cost of running Azure virtual machines
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure Advisor provides recommendations on how to configure the network settings on Azure virtual machines
+### Azure Advisor provides recommendations on how to configure the network settings on Azure virtual machines
 
 - [ ] Yes.
 - [x] No.
@@ -2127,21 +2127,21 @@
 
 ### Several support engineers plan to manage Azure by using the computers shown in the following table: Computer1-Windows 10; Computer2-Ubuntu; Computer3 MacOS Mojave. You need to identify which Azure management tools can be used from each computer. What should you identify for each computer? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Computer1
+### Computer1
 
 - [ ] The Azure CLI and the Azure portal.
 - [ ] The Azure portal and Azure PowerShell.
 - [ ] The Azure CLI and Azure PowerShell.
 - [x] The Azure CLI, the Azure portal, and Azure PowerShell.
 
-#### Computer2
+### Computer2
 
 - [ ] The Azure CLI and the Azure portal.
 - [ ] The Azure portal and Azure PowerShell.
 - [ ] The Azure CLI and Azure PowerShell.
 - [x] The Azure CLI, the Azure portal, and Azure PowerShell.
 
-#### c) Computer3
+### c) Computer3
 
 - [ ] The Azure CLI and the Azure portal.
 - [ ] The Azure portal and Azure PowerShell.
@@ -2172,34 +2172,34 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Azure Firewall will encrypt all the network traffic sent from Azure the Internet
+### Azure Firewall will encrypt all the network traffic sent from Azure the Internet
 
 - [ ] Yes.
 - [x] No.
 
-#### A network security group (NSG) will encrypt all the network traffic sent from Azure to the Internet
+### A network security group (NSG) will encrypt all the network traffic sent from Azure to the Internet
 
 - [ ] Yes.
 - [x] No.
 
-#### Azure virtual machines that run Windows Server 2016 can encrypt network traffic sent to the Internet
+### Azure virtual machines that run Windows Server 2016 can encrypt network traffic sent to the Internet
 
 - [ ] Yes.
 - [x] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Azure Security Center can monitor Azure resources and on- premises resources
+### Azure Security Center can monitor Azure resources and on- premises resources
 
 - [x] Yes.
 - [ ] No.
 
-#### All Azure Security Center features are free
+### All Azure Security Center features are free
 
 - [ ] Yes.
 - [x] No.
 
-#### From Azure Security Center, you can download a Regulatory Compliance report.
+### From Azure Security Center, you can download a Regulatory Compliance report.
 
 - [x] Yes.
 - [ ] No.
@@ -2213,14 +2213,14 @@
 
 ### You plan to implement several security services for an Azure environment. You need to identify which Azure services must be used to meet the following security requirements: ✑ Monitor threats by using sensors ✑ Enforce Azure Multi-Factor Authentication (MFA) based on a condition Which Azure service should you identify for each requirement? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Monitor threats by using sensors:
+### Monitor threats by using sensors:
 
 - [ ] Azure Monitor.
 - [ ] Azure Security Center.
 - [ ] Azure Active Directory (Azure AD) Identity Protection.
 - [x] Azure Advanced Threat Protection (ATP).
 
-####
+###
 
 - [ ] Azure Monitor.
 - [ ] Azure Security Center.
@@ -2243,17 +2243,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### You can associate a network security group (NSG) to a virtual network subnet
+### You can associate a network security group (NSG) to a virtual network subnet
 
 - [x] Yes.
 - [ ] No.
 
-#### You can associate a network security group (NSG) to a virtual network
+### You can associate a network security group (NSG) to a virtual network
 
 - [ ] Yes.
 - [x] No.
 
-#### You can associate a network security group (NSG) to a network interface
+### You can associate a network security group (NSG) to a network interface
 
 - [x] Yes.
 - [ ] No.
@@ -2274,17 +2274,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### You can create custom Azure roles to control access to resources
+### You can create custom Azure roles to control access to resources
 
 - [x] Yes.
 - [ ] No.
 
-#### A user account can be assigned to multiple Azure roles
+### A user account can be assigned to multiple Azure roles
 
 - [x] Yes.
 - [ ] No.
 
-#### A resource group can have the Owner role assigned to multiple users
+### A resource group can have the Owner role assigned to multiple users
 
 - [ ] Yes.
 - [x] No.
@@ -2348,17 +2348,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### You can create Group Polices in Azure Active Directory (Azure AD)
+### You can create Group Polices in Azure Active Directory (Azure AD)
 
 - [x] Yes.
 - [ ] No.
 
-#### You can join Windows 10 devices to Azure Active Directory (Azure AD)
+### You can join Windows 10 devices to Azure Active Directory (Azure AD)
 
 - [x] Yes.
 - [ ] No.
 
-#### You can join Android devices to Azure Active Directory (Azure AD)
+### You can join Android devices to Azure Active Directory (Azure AD)
 
 - [ ] Yes.
 - [x] No.
@@ -2393,68 +2393,68 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### General Data Protection Regulation (GDPR) defines data protection and privacy rules
+### General Data Protection Regulation (GDPR) defines data protection and privacy rules
 
 - [x] Yes.
 - [ ] No.
 
-#### General Data Protection Regulation (GDPR) applies to companies that offer goods or services to individuals in the EU
+### General Data Protection Regulation (GDPR) applies to companies that offer goods or services to individuals in the EU
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure can be used to build a General Data Protection Requlation (GDPR)-compliant infrastructure
+### Azure can be used to build a General Data Protection Requlation (GDPR)-compliant infrastructure
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### You can add an Azure Resource Manager template to an Azure blueprint
+### You can add an Azure Resource Manager template to an Azure blueprint
 
 - [x] Yes.
 - [ ] No.
 
-#### You can assign an Azure blueprint to a resource group
+### You can assign an Azure blueprint to a resource group
 
 - [ ] Yes.
 - [x] No.
 
-#### You can use Azure Blueprints to grant permissions to a resource
+### You can use Azure Blueprints to grant permissions to a resource
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Azure China is operated by Microsoft
+### Azure China is operated by Microsoft
 
 - [ ] Yes.
 - [x] No.
 
-#### Azure Government is operated by Microsoft
+### Azure Government is operated by Microsoft
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure Government is available only to US government agencies and their partners
+### Azure Government is available only to US government agencies and their partners
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### An Azure resource can have multiple Delete locks
+### An Azure resource can have multiple Delete locks
 
 - [x] Yes.
 - [ ] No.
 
-#### An Azure resource inherits locks from its resource group
+### An Azure resource inherits locks from its resource group
 
 - [x] Yes.
 - [ ] No.
 
-#### If an Azure resource has a Read-only lock, you can add a Delete lock to the resource
+### If an Azure resource has a Read-only lock, you can add a Delete lock to the resource
 
 - [x] Yes.
 - [ ] No.
@@ -2468,17 +2468,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Authorization to access Azure resources can be provided only to Azure Active Directory (Azure AD) users
+### Authorization to access Azure resources can be provided only to Azure Active Directory (Azure AD) users
 
 - [ ] Yes.
 - [x] No.
 
-#### Identities stored in Azure Active Directory (Azure AD), third-party cloud services, and on- premises Active Directory can be used to access Azure resources
+### Identities stored in Azure Active Directory (Azure AD), third-party cloud services, and on- premises Active Directory can be used to access Azure resources
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure has built-in authentication and authorization services that provide secure access to Azure resources
+### Azure has built-in authentication and authorization services that provide secure access to Azure resources
 
 - [x] Yes.
 - [ ] No.
@@ -2492,17 +2492,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Identities stored in an on-premises Active Directory can be synchronized to Azure Active Directory (Azure AD)
+### Identities stored in an on-premises Active Directory can be synchronized to Azure Active Directory (Azure AD)
 
 - [x] Yes.
 - [ ] No.
 
-#### Identities stored in Azure Active Directory (Azure AD), third-party cloud services, and on-premises Active Directory can be used to access Azure resources
+### Identities stored in Azure Active Directory (Azure AD), third-party cloud services, and on-premises Active Directory can be used to access Azure resources
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure has built-in authentication and authorization services that provide secure access to Azure resources
+### Azure has built-in authentication and authorization services that provide secure access to Azure resources
 
 - [x] Yes.
 - [ ] No.
@@ -2530,34 +2530,34 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Azure Active Directory (Azure AD) requires the implementation of domain controllers on Azure virtual machines
+### Azure Active Directory (Azure AD) requires the implementation of domain controllers on Azure virtual machines
 
 - [ ] Yes.
 - [x] No.
 
-#### Azure Active Directory (Azure AD) provides authentication services for resources hosted in Azure and Microsoft 365
+### Azure Active Directory (Azure AD) provides authentication services for resources hosted in Azure and Microsoft 365
 
 - [x] Yes.
 - [ ] No.
 
-#### Each user account in Azure Active Directory (Azure AD) can be assigned only one license
+### Each user account in Azure Active Directory (Azure AD) can be assigned only one license
 
 - [ ] Yes.
 - [x] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### To implement an Azure Multi-Factor Authentication (MFA) solution, you must sync on-premises identities to the cloud
+### To implement an Azure Multi-Factor Authentication (MFA) solution, you must sync on-premises identities to the cloud
 
 - [ ] Yes.
 - [x] No.
 
-#### Two valid methods for Azure Multi-Factor Authentication (MFA) are picture identification and a passport number
+### Two valid methods for Azure Multi-Factor Authentication (MFA) are picture identification and a passport number
 
 - [ ] Yes.
 - [x] No.
 
-#### Azure Multi-Factor Authentication (MFA) can be required for administrative and non- administrative user accounts
+### Azure Multi-Factor Authentication (MFA) can be required for administrative and non- administrative user accounts
 
 - [x] Yes.
 - [ ] No.
@@ -2571,17 +2571,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### You can configure the Azure Active Directory (Azure AD) activity logs to appear in Azure Monitor
+### You can configure the Azure Active Directory (Azure AD) activity logs to appear in Azure Monitor
 
 - [x] Yes.
 - [ ] No.
 
-#### From Azure Monitor, you can monitor resources across multiple Azure subscriptions
+### From Azure Monitor, you can monitor resources across multiple Azure subscriptions
 
 - [x] Yes.
 - [ ] No.
 
-#### From Azure Monitor, you can create alerts
+### From Azure Monitor, you can create alerts
 
 - [x] Yes.
 - [ ] No.
@@ -2640,51 +2640,51 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### If your company uses an Azure free account, you will only be able to use a subset of Azure services
+### If your company uses an Azure free account, you will only be able to use a subset of Azure services
 
 - [ ] Yes.
 - [x] No.
 
-#### All Azure free accounts expire after a specific period
+### All Azure free accounts expire after a specific period
 
 - [x] Yes.
 - [ ] No.
 
-#### You can create up to 10 Azure free accounts by using the same Microsoft account
+### You can create up to 10 Azure free accounts by using the same Microsoft account
 
 - [ ] Yes.
 - [x] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### All Azure services in private preview must be accessed by using a separate Azure portal
+### All Azure services in private preview must be accessed by using a separate Azure portal
 
 - [ ] Yes.
 - [x] No.
 
-#### Azure services in public preview can be used in production environments
+### Azure services in public preview can be used in production environments
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure services in public preview are subject to a Service Level Agreement (SLA)
+### Azure services in public preview are subject to a Service Level Agreement (SLA)
 
 - [ ] Yes.
 - [x] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### A Standard support plan is included in an Azure free account
+### A Standard support plan is included in an Azure free account
 
 - [ ] Yes.
 - [x] No.
 
-#### A Premier support plan can only be purchased by companies that have an Enterprise Agreement (EA)
+### A Premier support plan can only be purchased by companies that have an Enterprise Agreement (EA)
 
 - [x] Yes.
 - [ ] No.
 
-#### Support from MSDN forums is only provided to companies that have a pay-as-you-go subscription
+### Support from MSDN forums is only provided to companies that have a pay-as-you-go subscription
 
 - [ ] Yes.
 - [x] No.
@@ -2698,34 +2698,34 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### A user who is assigned the Owner role can transfer ownership of an Azure subscription
+### A user who is assigned the Owner role can transfer ownership of an Azure subscription
 
 - [ ] Yes.
 - [x] No.
 
-#### You can convert the Azure subscription of your company from Free Trial to Pay-As-You-Go
+### You can convert the Azure subscription of your company from Free Trial to Pay-As-You-Go
 
 - [x] Yes.
 - [ ] No.
 
-#### You can convert the Azure subscription of your company from Free Trial to Pay-As-You-Go
+### You can convert the Azure subscription of your company from Free Trial to Pay-As-You-Go
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Statements With Azure Reservations, you pay less fer virtual machines than with pay as-you-go pricing
+### Statements With Azure Reservations, you pay less fer virtual machines than with pay as-you-go pricing
 
 - [x] Yes.
 - [ ] No.
 
-#### Two Azure virtual machines that use the B25 size have the same monthly costs
+### Two Azure virtual machines that use the B25 size have the same monthly costs
 
 - [ ] Yes.
 - [x] No.
 
-#### When an Azure virtual machine is stopped, you continue to pay storage costs for the virtual machine
+### When an Azure virtual machine is stopped, you continue to pay storage costs for the virtual machine
 
 - [x] Yes.
 - [ ] No.
@@ -2747,19 +2747,19 @@
 
 ### How should you calculate the monthly uptime percentage? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### a)
+### a)
 
 - [ ] Downtime in Minutes.
 - [ ] Maximum Available Minutes.
 - [x] (Maximum Available Minutes-Downtime in Minutes).
 
-  #### b)
+  ### b)
 
 - [ ] 60.
 - [ ] 1,440.
 - [x] Maximum Available Minutes.
 
-#### c)
+### c)
 
 - [x] 100.
 - [ ] 99.99.
@@ -2767,17 +2767,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### By creating additional resource groups in an Azure subscription, additional costs are incurred
+### By creating additional resource groups in an Azure subscription, additional costs are incurred
 
 - [ ] Yes.
 - [x] No.
 
-#### By copying several gigabits of data to Azure from an on-premises network over a VPN, additional data transfer costs are incurred
+### By copying several gigabits of data to Azure from an on-premises network over a VPN, additional data transfer costs are incurred
 
 - [ ] Yes.
 - [x] No.
 
-#### By copying several gigabits of data to Azure from an on-premises network over a VPN, additional data transfer costs are incurred
+### By copying several gigabits of data to Azure from an on-premises network over a VPN, additional data transfer costs are incurred
 
 - [x] Yes.
 - [ ] No.
@@ -2834,17 +2834,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Most Azure services are introduced in private preview before being introduced in public preview, and then in general availability
+### Most Azure services are introduced in private preview before being introduced in public preview, and then in general availability
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure services in public preview can be managed only by using the Azure CLI
+### Azure services in public preview can be managed only by using the Azure CLI
 
 - [ ] Yes.
 - [x] No.
 
-#### The cost of an Azure service in private preview decreases when the service becomes generally available
+### The cost of an Azure service in private preview decreases when the service becomes generally available
 
 - [ ] Yes.
 - [x] No.
@@ -2870,68 +2870,68 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### An Azure free account has a spending limit
+### An Azure free account has a spending limit
 
 - [x] Yes.
 - [ ] No.
 
-#### An Azure free account has a limit of 2TB of data that can be uploaded to Azure
+### An Azure free account has a limit of 2TB of data that can be uploaded to Azure
 
 - [ ] Yes.
 - [x] No.
 
-#### An Azure free account can contain an unlimited number of web apps
-
-- [ ] Yes.
-- [x] No.
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
-
-#### An Azure service in private preview is released to all Azure customers
-
-- [ ] Yes.
-- [x] No.
-
-#### An Azure service in public preview is released to all Azure customers
-
-- [x] Yes.
-- [ ] No.
-
-#### An Azure service in general availability is released to a subset of Azure customers
+### An Azure free account can contain an unlimited number of web apps
 
 - [ ] Yes.
 - [x] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### With a consumption-based plan, you pay a fixed rate for all data sent to or from virtual machines hosted in the cloud
+### An Azure service in private preview is released to all Azure customers
 
 - [ ] Yes.
 - [x] No.
 
-#### With a consumption-based plan, you reduce overall costs by paying only for extra capacity when it is required
+### An Azure service in public preview is released to all Azure customers
 
 - [x] Yes.
 - [ ] No.
 
-#### Serverless computing is an example of a consumption-based plan
+### An Azure service in general availability is released to a subset of Azure customers
+
+- [ ] Yes.
+- [x] No.
+
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+
+### With a consumption-based plan, you pay a fixed rate for all data sent to or from virtual machines hosted in the cloud
+
+- [ ] Yes.
+- [x] No.
+
+### With a consumption-based plan, you reduce overall costs by paying only for extra capacity when it is required
+
+- [x] Yes.
+- [ ] No.
+
+### Serverless computing is an example of a consumption-based plan
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### The cost of Azure resources can vary between regions
+### The cost of Azure resources can vary between regions
 
 - [x] Yes.
 - [ ] No.
 
-#### An Azure reservation is used to reserve server capacity at a specific data center
+### An Azure reservation is used to reserve server capacity at a specific data center
 
 - [x] Yes.
 - [ ] No.
 
-#### You can stop an Azure SQL Database instance to decrease costs
+### You can stop an Azure SQL Database instance to decrease costs
 
 - [ ] Yes.
 - [x] No.
@@ -2945,17 +2945,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### The Service Level Agreement (SLA) guaranteed uptime for paid Azure services is at least 99.9 percent
+### The Service Level Agreement (SLA) guaranteed uptime for paid Azure services is at least 99.9 percent
 
 - [ ] Yes.
 - [ ] No.
 
-#### Companies can increase the Service Level Agreement (SLA) guaranteed uptime by adding Azure resources to multiple regions
+### Companies can increase the Service Level Agreement (SLA) guaranteed uptime by adding Azure resources to multiple regions
 
 - [ ] Yes.
 - [ ] No.
 
-#### Companies can increase the Service Level Agreement (SLA) guaranteed uptime by purchasing multiple subscriptions
+### Companies can increase the Service Level Agreement (SLA) guaranteed uptime by purchasing multiple subscriptions
 
 - [ ] Yes.
 - [ ] No.
@@ -2991,17 +2991,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### From the Azure portal, you can distinguish between services that are generally available and services that are in public preview
+### From the Azure portal, you can distinguish between services that are generally available and services that are in public preview
 
 - [x] Yes.
 - [ ] No.
 
-#### After an Azure service becomes generally available, the service is no longer updated with new features
+### After an Azure service becomes generally available, the service is no longer updated with new features
 
 - [ ] Yes.
 - [x] No.
 
-#### When you create Azure resources for a service in public preview, you must recreate the resources once the service becomes generally available
+### When you create Azure resources for a service in public preview, you must recreate the resources once the service becomes generally available
 
 - [ ] Yes.
 - [x] No.
@@ -3013,12 +3013,12 @@
 - [x] Yes.
 - [ ] No.
 
-#### Outbound data traffic from Azure to an on-premises network is always free
+### Outbound data traffic from Azure to an on-premises network is always free
 
 - [ ] Yes.
 - [x] No.
 
-#### Data traffic between Azure services within the same Azure region is always free
+### Data traffic between Azure services within the same Azure region is always free
 
 - [x] Yes.
 - [ ] No.
@@ -3039,68 +3039,68 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Storing 1 TB of data in Azure Blob storage will always cost the same, regardless of the Azure region in which the data is located
+### Storing 1 TB of data in Azure Blob storage will always cost the same, regardless of the Azure region in which the data is located
 
 - [ ] Yes.
 - [x] No.
 
-#### When you use a general-purpose v2 Azure Storage account, you are only charged for the amount of data that is stored. All read and write operations are free
+### When you use a general-purpose v2 Azure Storage account, you are only charged for the amount of data that is stored. All read and write operations are free
 
 - [ ] Yes.
 - [x] No.
 
-#### Transferring data between Azure Storage accounts In different Azure regions is free
+### Transferring data between Azure Storage accounts In different Azure regions is free
 
 - [ ] Yes.
 - [x] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### In Azure Active Directory Premium P2, at least 99.9 percent availability is guaranteed
+### In Azure Active Directory Premium P2, at least 99.9 percent availability is guaranteed
 
 - [x] Yes.
 - [ ] No.
 
-#### The Service Level Agreement (SLA) for Azure Active Directory Premium P2 is the same as the SLA for Azure Active Directory Free
+### The Service Level Agreement (SLA) for Azure Active Directory Premium P2 is the same as the SLA for Azure Active Directory Free
 
 - [ ] Yes.
 - [x] No.
 
-#### All paying Azure customers receive a credit if their monthly uptime percentage is below the guaranteed amount in the Service Level Agreement (SLA)
+### All paying Azure customers receive a credit if their monthly uptime percentage is below the guaranteed amount in the Service Level Agreement (SLA)
 
 - [x] Yes.
 - [ ] No.
 
 ### All paying Azure customers receive a credit if their monthly uptime percentage is below the guaranteed amount in the Service Level Agreement (SLA)
 
-#### Adding resource groups in an Azure subscription generates additional costs
+### Adding resource groups in an Azure subscription generates additional costs
 
 - [ ] Yes.
 - [x] No.
 
-#### Copying 10 GB of data to Azure from an on- premises network over a VPN generates additional Azure data transfer costs
+### Copying 10 GB of data to Azure from an on- premises network over a VPN generates additional Azure data transfer costs
 
 - [ ] Yes.
 - [x] No.
 
-#### Copying 10 GB of data from Azure to an on- premises network over a VPN generates additional Azure data transfer costs
+### Copying 10 GB of data from Azure to an on- premises network over a VPN generates additional Azure data transfer costs
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
 
-#### Each Azure subscription can contain multiple account administrators
+### Each Azure subscription can contain multiple account administrators
 
 - [ ] Yes.
 - [x] No.
 
-#### Each Azure subscription can be managed by using a Microsoft account only
+### Each Azure subscription can be managed by using a Microsoft account only
 
 - [ ] Yes.
 - [x] No.
 
-#### An Azure resource group contains multiple Azure subscriptions
+### An Azure resource group contains multiple Azure subscriptions
 
 - [ ] Yes.
 - [x] No.
@@ -3121,17 +3121,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### Azure Active Directory Premium P2 guarantees at least 99.9 percent availability
+### Azure Active Directory Premium P2 guarantees at least 99.9 percent availability
 
 - [x] Yes.
 - [ ] No.
 
-#### The Service Level Agreement (SLA) for Azure Active Directory Premium P2 s the same as the SLA for Azure Active Directory Free
+### The Service Level Agreement (SLA) for Azure Active Directory Premium P2 s the same as the SLA for Azure Active Directory Free
 
 - [x] Yes.
 - [ ] No.
 
-#### All paying Azure customers receive a credit if their monthly uptime percentage s below the guaranteed amount in the Service Level Agreement (SLA)
+### All paying Azure customers receive a credit if their monthly uptime percentage s below the guaranteed amount in the Service Level Agreement (SLA)
 
 - [ ] Yes.
 - [x] No.
@@ -3192,17 +3192,17 @@
 
 ### For each of the following statements, select Yes if the statement is true, Otherwise, select No. NOTE: Each correct match is worth one point.
 
-#### The Microsoft Service Trust Portal can be accessed by using a Microsoft cloud services account
+### The Microsoft Service Trust Portal can be accessed by using a Microsoft cloud services account
 
 - [x] Yes.
 - [ ] No.
 
-#### Compliance Manager can be used to track your company's regulatory compliance activities related to Microsoft cloud services
+### Compliance Manager can be used to track your company's regulatory compliance activities related to Microsoft cloud services
 
 - [x] Yes.
 - [ ] No.
 
-#### The My Library feature can be used to save Microsoft Service Trust Portal documents and resources in a single location
+### The My Library feature can be used to save Microsoft Service Trust Portal documents and resources in a single location
 
 - [x] Yes.
 - [ ] No.
@@ -3228,34 +3228,34 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### To implement a hybnid cloud model, a company must always migrate from a private cloud model
+### To implement a hybnid cloud model, a company must always migrate from a private cloud model
 
 - [ ] Yes.
 - [x] No
 
-#### A company can extend the computing resources of its internal network by using the public cloud
+### A company can extend the computing resources of its internal network by using the public cloud
 
 - [x] Yes.
 - [ ] No.
 
-#### In a public cloud model, only guest users at your company can access the resources in the cloud
+### In a public cloud model, only guest users at your company can access the resources in the cloud
 
 - [ ] Yes.
 - [x] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct match is worth one point.
 
-#### Azure DevOps Services allows developers to deploy or update applications to Azure using Continuous Integration/Continuous Delivery (CI/CD) pipelines
+### Azure DevOps Services allows developers to deploy or update applications to Azure using Continuous Integration/Continuous Delivery (CI/CD) pipelines
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure DevOps Services includes a Git repository for developers to store code
+### Azure DevOps Services includes a Git repository for developers to store code
 
 - [x] Yes.
 - [ ] No.
 
-#### Azure DevOps Services can be used to build and host web apps
+### Azure DevOps Services can be used to build and host web apps
 
 - [x] Yes.
 - [ ] No.
@@ -3329,17 +3329,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### A platform as a service (PaaS) solution that hosts web apps in Azure provides full control of the operating systems that host applications
+### A platform as a service (PaaS) solution that hosts web apps in Azure provides full control of the operating systems that host applications
 
 - [ ] Yes.
 - [x] No.
 
-#### A Platform as a Service (PaaS) solution that hosts web apps in Azure can be provided with additional memory by changing the pricing tier
+### A Platform as a Service (PaaS) solution that hosts web apps in Azure can be provided with additional memory by changing the pricing tier
 
 - [x] Yes.
 - [ ] No.
 
-#### A Platform as a Service (PaaS) solution that hosts web apps in Azure can be configured to automatically scale the number of instances based on demand
+### A Platform as a Service (PaaS) solution that hosts web apps in Azure can be configured to automatically scale the number of instances based on demand
 
 - [x] Yes.
 - [ ] No.
@@ -3399,17 +3399,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### From Azure Service Health, an administrator can view the health of all the services deployed to an Azure environment and all the other services available in Azure
+### From Azure Service Health, an administrator can view the health of all the services deployed to an Azure environment and all the other services available in Azure
 
 - [x] Yes.
 - [ ] No.
 
-#### From Azure Service Health, an administrator can create a rule to be alerted if an Azure service fails
+### From Azure Service Health, an administrator can create a rule to be alerted if an Azure service fails
 
 - [x] Yes.
 - [ ] No.
 
-#### From Azure Service Health, an administrator can prevent a service failure from affecting a specific virtual machine
+### From Azure Service Health, an administrator can prevent a service failure from affecting a specific virtual machine
 
 - [ ] Yes.
 - [x] No.
@@ -3437,17 +3437,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### Azure Active Directory Premium P2 guarantees at least 999 percent availability
+### Azure Active Directory Premium P2 guarantees at least 999 percent availability
 
 - [x] Yes.
 - [ ] No.
 
-#### The Service Level Agreement (SLA) for Azure Active Crectory Premum P2 is the same as the SLA for Azure Active Directory Free
+### The Service Level Agreement (SLA) for Azure Active Crectory Premum P2 is the same as the SLA for Azure Active Directory Free
 
 - [x] Yes.
 - [ ] No.
 
-#### All paying Azure customers receive a creoit if their monthly uptime percentage is below the guaranteed amount in the Service Level Agreement (SLA)
+### All paying Azure customers receive a creoit if their monthly uptime percentage is below the guaranteed amount in the Service Level Agreement (SLA)
 
 - [ ] Yes.
 - [x] No.
@@ -3482,34 +3482,34 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### All the Azure resources deployed to a single resource group must share the same Azure region
+### All the Azure resources deployed to a single resource group must share the same Azure region
 
 - [ ] Yes.
 - [x] No.
 
-#### If you assign a tag to a resource group, all the Azure resources in that resource group are assigned to the same tag
+### If you assign a tag to a resource group, all the Azure resources in that resource group are assigned to the same tag
 
 - [ ] Yes.
 - [x] No.
 
-#### If you set permissions to a resource group, all the Azure resources in that resource group inherit the permissions
+### If you set permissions to a resource group, all the Azure resources in that resource group inherit the permissions
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### With Azure Reservations, you play less for virtual machines that with pay- as-you-go pricing
+### With Azure Reservations, you play less for virtual machines that with pay- as-you-go pricing
 
 - [x] Yes.
 - [ ] No.
 
-#### If you create two Azure virtual machines that use the B2S size, each virtual machine will always generate the same monthly costs
+### If you create two Azure virtual machines that use the B2S size, each virtual machine will always generate the same monthly costs
 
 - [ ] Yes.
 - [x] No.
 
-#### When an Azure virtual machine is stopped, you continue to pay storage costs associated to the virtual machine
+### When an Azure virtual machine is stopped, you continue to pay storage costs associated to the virtual machine
 
 - [x] Yes.
 - [ ] No.
@@ -3565,17 +3565,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE Each correct selection is worth one point.
 
-#### If your company Uses an Azure free account you can only deploy Azure virtual machines and Azure storage accounts
+### If your company Uses an Azure free account you can only deploy Azure virtual machines and Azure storage accounts
 
 - [ ] Yes.
 - [x] No.
 
-#### All Azure free accounts expire after a specific period
+### All Azure free accounts expire after a specific period
 
 - [x] Yes.
 - [ ] No.
 
-#### You can create up to 10 Azure free accounts by using the same Microsoft account.
+### You can create up to 10 Azure free accounts by using the same Microsoft account.
 
 - [ ] Yes.
 - [x] No.
@@ -3587,17 +3587,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### From Azure Service Health, an administrator can view the health of all the services in an Azure environmient
+### From Azure Service Health, an administrator can view the health of all the services in an Azure environmient
 
 - [x] Yes.
 - [ ] No.
 
-#### From Azure Senvice Health, an administrator can create arule to be alerted if an Azure service fails
+### From Azure Senvice Health, an administrator can create arule to be alerted if an Azure service fails
 
 - [x] Yes.
 - [ ] No.
 
-#### From Azure Service Health, an administrator can prevent a service failure
+### From Azure Service Health, an administrator can prevent a service failure
 
 - [ ] Yes.
 - [x] No.
@@ -3611,17 +3611,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### Storing 1 TB of data in Azure Blob storage will always cost the same, regardless the Azure region in which the data is located
+### Storing 1 TB of data in Azure Blob storage will always cost the same, regardless the Azure region in which the data is located
 
 - [ ] Yes.
 - [x] No.
 
-#### When you use a general-purpose v2 Azure Storage account, you are only charged for the amount of data that is stored. All read and write operations are free
+### When you use a general-purpose v2 Azure Storage account, you are only charged for the amount of data that is stored. All read and write operations are free
 
 - [ ] Yes.
 - [x] No.
 
-#### Transferring data between Azure Storage accounts in different Azure regions is free
+### Transferring data between Azure Storage accounts in different Azure regions is free
 
 - [ ] Yes.
 - [x] No.
@@ -3698,17 +3698,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No . NOTE: Each correct selection is worth one point.
 
-#### Azure provides flexibility between capital expenditure (CapEx) and operational exponditure (OpEx)
+### Azure provides flexibility between capital expenditure (CapEx) and operational exponditure (OpEx)
 
 - [x] Yes.
 - [ ] No.
 
-#### If you create two Azure virtual machines that use the B2S size, each virtual machine will always generate the same monthly costs
+### If you create two Azure virtual machines that use the B2S size, each virtual machine will always generate the same monthly costs
 
 - [ ] Yes.
 - [x] No.
 
-#### When an Azure virtual machine is stopped, you continue to pay storage costs associated to the virtual machine.
+### When an Azure virtual machine is stopped, you continue to pay storage costs associated to the virtual machine.
 
 - [x] Yes.
 - [ ] No.
@@ -3732,13 +3732,13 @@
 
 ### You have an Azure environment that contains 10 web apps.To which URL should you connect to manage all the Azure resources? To answer, select the appropriate options in the answer area . NOTE: Each correct selection is worth one point. https://**_._**.com
 
-#### 1.
+### 1.
 
 - [ ] admin.
 - [x] portal.
 - [ ] www.
 
-#### 2.
+### 2.
 
 - [x] azure.
 - [ ] azurewebsites.
@@ -3771,17 +3771,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No . NOTE: Each correct selection is worth one point
 
-#### To implement an Azure Multi-Factor Authentication (MFA) solution, you must deploy a federation solution or sync on-premises identities to the cloud
+### To implement an Azure Multi-Factor Authentication (MFA) solution, you must deploy a federation solution or sync on-premises identities to the cloud
 
 - [ ] Yes.
 - [x] No.
 
-#### Two valid methods for Azure Multi-Factor Authentication (MFA) are picture identification and a passport number
+### Two valid methods for Azure Multi-Factor Authentication (MFA) are picture identification and a passport number
 
 - [ ] Yes.
 - [x] No.
 
-#### Azure Multi-Factor Authentication (MFA) can be required for administrative and non administrative user accounts
+### Azure Multi-Factor Authentication (MFA) can be required for administrative and non administrative user accounts
 
 - [x] Yes.
 - [ ] No.
@@ -3826,21 +3826,21 @@
 
 ### You need to identify which blades in the Azure portal must be used to perform the following tasks:– View security recommendations. – Monitor the health of Azure services. – Browse available virtual machine images. Which blade should you identify for each task? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
 
-#### Monitor the health of Azure services:
+### Monitor the health of Azure services:
 
 - [x] Monitor.
 - [ ] Subscriptions.
 - [ ] Marketplace.
 - [ ] Advisor.
 
-#### Browse available virtual machine images:
+### Browse available virtual machine images:
 
 - [ ] Monitor.
 - [ ] Subscriptions.
 - [x] Marketplace.
 - [ ] Advisor.
 
-#### View security recommendations:
+### View security recommendations:
 
 - [ ] Advisor.
 - [ ] Subscriptions.
@@ -3849,17 +3849,17 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### To achieve a hybrid cloud model, a company must always migrate from a private cloud model
+### To achieve a hybrid cloud model, a company must always migrate from a private cloud model
 
 - [ ] Yes.
 - [x] No.
 
-#### A company can extend the capacity of its internal network by using the public cloud
+### A company can extend the capacity of its internal network by using the public cloud
 
 - [x] Yes.
 - [ ] No.
 
-#### In a public cloud model, only guest users at your company can access the resources in the cloud
+### In a public cloud model, only guest users at your company can access the resources in the cloud
 
 - [ ] Yes.
 - [x] No.
@@ -3896,13 +3896,13 @@
 
 ### Which cloud deployment solution is used for Azure virtual machines and Azure SQL databases? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
 
-#### Azure virtual machines:
+### Azure virtual machines:
 
 - [x] Infrastructure as a service (laaS).
 - [ ] Platform as a service (PaaS).
 - [ ] Software as a service (SaaS).
 
-#### Azure SQL databases
+### Azure SQL databases
 
 - [ ] Infrastructure as a service (laaS).
 - [x] Platform as a service (PaaS).
@@ -3932,34 +3932,34 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### Azure Pay-As-You-Go pricing is an example of CapEx
+### Azure Pay-As-You-Go pricing is an example of CapEx
 
 - [ ] Yes.
 - [x] No.
 
-#### Azure Reserved VM Instances are an example of OpEx
+### Azure Reserved VM Instances are an example of OpEx
 
 - [ ] Yes.
 - [x] No.
 
-#### Deploying your own datacenter is an example of CapEx
+### Deploying your own datacenter is an example of CapEx
 
 - [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### A company can extend a private cloud by adding its physical servers to the public cloud
+### A company can extend a private cloud by adding its physical servers to the public cloud
 
 - [ ] Yes.
 - [x] No.
 
-#### To build a hybrid cloud, you must deploy resources to the public cloud
+### To build a hybrid cloud, you must deploy resources to the public cloud
 
 - [x] Yes.
 - [ ] No.
 
-#### A private cloud must be disconnected from the internet
+### A private cloud must be disconnected from the internet
 
 - [ ] Yes.
 - [x] No.
@@ -4029,17 +4029,17 @@ to ensure that the services running on the virtual machines are available if a s
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### Azure resources can only access other resources in the same resource group
+### Azure resources can only access other resources in the same resource group
 
 - [ ] Yes.
 - [x] No.
 
-#### If you delete a resource group, all the resources in the resource group will be deleted
+### If you delete a resource group, all the resources in the resource group will be deleted
 
 - [x] Yes.
 - [ ] No.
 
-#### A resource group can contain resources from multiple Azure regions
+### A resource group can contain resources from multiple Azure regions
 
 - [x] Yes.
 - [ ] No.
@@ -4063,17 +4063,17 @@ to ensure that the services running on the virtual machines are available if a s
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
-#### Data that is copied to an Azure Storage account is maintained automatically in at least three copies
+### Data that is copied to an Azure Storage account is maintained automatically in at least three copies
 
 - [x] Yes.
 - [ ] No.
 
-#### All data that is copied to an Azure Storage account is backed up automatically to another Azure data center
+### All data that is copied to an Azure Storage account is backed up automatically to another Azure data center
 
 - [ ] Yes.
 - [x] No.
 
-#### An Azure Storage account can contain up to 2 TB of data and up to one million files
+### An Azure Storage account can contain up to 2 TB of data and up to one million files
 
 - [ ] Yes.
 - [x] No.

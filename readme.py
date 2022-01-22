@@ -19,6 +19,7 @@ def generate_questions(lines):
    for question in questions:
       buffer = ""
       buffer += question[0].strip("### ").replace("\n", "")
+      # buffer += question[0].strip("### ").replace("\n", "").replace(" ", "-").replace(".", "").replace("\"","").replace(":","").replace("’", "").replace(")", "").replace("(", "").replace(",", "").replace("[", "").replace("]", "").replace("“","").replace("”","").replace("✑","").replace("---","-").replace("--","-").lower()
       buffer += ","
       answers, correct_idxs, is_ma = generate_answer_string(question[2:-1])
       buffer += "multi-select," if is_ma else "multiple-choice,"
