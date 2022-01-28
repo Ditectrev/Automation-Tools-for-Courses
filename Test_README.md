@@ -1098,7 +1098,7 @@
 
 *[⬆ Back to Top](#table-of-contents)*
 
-### A company has defined the following resources in Azure a) 10 Public IP addresses b) 20 users in Azure AD c)5 user groups in Azure AD They now want to reduce the costs associated with the Azure account. Would the removal of the public IP addresses from the account help reduce the cost?
+### A company has defined the following resources in Azure a) 10 Public IP addresses b) 20 users in Azure AD c) 5 user groups in Azure AD They now want to reduce the costs associated with the Azure account. Would the removal of the public IP addresses from the account help reduce the cost?
 
 - [x] Yes.
 - [ ] No.
@@ -3194,7 +3194,7 @@
 
 *[⬆ Back to Top](#table-of-contents)*
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: c) An Azure resource group can contain multiple Azure subscriptions
+### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: An Azure resource group can contain multiple Azure subscriptions
 
 - [ ] Yes.
 - [x] No.
@@ -4237,8 +4237,6 @@
 
 ### How should you calculate the monthly uptime percentage? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area: c)
 
-*[⬆ Back to Top](#table-of-contents)*
-
 - [x] 100.
 - [ ] 99.99.
 - [ ] 1.440.
@@ -4689,8 +4687,6 @@
 - [x] Automatically credit your account.
 - [ ] Send you a coupon code that you can redeem for Azure credits.
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Azure Active Directory Premium P2 guarantees at least 99.9 percent availability
 
 - [x] Yes.
@@ -4828,8 +4824,6 @@
 
 *[⬆ Back to Top](#table-of-contents)*
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: To implement a hybnid cloud model, a company must always migrate from a private cloud model
 
 - [ ] Yes.
@@ -4955,8 +4949,6 @@
 
 *[⬆ Back to Top](#table-of-contents)*
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: A platform as a service (PaaS) solution that hosts web apps in Azure provides full control of the operating systems that host applications
 
 - [ ] Yes.
@@ -5047,8 +5039,6 @@
 
 *[⬆ Back to Top](#table-of-contents)*
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: From Azure Service Health, an administrator can view the health of all the services deployed to an Azure environment and all the other services available in Azure
 
 - [x] Yes.
@@ -5096,8 +5086,6 @@
 - [ ] Professional Direct.
 
 *[⬆ Back to Top](#table-of-contents)*
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Azure Active Directory Premium P2 guarantees at least 999 percent availability
 
@@ -5176,8 +5164,6 @@
 - [ ] No.
 
 *[⬆ Back to Top](#table-of-contents)*
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: With Azure Reservations, you play less for virtual machines that with pay- as-you-go pricing
 
@@ -5629,8 +5615,6 @@
 
 *[⬆ Back to Top](#table-of-contents)*
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: To achieve a hybrid cloud model, a company must always migrate from a private cloud model
 
 - [ ] Yes.
@@ -5761,8 +5745,6 @@
 
 *[⬆ Back to Top](#table-of-contents)*
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: A company can extend a private cloud by adding its physical servers to the public cloud
 
 - [ ] Yes.
@@ -5865,8 +5847,6 @@ to ensure that the services running on the virtual machines are available if a s
 
 *[⬆ Back to Top](#table-of-contents)*
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Azure resources can only access other resources in the same resource group
 
 - [ ] Yes.
@@ -5910,8 +5890,6 @@ to ensure that the services running on the virtual machines are available if a s
 - [ ] No.
 
 *[⬆ Back to Top](#table-of-contents)*
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Data that is copied to an Azure Storage account is maintained automatically in at least three copies
 
