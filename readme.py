@@ -19,13 +19,20 @@ def generate_questions(lines):
    for question in questions:
       buffer = ""
       buffer += question[0].strip("### ").replace("\n", "")
+      # Part of the code to generate URLs for table of content.
       # buffer += question[0].strip("### ").replace("\n", "").replace(" ", "-").replace(".", "").replace("\"","").replace(":","").replace("’", "").replace(")", "").replace("(", "").replace(",", "").replace("[", "").replace("]", "").replace("“","").replace("”","").replace("✑","").replace("---","-").replace("--","-").lower()
       # buffer += "\n"
       buffer += ","
       answers, correct_idxs, is_ma = generate_answer_string(question[2:-1])
       buffer += "multi-select," if is_ma else "multiple-choice,"
       buffer += ",".join(answers)
-      buffer += ',' + ",".join(correct_idxs) + ',\n' # TODO: correct_idxs+1 has to be
+      correct_idxs_integers = list(map(int, correct_idxs))
+      correct_idxs_integers_incremented = []
+      for correct_idx_integer in correct_idxs_integers:
+         correct_idx_integer += 1
+         correct_idxs_integers_incremented.append(correct_idx_integer)
+      string_ints = [str(int) for int in correct_idxs_integers_incremented]
+      buffer += ',' + ",".join(string_ints) + '\n'
       with open("test.csv","a") as f:
          f.write(buffer)
 
