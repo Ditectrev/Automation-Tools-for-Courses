@@ -190,7 +190,7 @@
 - [ ] Using the Azure storage - Queue service.
 - [ ] Using the Azure storage - Table service.
 
-###  A company wants to have a data store hosted in Azure. Below are the key requirements for the data store a) The data store must be able to store JSON documents b) The data store must be able to handle data writes from multiple regions Which of the following would be the ideal data store for this requirement
+### A company wants to have a data store hosted in Azure. Below are the key requirements for the data store a) The data store must be able to store JSON documents b) The data store must be able to handle data writes from multiple regions Which of the following would be the ideal data store for this requirement
 
 - [ ] Azure SQL Database.
 - [x] Azure CosmosDB.
@@ -261,17 +261,18 @@
 - [x] Azure Policies.
 - [ ] Azure Resource Manager templates.
 
-### Your company is planning on setting an Azure environment by setting up a subscription and Azure AD. They need to purchase a low-cost option support plan. The support plan needs to ensure 24*7 access to support engineers by phone or email. You suggest opting for the Basic Support plan. Does this support the requirement
+### Your company is planning on setting an Azure environment by setting up a subscription and Azure AD. They need to purchase a low-cost option support plan. The support plan needs to ensure 24\*7 access to support engineers by phone or email. You suggest opting for the Basic Support plan. Does this support the requirement
 
 - [ ] Yes.
 - [x] No.
 
-### Your company is planning on setting an Azure environment by setting up a subscription and Azure AD. They need to purchase a low-cost option support plan. The support plan needs to ensure 24*7 access to support engineers by phone or email. You suggest opting for the Standard Support plan. Does this support the requirement
+### Your company is planning on setting an Azure environment by setting up a subscription and Azure AD. They need to purchase a low-cost option support plan. The support plan needs to ensure 24\*7 access to support engineers by phone or email. You suggest opting for the Standard Support plan. Does this support the requirement
 
 - [x] Yes.
 - [ ] No.
 
 ### Does Microsoft release most of the Azure services in private preview before being introduced in public preview
+
     - [x] Yes.
     - [ ] No.
 
@@ -479,7 +480,7 @@
 - [ ] Capital.
 - [ ] Acalable.
 
-### The company plans to reduce the following administrative responsibilities of network administrators: • Backing up application data * Replacing failed server hardware Managing physical server security * Updating server operating systems • Managing permissions to shared documents The company plans to migrate several servers to Azure virtual machines. You need to identify which administrative responsibilities will be eliminated after the planned migration. Which two responsibilities should you identify? Each correct answer presents a complete solution.
+### The company plans to reduce the following administrative responsibilities of network administrators: • Backing up application data _ Replacing failed server hardware Managing physical server security _ Updating server operating systems • Managing permissions to shared documents The company plans to migrate several servers to Azure virtual machines. You need to identify which administrative responsibilities will be eliminated after the planned migration. Which two responsibilities should you identify? Each correct answer presents a complete solution.
 
 - [x] Replacing failed server hardware.
 - [ ] Backing up application data.
@@ -532,6 +533,7 @@
 - [ ] Microsoft Managed Desktop.
 
 ### One of the benefits of Azure SQL Data Warehouse is that high availability is built into the platform. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed". If the statement makes the statement correct. If incorrect, select the answer choice that the statement correct.
+
 - [x] No change is needed.
 - [ ] Automatic scaling.
 - [ ] Data compression.
@@ -998,12 +1000,14 @@
 - [ ] Professional Direct.
 
 ### All Azure services thal are In public preview are provided without any documentalion
+
 - [ ] No change is needed.
 - [ ] Only configurable from Azure CLI.
 - [x] Excluded from the Service Level Agreements.
 - [ ] Only configurable from the Azure portal.
 
 ### What is guaranteed in an Azure Service Level Agreement (SLA) for virtual machines?
+
 - [x] Uptime.
 - [ ] Feature avalability.
 - [ ] Bandwidth.
@@ -1056,10 +1060,10 @@
 
 ### Which statement accurately describes the Modem Lifecycle Policy for Azure services?
 
-- [ ]  Microsoft provides mainstream support for a service for five years.
-- [x]  Microsoft provides a minimum of 12 months notice before ending support for a service.
-- [ ]  After a service is made generally available, Microsoft provides support for the service for a minimum of four years.
-- [ ]  When a service is retired, you can purchase extended support for the service for up to five years.
+- [ ] Microsoft provides mainstream support for a service for five years.
+- [x] Microsoft provides a minimum of 12 months notice before ending support for a service.
+- [ ] After a service is made generally available, Microsoft provides support for the service for a minimum of four years.
+- [ ] When a service is retired, you can purchase extended support for the service for up to five years.
 
 ### You can use Advisor recommendations in Azure to send email alerts when the cost of the current billing Azure subscription exceeds a specified limit. Instructions: Review the underlined text. If it makes the statement correct, select "No change is needed." If the staterment is incorrect, select the answer choice that makes the statement correct
 
@@ -1078,7 +1082,7 @@
 - [x] Yes.
 - [ ] No.
 
-### For each of the following statements, select Yes if the statement is true, Otherwise, select No.  In a public cloud model, only guest users at your company can access the resources in the cloud.
+### For each of the following statements, select Yes if the statement is true, Otherwise, select No. In a public cloud model, only guest users at your company can access the resources in the cloud.
 
 - [ ] Yes.
 - [x] No.
@@ -1160,6 +1164,7 @@
 - [ ] Contains one or more data centers that are connected by using a high-latency network.
 
 ### A team of developers at your company plans to deploy, and then remove, 50 customized virtual machines each week. Thirty of the virtual machines run Windows Server 2016 and 20 of the virtual machines run Ubuntu Linux. You need to recommend which Azure service will minimize the administrative effort required to deploy and remove the virtual machines. What should you recommend?
+
 - [ ] Azure Reserved Virtual Machines (VM) Instances.
 - [ ] Azure virtual machine scale sets.
 - [x] Azure DevTest Labs.
@@ -1295,7 +1300,7 @@
 
 ### After you create a virtual machine, you need to modify the [network security group (NSG)] to allow connections to TCP port 8080 on the virtual machine. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
 
-- [X] No change is needed.
+- [x] No change is needed.
 - [ ] Virtual network gateway.
 - [ ] Virtual network.
 - [ ] Route table.
@@ -1317,7 +1322,7 @@
 - [x] Azure policies.
 - [ ] Azure App Service plans.
 
-### Your network contains an Active Directory forest. The forest contains 5,000 user accounts. Your company plans to migrate all network resources to Azure and to decommission the on-premises data center. You need to recommend a solution to minimize the impact on users after the planned migration.  What should you recommend?
+### Your network contains an Active Directory forest. The forest contains 5,000 user accounts. Your company plans to migrate all network resources to Azure and to decommission the on-premises data center. You need to recommend a solution to minimize the impact on users after the planned migration. What should you recommend?
 
 - [ ] Implement Azure Multi-Factor Authentication (MFA).
 - [x] Sync all the Active Directory user accounts to Azure Active Directory (Azure AD).
@@ -1449,17 +1454,17 @@
 - [x] Yes.
 - [ ] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s on-premises network includes a large number of servers. They would like to make extra resources available to their users, while keeping capital and operational overheads to a minimum. You are required to make recommendations that should be included in the overall solution. Solution: You should indorse the use of an added data center as part of the solution. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has on-premises network includes a large number of servers. They would like to make extra resources available to their users, while keeping capital and operational overheads to a minimum. You are required to make recommendations that should be included in the overall solution. Solution: You should indorse the use of an added data center as part of the solution. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s on-premises network includes a large number of servers. They would like to make extra resources available to their users, while keeping capital and operational overheads to a minimum. You are required to make recommendations that should be included in the overall solution. Solution: You should indorse the use of a hybrid cloud as part of the solution. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has on-premises network includes a large number of servers. They would like to make extra resources available to their users, while keeping capital and operational overheads to a minimum. You are required to make recommendations that should be included in the overall solution. Solution: You should indorse the use of a hybrid cloud as part of the solution. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s on-premises network includes a large number of servers. They would like to make extra resources available to their users, while keeping capital and operational overheads to a minimum. You are required to make recommendations that should be included in the overall solution. Solution: You should indorse the use of a private cloud as part of the solution. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has on-premises network includes a large number of servers. They would like to make extra resources available to their users, while keeping capital and operational overheads to a minimum. You are required to make recommendations that should be included in the overall solution. Solution: You should indorse the use of a private cloud as part of the solution. Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -1494,17 +1499,17 @@
 - [x] Yes.
 - [ ] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure API Management service be included in the strategy. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure API Management service be included in the strategy. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that management groups be included in the strategy. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that management groups be included in the strategy. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure Resource Manager templates be included in the strategy. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has infrastructure includes a number of business units that each need a large number of various Azure resources for everyday operation. The resources required by each business unit are identical. You are required to sanction a strategy to create Azure resources automatically. Solution: You recommend that the Azure Resource Manager templates be included in the strategy. Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -1524,17 +1529,17 @@
 - [x] Yes.
 - [ ] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: you recommend the use of Microsoft Managed Desktop. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: you recommend the use of Microsoft Managed Desktop. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: you recommend the use of Azure Reserved Virtual Machines (VM) Instances.
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: you recommend the use of Azure Reserved Virtual Machines (VM) Instances.
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: you recommend the use of Azure DevTest Labs. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has developers intend to deploy a large number of custom virtual machines on a weekly basis. They will also be removing these virtual machines during the same week it was deployed. Sixty percent of the virtual machines have Windows Server 2016 installed, while the other forty percent has Ubuntu Linux installed. You are required to make sure that the administrative effort, needed for this process, is reduced by employing a suitable Azure service. Solution: you recommend the use of Azure DevTest Labs. Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -1547,17 +1552,17 @@
 - [ ] Configure DirectAccess on a Windows Server 2012 server VM.
 - [ ] Configure a Multi-Site VPN.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the companyג€™s intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Information Protection. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the company has intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Information Protection. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the companyג€™s intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Key Vault. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the company has intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Key Vault. Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the companyג€™s intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Multi-Factor Authentication (MFA). Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the company has intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Multi-Factor Authentication (MFA). Does the solution meet the goal?
 
 - [ ] Yes.
 - [ ] No.
@@ -1592,17 +1597,17 @@
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to require Azure Multi-Factor Authentication (MFA). Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to require Azure Multi-Factor Authentication (MFA). Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to sync all the Active Directory user accounts to Azure Active Directory (Azure AD). Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to sync all the Active Directory user accounts to Azure Active Directory (Azure AD). Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to enforce password change. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has Active Directory forest includes thousands of user accounts. You have been informed that all network resources will be migrated to Azure. Thereafter, the on-premises data center will be retired. You are required to employ a strategy that reduces the effect on users, once the planned migration has been completed. Solution: You plan to enforce password change. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -1629,17 +1634,17 @@
 - [x] Yes.
 - [ ] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning to migrate a company to Azure. Each of the companyג€™s numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several Azure Active Directory (Azure AD) directories. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning to migrate a company to Azure. Each of the company has numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several Azure Active Directory (Azure AD) directories. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning to migrate a company to Azure. Each of the companyג€™s numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several resource groups. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning to migrate a company to Azure. Each of the company has numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several resource groups. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning to migrate a company to Azure. Each of the companyג€™s numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several subscriptions. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You are planning to migrate a company to Azure. Each of the company has numerous divisions will have an administrator in place to manage the Azure resources used by their respective division. You want to make sure that the Azure deployment you employ allows for Azure to be segmented for the divisions, while keeping administrative effort to a minimum. Solution: You plan to make use of several subscriptions. Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -1658,32 +1663,32 @@
 - [ ] Zone-redundant storage.
 - [ ] Locally redundant storage.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environmentג€™s design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Standard support plan. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environment has design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Standard support plan. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environmentג€™s design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Professional Direct support plan. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environment has design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Professional Direct support plan. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your companyג€™s Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environmentג€™s design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Premier support plan. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has Azure subscription includes a Basic support plan. They would like to request an assessment of an Azure environment has design from Microsoft. This is, however, not supported by the existing plan. You want to make sure that the company subscribes to a support plan that allows this functionality, while keeping expenses to a minimum. Solution: You recommend that the company subscribes to the Premier support plan. Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. A company that has numerous divisions is planning to deploy an Azure environment. The company would like each divisionג€™s option to pay for the Azure services it utilizes, not be the same. You have been asked to recommend a solution to meet the requirements. Solution: You recommend that an Azure role be created for each division. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. A company that has numerous divisions is planning to deploy an Azure environment. The company would like each division has option to pay for the Azure services it utilizes, not be the same. You have been asked to recommend a solution to meet the requirements. Solution: You recommend that an Azure role be created for each division. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. A company that has numerous divisions is planning to deploy an Azure environment. The company would like each divisionג€™s option to pay for the Azure services it utilizes, not be the same. You have been asked to recommend a solution to meet the requirements. Solution: You recommend that an Azure policy be created for each division. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. A company that has numerous divisions is planning to deploy an Azure environment. The company would like each division has option to pay for the Azure services it utilizes, not be the same. You have been asked to recommend a solution to meet the requirements. Solution: You recommend that an Azure policy be created for each division. Does the solution meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. A company that has numerous divisions is planning to deploy an Azure environment. The company would like each divisionג€™s option to pay for the Azure services it utilizes, not be the same. You have been asked to recommend a solution to meet the requirements. Solution: You recommend that a subscription be created for each division. Does the solution meet the goal?
+### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. A company that has numerous divisions is planning to deploy an Azure environment. The company would like each division has option to pay for the Azure services it utilizes, not be the same. You have been asked to recommend a solution to meet the requirements. Solution: You recommend that a subscription be created for each division. Does the solution meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -1747,7 +1752,7 @@
 - [ ] Tables.
 - [ ] Queues.
 
-### Your company plans to move several servers to Azure. The companyג€™s compliance policy states that a server named FinServer must be on a separate network segment. You are evaluating which Azure services can be used to meet the compliance policy requirements. Which Azure solution should you recommend?
+### Your company plans to move several servers to Azure. The company has compliance policy states that a server named FinServer must be on a separate network segment. You are evaluating which Azure services can be used to meet the compliance policy requirements. Which Azure solution should you recommend?
 
 - [ ] A resource group for FinServer and another resource group for all the other servers.
 - [x] A virtual network for FinServer and another virtual network for all the other servers.
@@ -2294,7 +2299,7 @@
 - [x] Continues to function normally.
 - [ ] Is now a read-only object.
 
-### This question requires that you evaluate the underlined text to determine if it is correct. From Azure Cloud Shell, you can track your companyג€™s regulatory standards and regulations, such as ISO 27001. Instructions: Review the underlined text. If it makes the statement correct, select ג€No change is needed.ג€ If the statement is incorrect, select the answer choice that makes the statement correct.
+### This question requires that you evaluate the underlined text to determine if it is correct. From Azure Cloud Shell, you can track your company has regulatory standards and regulations, such as ISO 27001. Instructions: Review the underlined text. If it makes the statement correct, select ג€No change is needed.ג€ If the statement is incorrect, select the answer choice that makes the statement correct.
 
 - [ ] No change is needed.
 - [ ] The Microsoft Cloud Partner Portal.
@@ -2404,7 +2409,7 @@
 - [x] Yes.
 - [ ] No.
 
-### Your company plans to migrate all on-premises data to Azure. You need to identify whether Azure complies with the companyג€™s regional requirements. What should you use?
+### Your company plans to migrate all on-premises data to Azure. You need to identify whether Azure complies with the company has regional requirements. What should you use?
 
 - [ ] The Knowledge Center.
 - [ ] Azure Marketplace.
@@ -2455,7 +2460,7 @@
 - [ ] Azure Monitor.
 - [x] Azure Security Center.
 
-### What should you use to evaluate whether your companyג€™s Azure environment meets regulatory requirements?
+### What should you use to evaluate whether your company has Azure environment meets regulatory requirements?
 
 - [ ] Azure Service Health.
 - [ ] Azure Knowledge Center.
@@ -2545,7 +2550,7 @@
 - [ ] Azure Firewall.
 - [ ] Azure Policy.
 
-### What should you use to evaluate whether your companyג€™s Azure environment meets regulatory requirements?
+### What should you use to evaluate whether your company has Azure environment meets regulatory requirements?
 
 - [ ] The Knowledge Center website.
 - [ ] The Advisor blade from the Azure portal.
@@ -2743,12 +2748,12 @@
 - [ ] Development.
 - [ ] Development an Enterprise Agreement (EA) subscription.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase an Azure subscription. The companyג€™s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Basic support plan. Does this meet the goal?
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase an Azure subscription. The company has support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Basic support plan. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase an Azure subscription. The companyג€™s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Standard support plan. Does this meet the goal?
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase an Azure subscription. The company has support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Standard support plan. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -2775,7 +2780,7 @@
 - [ ] Access your data stored in Azure.
 - [ ] Access the Azure portal.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase an Azure subscription. The companyג€™s support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Professional Direct support plan. Does this meet the goal?
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company plans to purchase an Azure subscription. The company has support policy states that the Azure environment must provide an option to access support engineers by phone or email. You need to recommend which support plan meets the support policy requirement. Solution: Recommend a Professional Direct support plan. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -2869,7 +2874,7 @@
 - [ ] Yes.
 - [ ] No.
 
-###  Which statement accurately describes the Modern Lifecycle Policy for Azure services?
+### Which statement accurately describes the Modern Lifecycle Policy for Azure services?
 
 - [ ] Microsoft provides mainstream support for a service for five years.
 - [x] Microsoft provides a minimum of 12 monthsג€™ notice before ending support for a service.
@@ -3189,7 +3194,7 @@
 - [ ] Virtual networks gateways.
 - [ ] DNS zones.
 - [ ] Traffic Manager profiles.
-- [ ] Network  Watcher.
+- [ ] Network Watcher.
 - [ ] Virtual networks (classic).
 - [ ] Application gateways.
 - [x] Local network gateways.
@@ -3204,7 +3209,7 @@
 - [ ] The virtual machines can be moved to the new subscription only if they are all in the same resource group.
 - [ ] The virtual machines can be moved to the new subscription only if they run Windows Server 2016.
 
-  *[⬆ Back to Top](#table-of-contents)
+  \*[⬆ Back to Top](#table-of-contents)
 
 ### To complete the sentence, select the appropriate option in the answer area. ... is the process of verifying a user's credentials
 
@@ -3411,7 +3416,7 @@
 - [ ] Group of Azure Blueprints definitions.
 - [ ] Group of role-based access control (RBAC) role assignments.
 
-### Your company has an Azure subscription that contains the following unused resources:* 20 user accounts in Azure Active Directory (Azure AD) * Five groups in Azure AD * 10 public IP addresses * 10 network interfaces. You need to reduce the Azure costs for the company. Which unused resources should you remove?
+### Your company has an Azure subscription that contains the following unused resources:_ 20 user accounts in Azure Active Directory (Azure AD) _ Five groups in Azure AD _ 10 public IP addresses _ 10 network interfaces. You need to reduce the Azure costs for the company. Which unused resources should you remove?
 
 - [ ] The user accounts.
 - [ ] The network interfaces.
@@ -3563,7 +3568,7 @@
 - [ ] Installing the SaaS solution.
 - [x] Nonfiguring the SaaS solution.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources:* 20 user accounts in Azure Active Directory (Azure AD) * Five groups in Azure AD * 10 public [P addresses * 10 network interfaces. You need to reduce the Azure costs for the company. Solution: You remove the unused groups. Does this meet the goal?
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources:_ 20 user accounts in Azure Active Directory (Azure AD) _ Five groups in Azure AD _ 10 public [P addresses _ 10 network interfaces. You need to reduce the Azure costs for the company. Solution: You remove the unused groups. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -3599,7 +3604,7 @@
 - [ ] Azure Batch.
 - [ ] Azure Cosmos DB.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, white others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources:* 20 user accounts in Azure Active Directory (Azure AD) * Five groups in Azure AD * 10 public [P addresses] * 10 network interfaces * You need to reduce the Azure costs for the company. Solution: You remove the unused user accounts. Does this meet the goal?
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, white others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. Your company has an Azure subscription that contains the following unused resources:_ 20 user accounts in Azure Active Directory (Azure AD) _ Five groups in Azure AD _ 10 public [P addresses] _ 10 network interfaces \* You need to reduce the Azure costs for the company. Solution: You remove the unused user accounts. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
@@ -3848,12 +3853,14 @@
 - [ ] On a Hyper-V host.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need
+
 to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to a scale set. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need
+
 to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more availability zones. Does this meet the goal?
 
 - [x] Yes.
