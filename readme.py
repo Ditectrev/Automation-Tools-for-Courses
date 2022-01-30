@@ -20,7 +20,7 @@ def generate_questions(lines):
       buffer = ""
       buffer += question[0].strip("### ").replace("\n", "")
       # Part of the code to generate URLs for table of content.
-      # buffer += question[0].strip("### ").replace("\n", "").replace(" ", "-").replace(".", "").replace("\"","").replace(":","").replace("’", "").replace(")", "").replace("(", "").replace(",", "").replace("[", "").replace("]", "").replace("“","").replace("”","").replace("✑","").replace("---","-").replace("--","-").lower()
+      #buffer += question[0].strip("### ").replace("\n", "").replace(" ", "-").replace(".", "").replace("\"","").replace(":","").replace("’", "").replace(")", "").replace("(", "").replace(",", "").replace("[", "").replace("]", "").replace("“","").replace("”","").replace("✑","").replace("---","-").replace("--","-").replace("?","").lower()
       # buffer += "\n"
       buffer += ","
       answers, correct_idxs, is_ma = generate_answer_string(question[2:-1])
