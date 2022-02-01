@@ -10,6 +10,11 @@ def generate_answer_string(answers):
       else:
          formatted_answer = answer.strip("- [ ] ")
       raw_arr.append(formatted_answer.replace("\n", ""))
+      last_item = len(answers) - 1
+      # print(len(answers)-i)
+      if len(answers) < 6 and i == last_item:
+         # print(len(answers))
+         raw_arr.append(",")
    return raw_arr, answer_arr, len(answer_arr) > 1
 
 
