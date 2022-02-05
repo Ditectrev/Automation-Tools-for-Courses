@@ -37,7 +37,8 @@ def generate_questions(lines):
          correct_idx_integer += 1
          correct_idxs_integers_incremented.append(correct_idx_integer)
       string_ints = [str(int) for int in correct_idxs_integers_incremented]
-      buffer += ',' + ",".join(string_ints) + '\n'
+      buffer += ',' + ",".join(string_ints)
+      buffer += ',,\n' # For 'Explanation' and 'Knowledge Area' to keep these fields empty.
       with open("test.csv","a") as f:
          f.write(buffer)
 
