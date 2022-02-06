@@ -9,7 +9,7 @@ def generate_answer_string(answers):
          answer_arr.append(str(i))
       else:
          formatted_answer = answer.strip("- [ ] ")
-      raw_arr.append(formatted_answer.replace("\n", ""))
+      raw_arr.append(formatted_answer.replace("\n", "").replace(",", ""))
       last_item = len(answers) - 1
       if len(answers) < 6 and i == last_item:
          missing_difference = 6 - len(answers)
@@ -23,7 +23,7 @@ def generate_questions(lines):
    questions = [lines[indexes[i] : indexes[i + 1]] for i in range(len(indexes) - 1)]
    for question in questions:
       buffer = ""
-      buffer += question[0].strip("### ").replace("\n", "")
+      buffer += question[0].strip("### ").replace("\n", "").replace(",", "")
       # Part of the code to generate URLs for table of content.
       #buffer += question[0].strip("### ").replace("\n", "").replace(" ", "-").replace(".", "").replace("\"","").replace(":","").replace("’", "").replace(")", "").replace("(", "").replace(",", "").replace("[", "").replace("]", "").replace("“","").replace("”","").replace("✑","").replace("---","-").replace("--","-").replace("?","").lower()
       # buffer += "\n"

@@ -273,8 +273,8 @@
 
 ### Does Microsoft release most of the Azure services in private preview before being introduced in public preview
 
-    - [x] Yes.
-    - [ ] No.
+- [x] Yes.
+- [ ] No.
 
 ### Is it true that Azure services released in public preview can only be managed via the Azure command line interface
 
@@ -303,7 +303,7 @@
 
 ### Is it possible to merge subscriptions into a single subscription
 
-- [ ] Yes.
+- [x] Yes.
 - [ ] No.
 
 ### A company has just started using Azure. They have setup a subscription and started deploying resources to Azure. Would they be guaranteed a service level agreement of at least 99.9% for paid Azure services
@@ -555,12 +555,12 @@
 - [ ] Azure SQL Database.
 - [ ] Azure Database for PostgreSQL.
 
-### You need to identify the type of failure for which an Azure Availability Zone can be usod to protect access to Azure services What should you identify?
+### You need to identify the type of failure for which an Azure Availability Zone can be used to protect access to Azure services. What should you identify?
 
 - [ ] A physical server failure.
 - [ ] An Azure region failure.
 - [ ] A storage failure.
-- [ ] An Azure data center failure.
+- [x] An Azure data center failure.
 
 ### You have a virtual machine named VM1 that runs Windows Server 2016. VM1 is in the East US Azure region. Which Azure service should you use from the Azure portal to view service failure notifications that can affect the availability of VM1?
 
@@ -808,7 +808,7 @@
 ### Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 Is accessible from the Internet over HTTP Solution: You modify a DDOS protection plan. Does this meet the goal?
 
 - [ ] Yes.
-- [ ] No.
+- [x] No.
 
 ### Your Azure environment contains multiple Azure virtual machines. You need to ensure that a virtual machine named VM1 is accessible from the Internet over HTTP. Solution: You modify an Azure firewall. Does this meet the goal?
 
@@ -1280,7 +1280,7 @@
 ### An Availability Zone in Azure has physically separate locations [across two continents.] Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
 
 - [ ] No change is needed.
-- [ ] Within a single Azure region.
+- [x] Within a single Azure region.
 - [ ] Within multiple Azure regions.
 - [ ] Within a single Azure datacenter.
 
@@ -1389,7 +1389,7 @@
 ### You can create an Azure support request from [support.microsoft.com.] Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
 
 - [ ] No change is needed.
-- [ ] The Azure portal.
+- [x] The Azure portal.
 - [ ] The Knowledge Center.
 - [ ] The Security & Compliance admin center.
 
@@ -1565,7 +1565,7 @@
 ### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. You have been informed by your superiors of the company has intentions to automate server deployment to Azure. There is, however, some concern that administrative credentials could be uncovered during this process. You are required to make sure that during the deployment, the administrative credentials are encrypted using a suitable Azure solution. Solution: You recommend the use of Azure Multi-Factor Authentication (MFA). Does the solution meet the goal?
 
 - [ ] Yes.
-- [ ] No.
+- [x] No.
 
 ### Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements. Your company has an Azure Active Directory (Azure AD) environment. Users occasionally connect to Azure AD via the Internet. You have been tasked with making sure that users who connect to Azure AD via the internet from an unidentified IP address, are automatically encouraged to change passwords. Solution: You configure the use of Azure Key Vault. Does the solution meet the goal?
 
@@ -1651,7 +1651,7 @@
 
 ### Your developers have created a portal web app for users in the Miami branch office. The web app will be publicly accessible and used by the Miami users to retrieve customer and product information. The web app is currently running in an on-premises test environment. You plan to host the web app on Azure. You need to determine which Azure web tier plan to host the web app. The web tier plan must meet the following requirements: The website will use the miami.weyland.com URL. The website will be deployed to two instances. SSL support must be included. The website requires 12 GB of storage. Costs must be minimized. Which web tier plan should you use?
 
-- [ ] Standard.
+- [x] Standard.
 - [ ] Basic.
 - [ ] Free.
 - [ ] Shared.
@@ -1767,16 +1767,6 @@
 - [ ] Azure Database for PostgreSQL servers.
 - [ ] Azure Database for NariaDB servers.
 - [ ] SQL servers.
-- [ ] SQL Data warehouses.
-- [ ] Azure Database Migration Services.
-- [ ] Azure Cache for Redis.
-- [ ] SQL Server stretch databases.
-- [ ] Data factories.
-- [ ] SQL elastic pools.
-- [ ] Virlual Clusters.
-- [ ] Managed databases.
-- [ ] Elastic Job agents.
-- [ ] SQL managed instances.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: All the Azure resources deployed to a resource group must use the same Azure region
 
@@ -2007,23 +1997,21 @@
 - [x] Yes.
 - [ ] No.
 
-### You need to identify which blades in the Azure portal must be used to perform the following tasks: View security recommendations. Monitor the health of Azure services. Browse available virtual machine images. Which blade should you identify for each task? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Monitor the health of Azure services
+### You need to identify which blades in the Azure portal must be used to perform the following tasks: View security recommendations. Monitor the health of Azure services. Browse available virtual machine images. Which blade should you identify for each task? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area: Monitor the health of Azure services
 
 - [x] Monitor.
 - [ ] Subscriptions.
 - [ ] Marketplace.
 - [ ] Advisor.
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Browse available virtual machine images
+### You need to identify which blades in the Azure portal must be used to perform the following tasks: View security recommendations. Monitor the health of Azure services. Browse available virtual machine images. Which blade should you identify for each task? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area: Browse available virtual machine images
 
 - [ ] Monitor.
 - [ ] Subscriptions.
 - [x] Marketplace.
 - [ ] Advisor.
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: View security recommendations
+### You need to identify which blades in the Azure portal must be used to perform the following tasks: View security recommendations. Monitor the health of Azure services. Browse available virtual machine images. Which blade should you identify for each task? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area: View security recommendations
 
 - [ ] Monitor.
 - [ ] Subscriptions.
@@ -2175,16 +2163,14 @@
 - [ ] Azure Information Protection.
 - [x] DDoS protection.
 
-### You plan to implement several security services for an Azure environment. You need to identify which Azure services must be used to meet the following security requirements: ✑ Monitor threats by using sensors ✑ Enforce Azure Multi-Factor Authentication (MFA) based on a condition Which Azure service should you identify for each requirement? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area:
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Monitor threats by using sensors:
+### You plan to implement several security services for an Azure environment. You need to identify which Azure services must be used to meet the following security requirements: ✑ Monitor threats by using sensors ✑ Enforce Azure Multi-Factor Authentication (MFA) based on a condition Which Azure service should you identify for each requirement? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area: Monitor threats by using sensors
 
 - [ ] Azure Monitor.
 - [ ] Azure Security Center.
 - [ ] Azure Active Directory (Azure AD) Identity Protection.
 - [x] Azure Advanced Threat Protection (ATP).
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area:
+### You plan to implement several security services for an Azure environment. You need to identify which Azure services must be used to meet the following security requirements: ✑ Monitor threats by using sensors ✑ Enforce Azure Multi-Factor Authentication (MFA) based on a condition Which Azure service should you identify for each requirement? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area: Enforce Azure Multi-Factor Authentication (MFA)
 
 - [ ] Azure Monitor.
 - [ ] Azure Security Center.
@@ -2534,7 +2520,6 @@
 - [ ] Policies.
 - [ ] Properties.
 - [x] Locks.
-- [ ] Automation script.
 
 ### You have a resource group named RG1. You need to prevent the creation of virtual machines only in RG1. The solution must ensure that other objects can be created in RG1. What should you use?
 
@@ -2861,18 +2846,18 @@
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: The Service Level Agreement (SLA) guaranteed uptime for paid Azure services is at least 99.9 percent
 
-- [ ] Yes.
+- [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Companies can increase the Service Level Agreement (SLA) guaranteed uptime by adding Azure resources to multiple regions
 
-- [ ] Yes.
+- [x] Yes.
 - [ ] No.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Companies can increase the Service Level Agreement (SLA) guaranteed uptime by purchasing multiple subscriptions
 
 - [ ] Yes.
-- [ ] No.
+- [x] No.
 
 ### Which statement accurately describes the Modern Lifecycle Policy for Azure services?
 
@@ -2883,18 +2868,12 @@
 
 ### You need to request that Microsoft increase a subscription quota limit for your company. Which blade should you use from the Azure portal? To answer, select the appropriate blade in the answer area. Hot Area:
 
-- [ ] Create a resource.
 - [ ] All services.
 - [ ] Favorites.
 - [ ] Dashboard.
-- [ ] All resources.
-- [ ] Resource groups.
-- [ ] App Services.
-- [ ] Function Apps.
-- [ ] SQL databases.
 - [ ] Azure Cosmos DB.
-- [ ] Virtual machines.
 - [ ] Load balancers.
+- [x] Help + support.
 
 ### To complete the sentence, select the appropriate option in the answer area. Hot Area: You can use in Azure to send email alerts when the cost of the current billing period for an Azure subscription exceeds a specified limit
 
@@ -2976,8 +2955,6 @@
 
 - [x] Yes.
 - [ ] No.
-
-### All paying Azure customers receive a credit if their monthly uptime percentage is below the guaranteed amount in the Service Level Agreement (SLA)
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Adding resource groups in an Azure subscription generates additional costs
 
@@ -3141,8 +3118,6 @@
 - [ ] Yes.
 - [x] No.
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct match is worth one point.
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Azure DevOps Services allows developers to deploy or update applications to Azure using Continuous Integration/Continuous Delivery (CI/CD) pipelines
 
 - [x] Yes.
@@ -3191,16 +3166,10 @@
 
 - [ ] Virtual networks.
 - [ ] Load balancers.
-- [ ] Virtual networks gateways.
-- [ ] DNS zones.
-- [ ] Traffic Manager profiles.
-- [ ] Network Watcher.
 - [ ] Virtual networks (classic).
 - [ ] Application gateways.
 - [x] Local network gateways.
-- [ ] CDN profiles.
 - [ ] ExpressRoute ciruits.
-- [ ] Network security groups.
 
 ### This question requires that you evaluate the underlined text to determine if it is correct. You have several virtual machines in an Azure subscription. You create a new subscription. The virtual machines cannot be moved to the new subscription. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
 
@@ -3208,8 +3177,6 @@
 - [x] The virtual machines can be moved to the new subscription.
 - [ ] The virtual machines can be moved to the new subscription only if they are all in the same resource group.
 - [ ] The virtual machines can be moved to the new subscription only if they run Windows Server 2016.
-
-  \*[⬆ Back to Top](#table-of-contents)
 
 ### To complete the sentence, select the appropriate option in the answer area. ... is the process of verifying a user's credentials
 
@@ -3265,16 +3232,16 @@
 - [ ] be deployed to a separate resource group.
 - [ ] have two network interfaces.
 
-### To complete the sentence, select the appropriate option in the answer area. From ... you can view which user turned off a specific virtual machine during the last 14 days. Azure Control IAM, Azure Event Hubs, Azure Activity Log, Azure Service Health
+### To complete the sentence, select the appropriate option in the answer area. From ... you can view which user turned off a specific virtual machine during the last 14 days.
 
 - [ ] Azure Control IAM.
 - [ ] Azure Event Hubs.
-- [ ] Azure Activity Log.
+- [x] Azure Activity Log.
 - [ ] Azure Service Health.
 
 ### This question requires that you evaluate the underlined BOLD text to determine if it is correct. Azure Site Recovery provides fault tolerance for virtual machines. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
 
-- [ ] No change is needed.
+- [x] No change is needed.
 - [ ] Disaster recovery.
 - [ ] Elasticity.
 - [ ] High availability.
@@ -3319,12 +3286,12 @@
 
 - [ ] No change is needed.
 - [ ] DDoS protection.
-- [ ] Azure Information Protection.
+- [x] Azure Information Protection.
 - [ ] Azure Active Directory (Azure AD) Identity Protection.
 
 ### This question requires that you evaluate the BOLD text to determine if it is correct. The Azure Standard support plan is the lowest cost option to receive 24×7 access to support engineers by phone. Instructions: Review the underlined text. If it makes the statement correct, select “No change is needed”. If the statement is incorrect, select the answer choice that makes the statement correct.
 
-- [ ] No change is needed.
+- [x] No change is needed.
 - [ ] Developer.
 - [ ] Basic.
 - [ ] Professional Direct.
@@ -3450,8 +3417,6 @@
 - [ ] Use Azure Hybrid Benefit.
 - [x] Deallocate the virtual machines during off hours.
 - [ ] Configure Azure Cost Management budgets.
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE Each correct selection is worth one point.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: If your company Uses an Azure free account you can only deploy Azure virtual machines and Azure storage accounts
 
@@ -3580,8 +3545,6 @@
 - [x] In the public cloud.
 - [ ] On a Hyper-V host.
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No . NOTE: Each correct selection is worth one point.
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Azure provides flexibility between capital expenditure (CapEx) and operational exponditure (OpEx)
 
 - [x] Yes.
@@ -3651,8 +3614,6 @@
 - [ ] Yes.
 - [x] No.
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No . NOTE: Each correct selection is worth one point
-
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: To implement an Azure Multi-Factor Authentication (MFA) solution, you must deploy a federation solution or sync on-premises identities to the cloud
 
 - [ ] Yes.
@@ -3670,21 +3631,11 @@
 
 ### You need to view a list of planned maintenance events that can affect the availability of an Azure subscription. Which blade should you use from the Azure portal? To answer, select the appropriate blade in the answer area.
 
-- [ ] Dashboard.
 - [ ] All resources.
-- [ ] Resource groups.
 - [ ] App Services.
-- [ ] Function Apps.
 - [ ] SQL databases.
 - [ ] Azure Cosmos DB.
-- [ ] Virtual machines.
-- [ ] Load balancers.
-- [ ] Storage accounts.
-- [ ] Virtual networks.
 - [ ] Azure Active Directory.
-- [ ] Monitor.
-- [ ] Advisor.
-- [ ] Security Center.
 - [x] Help + support.
 
 ### This question requires that you evaluate the underlined text to determine if it is correct. Azure policies provide a common platform for deploying objects to a cloud infrastructure and for implementing consistency across the Azure environment. Instructions: Review the undefined text If it makes the statement correct, select "No change is needed.” If the statement is incorrect select the answer choice that makes the statement correct.
@@ -3705,29 +3656,6 @@
 - [ ] The lowest SLA associated to the application, which is 99.95 percent.
 - [ ] The highest SLA associated to the application, which is 99.99 percent.
 - [ ] The difference between the two SLAs, which is 0.05 percent.
-
-### You need to identify which blades in the Azure portal must be used to perform the following tasks:– View security recommendations. – Monitor the health of Azure services. – Browse available virtual machine images. Which blade should you identify for each task? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Monitor the health of Azure services:
-
-- [x] Monitor.
-- [ ] Subscriptions.
-- [ ] Marketplace.
-- [ ] Advisor.
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Browse available virtual machine images:
-
-- [ ] Monitor.
-- [ ] Subscriptions.
-- [x] Marketplace.
-- [ ] Advisor.
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: View security recommendations:
-
-- [ ] Advisor.
-- [ ] Subscriptions.
-- [ ] Marketplace.
-- [x] Advisor.
 
 ### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: To achieve a hybrid cloud model, a company must always migrate from a private cloud model
 
@@ -3774,15 +3702,13 @@
 - [ ] Yes.
 - [x] No.
 
-### Which cloud deployment solution is used for Azure virtual machines and Azure SQL databases? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.
-
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Azure virtual machines:
+### Which cloud deployment solution is used for Azure virtual machines and Azure SQL databases? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area: Azure virtual machines:
 
 - [x] Infrastructure as a service (laaS).
 - [ ] Platform as a service (PaaS).
 - [ ] Software as a service (SaaS).
 
-### For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Each correct selection is worth one point. Hot Area: Azure SQL databases
+### Which cloud deployment solution is used for Azure virtual machines and Azure SQL databases? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point. Hot Area: Azure SQL databases
 
 - [ ] Infrastructure as a service (laaS).
 - [x] Platform as a service (PaaS).
@@ -3852,16 +3778,12 @@
 - [x] In the public cloud.
 - [ ] On a Hyper-V host.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need
-
-to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to a scale set. Does this meet the goal?
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to a scale set. Does this meet the goal?
 
 - [ ] Yes.
 - [x] No.
 
-### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need
-
-to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more availability zones. Does this meet the goal?
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more availability zones. Does this meet the goal?
 
 - [x] Yes.
 - [ ] No.
@@ -3895,7 +3817,7 @@ to ensure that the services running on the virtual machines are available if a s
 
 ### After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.Your company plans to migrate all its data and resources to Azure. The company’s migration plan states that only Platform as a Service (PaaS) solutions must be used in Azure. You need to deploy an Azure environment that meets the company migration plan. Solution: You create an Azure App Service and Azure SQL databases. Does this meet the goal?
 
-- [ ] Yes.
+- [x] Yes.
 - [ ] No.
 
 ### After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You plan to deploy several Azure virtual machines. You need to ensure that the services running on the virtual machines are available if a single data center fails. Solution: You deploy the virtual machines to two or more regions. Does this meet the goal?
@@ -3923,7 +3845,7 @@ to ensure that the services running on the virtual machines are available if a s
 - [ ] a physical server failure.
 - [ ] an Azure region failure.
 - [ ] a storage failure.
-- [ ] an Azure data center failure.
+- [x] an Azure data center failure.
 
 ### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription1. You sign in to the Azure portal and create a resource group named RG1. From Azure documentation, you have the following command that creates a virtual machine named VM1. az vm create –resource-group RG1 –name VM1 –image UbuntuLTS –generate-ssh­keys You need to create VM1 in Subscription1 by using the command. Solution: From the Azure portal, launch Azure Cloud Shell and select PowerShell. Run the command in Cloud Shell. Does this meet the goal?
 
