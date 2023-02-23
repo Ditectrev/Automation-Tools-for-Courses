@@ -27,6 +27,8 @@ def generate_questions(lines):
       # Part of the code to generate URLs for table of content.
       #buffer += question[0].strip("### ").replace("\n", "").replace(" ", "-").replace(".", "").replace("\"","").replace(":","").replace("’", "").replace(")", "").replace("(", "").replace(",", "").replace("[", "").replace("]", "").replace("“","").replace("”","").replace("✑","").replace("---","-").replace("--","-").replace("?","").replace("%", "").replace("'", "").replace("/", "").lower()
       # buffer += "\n"
+      #with open("urls.csv","a") as f:
+      #   f.write(buffer)
       buffer += ","
       answers, correct_idxs, is_ma = generate_answer_string(question[2:-1])
       buffer += "multi-select," if is_ma else "multiple-choice,"
@@ -37,7 +39,7 @@ def generate_questions(lines):
          correct_idx_integer += 1
          correct_idxs_integers_incremented.append(correct_idx_integer)
       string_ints = [str(int) for int in correct_idxs_integers_incremented]
-      if (len(string_ints) == 1):  
+      if (len(string_ints) == 1):
          buffer += ',' + ",".join(string_ints)
       else:
          buffer += ',' + '"' + ",".join(string_ints) + '"'
