@@ -5,7 +5,7 @@ import re
 import regex_spm
 
 # define global parameters
-URL = 'https://www.exam4training.com/what-should-you-do-3433/'
+URL = 'https://www.exam4training.com/which-is-included-in-the-purpose-of-the-design-and-transition-value-chain-activity-8/'
 MASTER_LIST = []
 
 def find_correct_answer(correct_answer_text):
@@ -53,7 +53,7 @@ def parse_question(content):
     answerH = ''
     try:
         # Whenever there's a second part of the question in a new paragraph, it's being missed. It could be improved.
-        question2 = re.search('(.+?)\n', question).group(0)
+        question2 = re.search('(.+?)A . ', question).group(0)
         #question2 = re.search('(?=.*\?)', question).group(0) # one of the ideas to improve it was to look for a string until "?".
         answerA = re.search('A . (.+?)B . ', question).group(1)
         answerB = re.search('B . (.+?)C . ', question).group(1)
@@ -66,6 +66,7 @@ def parse_question(content):
         answerH = re.search('H . .*(?:\r?\n.*)*', question).group(0)
 
     except:
+        print('except')
         pass
     outdf = pd.DataFrame({
         'question': '\n### ' + question2 + '\n',
