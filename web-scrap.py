@@ -3,9 +3,13 @@ import requests
 import pandas as pd
 import re
 import regex_spm
+import urllib.request as urlopen
+import ssl
 
+ssl._create_default_https_context = ssl._create_unverified_context
+question_number_global = 0
 # define global parameters
-URL = 'https://www.exam4training.com/which-is-included-in-the-purpose-of-the-design-and-transition-value-chain-activity-8/'
+URL = 'https://www.exam4training.com/which-type-of-storage-should-you-recommend-and-how-should-you-recommend-configuring-the-storage-2/'
 MASTER_LIST = []
 
 def find_correct_answer(correct_answer_text):
@@ -26,7 +30,7 @@ def find_correct_answer(correct_answer_text):
             print('Different answer than A, B, C, D - investigate the question manually')
     return isCorreactA, isCorreactB, isCorreactC, isCorreactD
 
-def parse_question(content):
+def parse_question(content, question_number_local):
     isCorreactA = False
     isCorreactB = False
     isCorreactC = False
@@ -38,6 +42,11 @@ def parse_question(content):
     isCorreactH = False
 
     question = content.find('p').text
+    image = content.find('img')['src']
+    opener = urlopen.build_opener()
+    opener.addheaders = [('User-Agent', 'Chrome')]
+    urlopen.install_opener(opener)
+    urlopen.urlretrieve(image, "./images/question" + str(question_number_local) + ".jpg")
     correct_answer = content.find('span', {'class': 'correct_answer'})
     if (correct_answer is not None):
         isCorreactA, isCorreactB, isCorreactC, isCorreactD = find_correct_answer(correct_answer.text)
@@ -53,7 +62,7 @@ def parse_question(content):
     answerH = ''
     try:
         # Whenever there's a second part of the question in a new paragraph, it's being missed. It could be improved.
-        question2 = re.search('(.+?)A . ', question).group(0)
+        question2 = re.search('(.+?)A . ', question).group(0) or question
         #question2 = re.search('(?=.*\?)', question).group(0) # one of the ideas to improve it was to look for a string until "?".
         answerA = re.search('A . (.+?)B . ', question).group(1)
         answerB = re.search('B . (.+?)C . ', question).group(1)
@@ -69,7 +78,7 @@ def parse_question(content):
         print('except')
         pass
     outdf = pd.DataFrame({
-        'question': '\n### ' + question2 + '\n',
+        'question': '\n### ' + question2 if question2 else question + '\n',
         'answerA': '\n- [x] ' + answerA if isCorreactA else '\n- [ ] ' + answerA if answerA else '\n- [ ] PLEASE_DELETE_ME',
         'answerB': '\n- [x] ' + answerB if isCorreactB else '\n- [ ] ' + answerB if answerB else '\n- [ ] PLEASE_DELETE_ME',
         'answerC': '\n- [x] ' + answerC if isCorreactC else '\n- [ ] ' + answerC if answerC else '\n- [ ] PLEASE_DELETE_ME',
@@ -92,11 +101,13 @@ def return_next_page(soup):
     return next_url
 
 def scrap_next_question(url):
+    global question_number_global
     global MASTER_LIST
+    question_number_global += 1
     req = requests.get(url, headers={'User-Agent': 'Chrome'})
     soup = BeautifulSoup(req.content, 'html.parser')
     question = soup.findAll('div', {'class': 'content-area'})
-    content_list = [parse_question(content) for content in question]
+    content_list = [parse_question(content, question_number_global) for content in question]
     MASTER_LIST.extend(content_list)
     next_url = return_next_page(soup)
     finaldf = pd.concat(MASTER_LIST)
