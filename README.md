@@ -8,6 +8,9 @@
 4. Manually check for questions on `examtopics.com` until middle of the exam, i.e., when there's a paywall, add only non-repeated to questions, format it to `Udemy` format.
 5. Manually copy/paste each question to Google and look for community discussions on `examtopics.com`, fix correct answer.
 6. Publish a course.
+7. Generate Table of Contents automatically using https://github.com/thlorenz/doctoc.
+8. Update `GitHub` with latest generated Table of Contents.
+9. Publish on `Etsy`.
 
 Notes:
 - `readme.py` doesn't returns the last question, needs to be added manually or fixed
