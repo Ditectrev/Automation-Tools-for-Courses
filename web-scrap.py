@@ -9,7 +9,7 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 question_number_global = 0
 # define global parameters
-URL = 'https://www.exam4training.com/which-type-of-storage-should-you-recommend-and-how-should-you-recommend-configuring-the-storage-2/'
+URL = 'https://www.exam4training.com/you-have-an-azure-active-directory-azure-ad-tenant-named-adatum-com-that-contains-the-users-shown-in-the-following-table-3/'
 MASTER_LIST = []
 
 def find_correct_answer(correct_answer_text):
@@ -64,9 +64,9 @@ def parse_question(content, question_number_local):
         # Whenever there's a second part of the question in a new paragraph, it's being missed. It could be improved.
         question2 = re.search('(.+?)A . ', question).group(0) or question
         #question2 = re.search('(?=.*\?)', question).group(0) # one of the ideas to improve it was to look for a string until "?".
-        answerA = re.search('A . (.+?)B . ', question).group(1)
-        answerB = re.search('B . (.+?)C . ', question).group(1)
-        answerC = re.search('C . (.+?)D . ', question).group(1)
+        answerA = re.search('A . (.+?)B . ', question).group(0)
+        answerB = re.search('B . (.+?)C . ', question).group(0)
+        answerC = re.search('C . (.+?)D . ', question).group(0)
         # This needs to be improved, as it takes everything from 'D . ', 'E . ', etc., till end of the line = it takes all answers. For now, it's just to catch all answers further than D and see if there are many of those. The pattern starts here, as most questions have answers till D.
         answerD = re.search('D . .*(?:\r?\n.*)*', question).group(0)
         answerE = re.search('E . .*(?:\r?\n.*)*', question).group(0)
