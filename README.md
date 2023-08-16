@@ -12,6 +12,7 @@
 8. Number Table of Contents using https://marketplace.visualstudio.com/items?itemName=rioj7.regex-text-gen as explained in https://stackoverflow.com/questions/58392686/search-and-replace-with-regex-to-increment-numbers-in-visual-studio-code, the only 1 difference is our generator expression is `{{=i+1}}` instead of `{{=N[1]+1}}`.
 9. Update `GitHub` with latest generated Table of Contents.
 10. Publish on `Etsy`.
+11. Generate `.epub` file for Amazon Kindle using [Pandoc](https://pandoc.org) `pandoc --from markdown --to epub3 AB123_v1.2.3.md --output AB123_v1.2.3.epub --toc --epub-cover-image=images/promotional.png --metadata title="Abcda Befghi AB-123 (Abcda Befghi Something) Practice Tests Exams Questions & Answers" --metadata author="Daniel Danielecki"`
 
 Notes:
 - `readme.py` doesn't returns the last question, needs to be added manually or fixed
