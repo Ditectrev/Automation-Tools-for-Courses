@@ -9,7 +9,7 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 question_number_global = 0
 # define global parameters
-URL = 'https://www.exam4training.com/you-have-an-azure-active-directory-azure-ad-tenant-named-adatum-com-that-contains-the-users-shown-in-the-following-table-3/'
+URL = 'https://www.exam4training.com/correct-text-852/'
 MASTER_LIST = []
 
 def find_correct_answer(correct_answer_text):
@@ -43,10 +43,15 @@ def parse_question(content, question_number_local):
 
     question = content.find('p').text
     image = content.find('img')['src']
-    opener = urlopen.build_opener()
-    opener.addheaders = [('User-Agent', 'Chrome')]
-    urlopen.install_opener(opener)
-    urlopen.urlretrieve(image, "./images/question" + str(question_number_local) + ".jpg")
+
+    # For some reason when there is no image on the questin page it's fetching this SVG file. Potentially, it's a TODO to improve it in more solid solution.
+    if image == 'https://www.exam4training.com/wp-content/uploads/letter-avatar/a78997a34d5d210e351e88a9be70f932.svg':
+        print('image not found')
+    else:
+        opener = urlopen.build_opener()
+        opener.addheaders = [('User-Agent', 'Chrome')]
+        urlopen.install_opener(opener)
+        urlopen.urlretrieve(image, "./images/question" + str(question_number_local) + ".jpg")
     correct_answer = content.find('span', {'class': 'correct_answer'})
     if (correct_answer is not None):
         isCorreactA, isCorreactB, isCorreactC, isCorreactD = find_correct_answer(correct_answer.text)
