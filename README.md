@@ -13,6 +13,8 @@
 9. Update `GitHub` with latest generated Table of Contents.
 10. Publish on `Etsy`.
 11. Generate `.epub` file for Amazon Kindle using [Pandoc](https://pandoc.org) `pandoc --from markdown --to epub3 AB123_v1.2.3.md --output AB123_v1.2.3.epub --toc --epub-cover-image=images/promotional.png --metadata title="Abcda Befghi AB-123 (Abcda Befghi Something) Practice Tests Exams Questions & Answers" --metadata author="Daniel Danielecki"`
+12. Scale up image logo for promotional image above `1300x1300` using https://bigjpg.com.
+13. Scale down image logo for promotional image to `1300x1300` and replace logo layer in GIMP file, use such promotional image.
 
 Notes:
 - `readme.py` doesn't returns the last question, needs to be added manually or fixed
