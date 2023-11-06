@@ -12,7 +12,7 @@
 8. Number Table of Contents using https://marketplace.visualstudio.com/items?itemName=rioj7.regex-text-gen as explained in https://stackoverflow.com/questions/58392686/search-and-replace-with-regex-to-increment-numbers-in-visual-studio-code, the only 1 difference is our generator expression is `{{=i+1}}` instead of `{{=N[1]+1}}`.
 9. Update `GitHub` with latest generated Table of Contents.
 10. Publish on `Etsy`.
-11. Generate `.epub` file for Amazon Kindle using [Pandoc](https://pandoc.org) `pandoc --from gfm+task_lists --to epub3 README.md --output AB123_v1.2.3.epub --epub-cover-image=images/promotional.png --metadata title="⬆️ Abcda Befghi AB-123 (Abcda Befghi Something) Practice Tests Exams 123 Questions & Answers" --metadata author="Daniel Danielecki" --toc --number-sections --shift-heading-level-by=-2`. Remember to change link `**[⬆ Back to Top](#table-of-contents)**` to the first question, and leave only questions in the Markdown file.
+11. Generate `.epub` file for Amazon Kindle using [Pandoc](https://pandoc.org) `pandoc --from gfm+task_lists --to epub3 README.md --output AB123_v1.2.3.epub --epub-cover-image=images/ebook.jpg --metadata title="⬆️ Abcda Befghi AB-123 (Abcda Befghi Something) Practice Tests Exams 123 Questions & Answers" --metadata author="Daniel Danielecki" --toc --number-sections --shift-heading-level-by=-2`. Remember to change link `**[⬆ Back to Top](#table-of-contents)**` to the first question, and leave only questions in the Markdown file.
 12. Scale up image logo for promotional image above `1300x1300` using https://bigjpg.com.
 13. Scale down image logo for promotional image to `1300x1300` and replace logo layer in GIMP file, use such promotional image.
 
