@@ -42,12 +42,14 @@ def parse_question(content, question_number_local):
     isCorreactH = False
 
     question = content.find('p').text
-    image = content.find('img')['src']
+    image = None
+    try:
+        image = content.find('img')['src']
+    except:
+        print('except image not found')
 
     # For some reason when there is no image on the questin page it's fetching this SVG file. Potentially, it's a TODO to improve it in more solid solution.
-    if image == 'https://www.exam4training.com/wp-content/uploads/letter-avatar/a78997a34d5d210e351e88a9be70f932.svg':
-        print('image not found')
-    else:
+    if image:
         opener = urlopen.build_opener()
         opener.addheaders = [('User-Agent', 'Chrome')]
         urlopen.install_opener(opener)
@@ -80,7 +82,7 @@ def parse_question(content, question_number_local):
         answerH = re.search('H . .*(?:\r?\n.*)*', question).group(0)
 
     except:
-        print('except')
+        print('except correct answer not found')
         pass
     outdf = pd.DataFrame({
         'question': '\n### ' + question2 if question2 else question + '\n',
@@ -98,7 +100,7 @@ def parse_question(content, question_number_local):
 
 def return_next_page(soup):
     next_url = None
-    cur_page = soup.find('div', {'class': 'content-area'})
+    cur_page = soup.find('div', {'class': 'elementor-heading-title'})
     search_next = cur_page.findNext('div', {'class': 'nav-next'})
 
     if search_next:
@@ -111,7 +113,7 @@ def scrap_next_question(url):
     question_number_global += 1
     req = requests.get(url, headers={'User-Agent': 'Chrome'})
     soup = BeautifulSoup(req.content, 'html.parser')
-    question = soup.findAll('div', {'class': 'content-area'})
+    question = soup.findAll('div', {'class': 'elementor-heading-title'})
     content_list = [parse_question(content, question_number_global) for content in question]
     MASTER_LIST.extend(content_list)
     next_url = return_next_page(soup)
