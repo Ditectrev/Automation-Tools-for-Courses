@@ -9,7 +9,7 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 question_number_global = 0
 # define global parameters
-URL = 'https://www.exam4training.com/correct-text-852/'
+URL = 'https://www.exam4training.com/which-pools-can-you-use-to-create-vdisk1/'
 MASTER_LIST = []
 
 def find_correct_answer(correct_answer_text):
@@ -30,7 +30,7 @@ def find_correct_answer(correct_answer_text):
             print('Different answer than A, B, C, D - investigate the question manually')
     return isCorreactA, isCorreactB, isCorreactC, isCorreactD
 
-def parse_question(content, question_number_local):
+def parse_question(content, question_number_local, imagezz):
     isCorreactA = False
     isCorreactB = False
     isCorreactC = False
@@ -42,18 +42,18 @@ def parse_question(content, question_number_local):
     isCorreactH = False
 
     question = content.find('p').text
-    image = None
-    try:
-        image = content.find('img')['src']
-    except:
-        print('except image not found')
+    images = []
 
-    # For some reason when there is no image on the questin page it's fetching this SVG file. Potentially, it's a TODO to improve it in more solid solution.
-    if image:
-        opener = urlopen.build_opener()
-        opener.addheaders = [('User-Agent', 'Chrome')]
-        urlopen.install_opener(opener)
-        urlopen.urlretrieve(image, "./images/question" + str(question_number_local) + ".jpg")
+    for image in imagezz:
+        src = image['src']
+        images.append(src)
+    links = [link for link in images if link.endswith('.jpg')]
+
+    opener = urlopen.build_opener()
+    opener.addheaders = [('User-Agent', 'Chrome')]
+    urlopen.install_opener(opener)
+    for index, image in enumerate(links):
+        urlopen.urlretrieve(image, "./images/question" + str(question_number_local) + "_" + str(index  + 1) + ".jpg")
     correct_answer = content.find('span', {'class': 'correct_answer'})
     if (correct_answer is not None):
         isCorreactA, isCorreactB, isCorreactC, isCorreactD = find_correct_answer(correct_answer.text)
@@ -114,7 +114,8 @@ def scrap_next_question(url):
     req = requests.get(url, headers={'User-Agent': 'Chrome'})
     soup = BeautifulSoup(req.content, 'html.parser')
     question = soup.findAll('div', {'class': 'elementor-heading-title'})
-    content_list = [parse_question(content, question_number_global) for content in question]
+    imagezz = soup.findAll('img')
+    content_list = [parse_question(content, question_number_global, imagezz) for content in question]
     MASTER_LIST.extend(content_list)
     next_url = return_next_page(soup)
     finaldf = pd.concat(MASTER_LIST)
