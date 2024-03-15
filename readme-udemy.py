@@ -39,7 +39,7 @@ def generate_questions(lines):
       else:
          buffer += ',' + '"' + ",".join(string_ints) + '"'
       buffer += ',,\n' # For 'Explanation' and 'Knowledge Area' to keep these fields empty.
-      with open("test.csv","a") as f:
+      with open("test-udemy.csv","a") as f:
          f.write(buffer)
 
 generate_questions(file.readlines())
