@@ -121,7 +121,7 @@ def scrap_next_question(url):
     finaldf = pd.concat(MASTER_LIST)
     finaldf.shape # (339, 6)
     finaldf.head(2)
-    finaldf.to_csv('web-scrap.csv', index=False, encoding='utf-8')
+    finaldf.to_csv('web-scrap-exam4training.csv', index=False, encoding='utf-8')
     if next_url is not None:
         scrap_next_question(next_url)
 
