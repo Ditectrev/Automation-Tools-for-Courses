@@ -1,0 +1,198 @@
+question,answerA,answerB,answerC,answerD,answerE,answerF,answerG,answerH
+"
+### You are creating a YAML-based Azure pipeline to deploy an Azure Data factory instance that has the following requirements;
+• If a Data Factory instance exists already, the instance must be overwritten.
+• No other resources in a resource group named Fabrikam must be affected.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+
+A.
+
+","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### You use release pipelines in Azure Pipelines to deploy an app. Secrets required be the pipeline are stored as pipeline variables. Logging of commands is enabled for the Azure Pipelines agent.
+You need to prevent the values of the secrets from being logged.
+What should you do?
+A. Store the secrets in the environment variables instead of the pipeline variables.
+B. Pass the secrets on the command line instead of in the pipeline variables.
+C. Apply a prefix of secret to the name of the variables.
+D. Echo the values of the secrets to the command line.
+","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### <re.Match object; span=(0, 5), match='DRAG '>","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### <re.Match object; span=(284, 370), match='After you answer a question in this section, you >","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### You have an Azure solution that contains a build pipeline in Azure Pipelines.
+You experience intermittent delays before the build pipeline starts.
+You need to reduce the time it takes to start the build pipeline.
+What should you do?
+A. Enable self-hosted build agents.
+B. Create a new agent pool.
+C. Split the build pipeline into multiple stages.
+D. Purchase an additional parallel job.
+","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### You have a project in Azure DevOps.
+You create the following YAML template named Template1.yml. steps:
+– script: npm install
+– script: yarn install
+– script: npm run compile
+You create the following pipeline named File1.yml. parameters: usersteps: – task: MyTask@1
+– script: echo Done
+You need to ensure that Template1.yaml runs before File1.yml.
+How should you update File1.yml?
+A. parameters: usersteps: extends: template: template1.yml
+– task: MyTask@1 – script: echo Done
+B. template: template1.yml parameters: usersteps:
+– task: MyTask@1 – script: echo Done
+C. extends: template: templatel.yml parameters: usersteps:
+– task: MyTask@1 – script: echo Done
+D. parameters: usersteps: – template: templatel.yml
+– task: MyTask@1 – script: echo Done
+","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### <re.Match object; span=(284, 370), match='After you answer a question in this section, you >","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### HOTSPOT
+You plan to use Desired State Configuration (DSC) to maintain the configuration state of virtual machines that run Windows Server.
+You need to perform the following:
+Install Internet Information Services (IIS) on the virtual machines. Update the default home page of the IIS web server.
+How should you configure the DSC configuration file? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### You plan to onboard 10 new developers.
+You need to recommend a development environment that meets the following requirements:
+Integrates with GitHub
+Provides integrated debugging tools
+Supports remote workers and hot-desking environments
+Supports developers who use browsers, tablets, and Chromebooks
+What should you recommend?
+A. VS Code
+B. Xamarin Studio
+C. MonoDevelop
+D. Github Studio Codespaces
+","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### You have a project in Azure DevOps that has a release pipeline.
+You need to integrate work item tracking and an Agile project management system to meet the following requirements:
+Ensure that developers can track whether their commits are deployed to production. Report the deployment status.
+Minimize integration effort.
+Which system should you use?
+A. Asana
+B. Basecamp
+C. Trello
+D. Jira
+","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### <re.Match object; span=(61, 129), match='You need to ensure that users use multi-factor au>","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
+"
+### HOTSPOT
+You have an Azure subscription that contains the resources shown in the following table.
+
+You plan to create a linked service in DF1. The linked service will connect to SQL1 by using Microsoft SQL Server authentication. The password for the SQL Server login will be stored in KV1.
+You need to configure DF1 to retrieve the password when the data factory connects to SQL1. The solution must use the principle of least privilege.
+How should you configure DF1? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME","
+- [ ] PLEASE_DELETE_ME"
