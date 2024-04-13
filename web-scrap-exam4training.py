@@ -5,6 +5,8 @@ import re
 import regex_spm
 import urllib.request as urlopen
 import ssl
+from PIL import Image
+import pytesseract
 
 ssl._create_default_https_context = ssl._create_unverified_context
 question_number_global = 0
@@ -54,6 +56,9 @@ def parse_question(content, question_number_local, imagezz):
     urlopen.install_opener(opener)
     for index, image in enumerate(links):
         urlopen.urlretrieve(image, "./images/question" + str(question_number_local) + "_" + str(index  + 1) + ".jpg")
+        image_ocr = Image.open("./images/question" + str(question_number_local) + "_" + str(index  + 1) + ".jpg")
+        image_ocr_text = pytesseract.image_to_string(image_ocr)
+        question = image_ocr_text
     correct_answer = content.find('span', {'class': 'correct_answer'})
     if (correct_answer is not None):
         isCorreactA, isCorreactB, isCorreactC, isCorreactD = find_correct_answer(correct_answer.text)
