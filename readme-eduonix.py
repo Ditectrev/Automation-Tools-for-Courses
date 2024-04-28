@@ -25,18 +25,7 @@ def generate_questions(lines):
       answers, correctness = generate_answer_string(question[2:-1])
       buffer += ",".join(answers)
       buffer += ',"' + ",".join(correctness) + '"'
-      #correct_idxs_integers = list(map(int, correct_idxs))
       buffer += '\n'
-      # correct_idxs_integers_incremented = []
-      # for correct_idx_integer in correct_idxs_integers:
-      #    correct_idx_integer += 1
-      #    correct_idxs_integers_incremented.append(correct_idx_integer)
-      # string_ints = [str(int) for int in correct_idxs_integers_incremented]
-      # if (len(string_ints) == 1):
-      #    buffer += ',' + ",".join(string_ints)
-      # else:
-      #    buffer += ',' + '"' + ",".join(string_ints) + '"'
-      # buffer += '\n'
       with open("test-eduonix.csv","a") as f:
          f.write(buffer)
 
