@@ -11,7 +11,7 @@ import pytesseract
 ssl._create_default_https_context = ssl._create_unverified_context
 question_number_global = 0
 # define global parameters
-URL = 'https://www.exam4training.com/which-pools-can-you-use-to-create-vdisk1/'
+URL = 'https://www.exam4training.com/to-complete-the-sentence-select-the-appropriate-option-in-the-answer-area-110/'
 MASTER_LIST = []
 
 def find_correct_answer(correct_answer_text):
