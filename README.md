@@ -11,7 +11,7 @@ Maintained scripts:
 
 ## Course Publication Process
 
-1. Scrap questions from `exam4training.com` using [web-scrap-vce.py](/web-scrap-exam4training.py).
+1. Scrap questions from `exam4training.com` using [web-scrap-exam4training.py](/web-scrap-exam4training.py).
 2. Format questions to our `GitHub` format.
 3. Scrap questions from `vceguide.com`, using [web-scrap-vce.py](/web-scrap-vce.py), add only non-repeated to questions.
 4. Format questions to our `GitHub` format.
