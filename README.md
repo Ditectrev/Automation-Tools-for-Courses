@@ -11,9 +11,9 @@ Maintained scripts:
 
 ## Course Publication Process
 
-1. Scrap questions from `exam4training.com` using [web-scrap-vce.py](../../web-scrap-exam4training.py).
+1. Scrap questions from `exam4training.com` using [web-scrap-vce.py](/web-scrap-exam4training.py).
 2. Format questions to our `GitHub` format.
-3. Scrap questions from `vceguide.com`, using [web-scrap-vce.py](../../web-scrap-vce.py), add only non-repeated to questions.
+3. Scrap questions from `vceguide.com`, using [web-scrap-vce.py](/web-scrap-vce.py), add only non-repeated to questions.
 4. Format questions to our `GitHub` format.
 5. Add manually questions from `exam-answer.com`, add only non-repeated to questions keeping our `GitHub` format.
 6. Manually check for questions on `examtopics.com` until middle of the exam, i.e., when there's a paywall, add only non-repeated to questions.
@@ -27,7 +27,7 @@ Maintained scripts:
 14. Release course on `GitHub`.
 15. Add repo URL to the released course on `GitHub` to [our platform's repo exams.json file](https://github.com/Ditectrev/Practice-Exams-Platform/blob/main/lib/exams.json).
 16. Course will be automatically build, deployed & published on [our platform](https://education.ditectrev.com).
-17. Prepare `Udemy` format using [readme-udemy.py](../../readme-udemy.py). Images needs to be uploaded manually, and some minor bugs required to be solved manually almost always occur during the process.
+17. Prepare `Udemy` format using [readme-udemy.py](/readme-udemy.py). Images needs to be uploaded manually, and some minor bugs required to be solved manually almost always occur during the process.
 18. Publish the course on `Udemy`.
 19. Generate `.pdf` format using Visual Studio Code's extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf), only `# COURSE TITLE` & content from below `## Table of Contents` stays. Everything else must be removed before generating a `.pdf`. After that, the document is ready to generation the `.pdf` with questions to answers.
 20. Generate `.pdf` without answers by simply replacing `- [x]` to `- [ ]`.
