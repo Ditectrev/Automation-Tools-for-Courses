@@ -56,6 +56,8 @@ def parse_question(content, question_number_local, imagezz):
     urlopen.install_opener(opener)
     for index, image in enumerate(links):
         urlopen.urlretrieve(image, "./images/question" + str(question_number_local) + "_" + str(index  + 1) + ".jpg")
+        
+        # Only for tests based primarly on images.
         image_ocr = Image.open("./images/question" + str(question_number_local) + "_" + str(index  + 1) + ".jpg")
         image_ocr_text = pytesseract.image_to_string(image_ocr)
         question = image_ocr_text
