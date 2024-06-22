@@ -20,8 +20,8 @@ def get_course_content_from_api():
         print(f"Error fetching course content: {e}")
         return {}
 
-    print(response.json()) # TODO: Remove after fixing.
-    content = response.json().get("text", "No text found")
+    content = response.json().get("response", "No response found")
+    print(content) # TODO: Remove after fixing.
     course_content = {}
     current_section = ""
     for line in content.split("\n"):
