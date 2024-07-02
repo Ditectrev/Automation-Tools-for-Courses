@@ -135,4 +135,4 @@ finaldf = pd.concat(MASTER_LIST)
 finaldf.shape # (339, 6)
 
 finaldf.head(2)
-finaldf.to_csv('web-scrap.csv', index=False, encoding='utf-8')
+finaldf.to_csv('web-scrap-vce.csv', index=False, encoding='utf-8')

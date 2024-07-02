@@ -56,7 +56,7 @@ def parse_question(content, question_number_local, imagezz):
     urlopen.install_opener(opener)
     for index, image in enumerate(links):
         urlopen.urlretrieve(image, "./images/question" + str(question_number_local) + "_" + str(index  + 1) + ".jpg")
-        
+
         # Only for tests based primarly on images.
         image_ocr = Image.open("./images/question" + str(question_number_local) + "_" + str(index  + 1) + ".jpg")
         image_ocr_text = pytesseract.image_to_string(image_ocr)
@@ -140,4 +140,4 @@ finaldf = pd.concat(MASTER_LIST)
 finaldf.shape # (339, 6)
 
 finaldf.head(2)
-finaldf.to_csv('web-scrap.csv', index=False, encoding='utf-8')
+finaldf.to_csv('web-scrap-exam4training.csv', index=False, encoding='utf-8')
