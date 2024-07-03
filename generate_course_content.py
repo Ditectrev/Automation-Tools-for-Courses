@@ -1,7 +1,7 @@
 import requests
 import json
 
-# Function to get the course content dynamically from the Ollama API
+# Modify the get_course_content_from_api function to parse JSON response before processing
 def get_course_content_from_api():
     url = "http://localhost:11434/api/generate"  # Corrected endpoint
     headers = {
@@ -20,25 +20,26 @@ def get_course_content_from_api():
         print(f"Error fetching course content: {e}")
         return {}
 
-    content = response.json().get("response", "No response found")
-    print(content) # TODO: Remove after fixing.
+    json_data = response.json()  # Parse JSON response
+    content = json_data.get("response", "No response found")
     course_content = {}
     current_section = ""
     for line in content.split("\n"):
         if line.strip() and not line.startswith(" "):
             current_section = line.strip()
             course_content[current_section] = []
-        #elif line.strip():
-            #course_content[current_section].append(line.strip())
+        elif line.strip():
+            if current_section:
+                course_content[current_section].append(line.strip())
     return course_content
 
 # Function to generate the table of contents
 def generate_table_of_contents(content):
     toc = []
     for section, subsections in content.items():
-        toc.append(section)
+        toc.append(f"# {section}\n")
         for subsection in subsections:
-            toc.append(f"   {subsection}")
+            toc.append(f"## {subsection}\n")
     return "\n".join(toc)
 
 # Function to get section content dynamically from the Ollama API
@@ -63,10 +64,10 @@ def get_section_content_from_api(section_title, subsection_title):
 
 # Function to generate sections with subsections, code examples, and explanations
 def generate_section(title, subsections):
-    section_content = f"### {title}\n\n"
+    section_content = f"## {title}\n\n"
     for subsection in subsections:
         content = get_section_content_from_api(title, subsection)
-        section_content += f"#### {subsection}\n"
+        section_content += f"### {subsection}\n"
         section_content += f"{content}\n\n"
     return section_content
 
@@ -84,7 +85,11 @@ def main():
         file.write(toc + "\n\n")
         for section, subsections in course_content.items():
             if subsections:
-                file.write(generate_section(section, subsections) + "\n\n")
+                file.write(f"## {section}\n\n")
+                for subsection in subsections:
+                    content = get_section_content_from_api(section, subsection)
+                    file.write(f"### {subsection}\n")
+                    file.write(f"{content}\n\n")
 
 if __name__ == "__main__":
     main()
