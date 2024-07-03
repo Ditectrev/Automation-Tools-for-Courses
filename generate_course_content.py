@@ -7,7 +7,7 @@ def get_course_content_from_api():
     headers = {
         "Content-Type": "application/json"
     }
-    prompt = "Generate a comprehensive table of contents for an HTML course, including main sections and subsections."
+    prompt = "Generate a comprehensive table of contents for an HTML course, including main sections and subsections, in a JSON format."
     payload = {
         "prompt": prompt,
         "model": "mistral",
@@ -28,8 +28,8 @@ def get_course_content_from_api():
         if line.strip() and not line.startswith(" "):
             current_section = line.strip()
             course_content[current_section] = []
-        elif line.strip():
-            course_content[current_section].append(line.strip())
+        #elif line.strip():
+            #course_content[current_section].append(line.strip())
     return course_content
 
 # Function to generate the table of contents
