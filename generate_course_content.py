@@ -52,7 +52,7 @@ def generate_table_of_contents(content, file_path):
             for subsection in subsections:
                 file.write(f"### {subsection}\n")
 
-# Function to get section content dynamically from the API
+# Function to get section content dynamically from the ollama API
 def get_section_content_from_api(section_title, subsection_title):
     if not section_title or not subsection_title:
         return "Invalid section or subsection title."
