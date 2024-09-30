@@ -10,10 +10,12 @@ def generate_answer_string(answers):
       else:
          formatted_answer = answer.strip("- [ ] ")
       raw_arr.append(formatted_answer.replace("\n", "").replace(",", ""))
+      raw_arr.append("") # For Explanation to each question to keep these fields empty.
       last_item = len(answers) - 1
       if len(answers) < 6 and i == last_item:
          missing_difference = 6 - len(answers)
          for j in range(missing_difference):
+            raw_arr.append('')
             raw_arr.append('')
    return raw_arr, answer_arr, len(answer_arr) > 1
 
@@ -38,7 +40,7 @@ def generate_questions(lines):
          buffer += ',' + ",".join(string_ints)
       else:
          buffer += ',' + '"' + ",".join(string_ints) + '"'
-      buffer += ',,\n' # For 'Explanation' and 'Knowledge Area' to keep these fields empty.
+      buffer += ',,\n' # For 'Overall Explanation' and 'Domain' to keep these fields empty.
       with open("test-udemy.csv","a") as f:
          f.write(buffer)
 
