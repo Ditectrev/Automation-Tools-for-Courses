@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "AmazonEndure";
+  src: url("AmazonEndure-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* main body */
+body {
+  font-family: "AmazonEndure", serif;
+}
+
+/* monospace for code blocks (if you have a monospace file, add another @font-face and set here) */
+code, pre {
+  font-family: "AmazonEndure", monospace;
+}
