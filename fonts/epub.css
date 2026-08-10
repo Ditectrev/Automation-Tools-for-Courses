@@ -14,3 +14,18 @@ body {
 code, pre {
   font-family: "AmazonEndure", monospace;
 }
+
+/* Hide default <ol> markers in the TOC — --number-sections already
+   injects 1 / 1.1 / 1.1.1 into the link text. Without this, readers show
+   double numbering (e.g. "6. 1.6 ..."). Matches pandoc's default EPUB CSS. */
+nav#toc ol,
+nav#landmarks ol {
+  padding: 0;
+  margin-left: 1em;
+}
+nav#toc ol li,
+nav#landmarks ol li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
